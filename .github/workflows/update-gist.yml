@@ -21,17 +21,10 @@ jobs:
     - name: Install dependencies
       run: pip install requests
     
-    - name: Debug Environment
-      run: |
-        echo "GitHub Actor: ${{ github.actor }}"
-        echo "Repository: ${{ github.repository }}"
-        echo "Token exists: ${{ secrets.GIST_TOKEN != '' }}"
-        echo "GITHUB_TOKEN exists: ${{ secrets.GITHUB_TOKEN != '' }}"
-    
     - name: Update Vavoo Gist
       env:
+        # GITHUB_TOKEN DEĞİL! Kendi PAT token'ınız:
         GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
       run: |
-        echo "Starting update..."
-        echo "GIST_TOKEN is set: ${GIST_TOKEN:+YES}"
+        echo "Token check: ${GIST_TOKEN:+SET}"
         python vavoo_resolver.py --auto
