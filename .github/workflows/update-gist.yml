@@ -21,22 +21,17 @@ jobs:
     - name: Install dependencies
       run: pip install requests
     
-    - name: List files  # Debug için dosyaları listele
+    - name: Debug Environment
       run: |
-        echo "Current directory:"
-        pwd
-        echo "Files:"
-        ls -la
+        echo "GitHub Actor: ${{ github.actor }}"
+        echo "Repository: ${{ github.repository }}"
+        echo "Token exists: ${{ secrets.GIST_TOKEN != '' }}"
+        echo "GITHUB_TOKEN exists: ${{ secrets.GITHUB_TOKEN != '' }}"
     
     - name: Update Vavoo Gist
       env:
         GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
       run: |
         echo "Starting update..."
+        echo "GIST_TOKEN is set: ${GIST_TOKEN:+YES}"
         python vavoo_resolver.py --auto
-    
-    - name: Check status
-      if: failure()
-      run: |
-        echo "Update failed!"
-        ls -la
