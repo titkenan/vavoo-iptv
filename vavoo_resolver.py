@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 vavoo_resolver.py - TÜRKİYE KATEGORİ FİLTRELİ VERSİYON
-+ Otomatik GitHub Gist Yükleme
+Sadece GIST_TOKEN kullanır (GITHUB_TOKEN gist yetkisi yok!)
 """
 
 import sys
@@ -21,7 +21,10 @@ GIST_ID = "0956315177e258464a1545babe1e8ac9"
 TEST_TOKEN = ""  # Örnek: "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 def get_github_token():
-    """GitHub Actions veya ortam değişkeninden token al"""
+    """
+    SADECE GIST_TOKEN kullan - GITHUB_TOKEN gist yetkisi yok!
+    Sıralama: 1. TEST_TOKEN 2. GIST_TOKEN (GitHub Secret)
+    """
     
     # 1. GEÇİCİ TEST TOKEN (eğer varsa)
     if TEST_TOKEN:
@@ -29,19 +32,21 @@ def get_github_token():
         print("[TOKEN] Güvenlik için test sonrası silmeyi unutmayın!")
         return TEST_TOKEN
     
-    # 2. GitHub Actions ortamı (GIST_TOKEN)
+    # 2. GIST_TOKEN - GitHub Actions Secret veya ortam değişkeni
     token = os.getenv("GIST_TOKEN")
     if token:
-        print(f"[TOKEN] ✓ GIST_TOKEN bulundu: {token[:15]}...")
+        print(f"[TOKEN] ✓ GIST_TOKEN bulundu: {token[:20]}...")
         return token
     
-    # 3. GitHub Actions ortamı (GITHUB_TOKEN)
-    token = os.getenv("GITHUB_TOKEN")
-    if token:
-        print(f"[TOKEN] ✓ GITHUB_TOKEN bulundu: {token[:15]}...")
-        return token
+    # 3. GITHUB_TOKEN KULLANMA - gist yetkisi yok!
+    # Bu token sadece kendi repo'suna yazabilir, Gist'e yazamaz
+    github_auto_token = os.getenv("GITHUB_TOKEN")
+    if github_auto_token:
+        print("[TOKEN] ⚠️  GITHUB_TOKEN bulundu ama GIST YETKİSİ YOK!")
+        print("[TOKEN] GitHub Actions Secret olarak GIST_TOKEN ekleyin")
+        print("[TOKEN] https://github.com/settings/tokens adresinden oluşturun")
     
-    # 4. Lokal geliştirme için config.json
+    # 4. Lokal config.json (opsiyonel)
     config_paths = [
         'config.json',
         os.path.join(os.path.dirname(__file__), 'config.json'),
@@ -53,21 +58,28 @@ def get_github_token():
             try:
                 with open(path, 'r', encoding='utf-8') as f:
                     config = json.load(f)
-                    token = config.get("github_token") or config.get("token") or config.get("gist_token")
+                    token = config.get("github_token") or config.get("gist_token")
                     if token:
-                        print(f"[TOKEN] ✓ config.json'dan alındı: {token[:15]}...")
+                        print(f"[TOKEN] ✓ config.json'dan alındı: {token[:20]}...")
                         return token
             except:
                 continue
     
-    print("[TOKEN] ❌ Hiçbir token bulunamadı!")
+    print("[TOKEN] ❌ GIST_TOKEN bulunamadı!")
+    print("[TOKEN] Çözüm:")
+    print("  1. GitHub'da token oluştur: https://github.com/settings/tokens/new")
+    print("  2. Scope: gist (Create gists) seçin")
+    print("  3. Repo Settings > Secrets > GIST_TOKEN olarak ekleyin")
+    print("  4. VEYA TEST_TOKEN değişkenine yazın (geçici)")
+    
     return None
 
 def upload_to_gist(filename, content, description="Vavoo Turkey IPTV"):
-    """Dosyayı GitHub Gist'e yükle"""
+    """Dosyayı GitHub Gist'e yükle - SADECE GIST_TOKEN ile"""
+    
     token = get_github_token()
     if not token:
-        print("[GIST] ❌ Token yok! İşlem iptal.")
+        print("[GIST] ❌ Token olmadan devam edilemez!")
         return None
     
     url = f"https://api.github.com/gists/{GIST_ID}"
@@ -88,10 +100,10 @@ def upload_to_gist(filename, content, description="Vavoo Turkey IPTV"):
     }
     
     try:
-        print(f"[GIST] API çağrısı yapılıyor...")
+        print(f"[GIST] API çağrısı: PATCH {url}")
         resp = requests.patch(url, headers=headers, json=data, timeout=30)
         
-        print(f"[GIST] Yanıt kodu: {resp.status_code}")
+        print(f"[GIST] HTTP {resp.status_code}")
         
         if resp.status_code == 200:
             result = resp.json()
@@ -107,18 +119,15 @@ def upload_to_gist(filename, content, description="Vavoo Turkey IPTV"):
             return result
             
         elif resp.status_code == 401:
-            print("[GIST] ❌ 401: Token geçersiz veya yetkisiz!")
-            print("[GIST] GitHub'da token'ı kontrol edin: Settings > Developer settings > Personal access tokens")
-            print("[GIST] Gerekli scope: gist (Create gists)")
+            print("[GIST] ❌ 401: Yetkisiz - Token geçersiz veya gist scope'u yok!")
             return None
             
         elif resp.status_code == 404:
-            print("[GIST] ❌ 404: Gist bulunamadı!")
-            print(f"[GIST] Gist ID: {GIST_ID}")
+            print("[GIST] ❌ 404: Gist bulunamadı - ID yanlış olabilir")
             return None
             
         else:
-            print(f"[GIST] ❌ Hata {resp.status_code}: {resp.text[:500]}")
+            print(f"[GIST] ❌ Hata: {resp.text[:500]}")
             return None
             
     except Exception as e:
@@ -127,7 +136,9 @@ def upload_to_gist(filename, content, description="Vavoo Turkey IPTV"):
 
 def upload_m3u_to_gist(filename="vavoo_turkiye.m3u"):
     """M3U dosyasını Gist'e yükle"""
-    print(f"\n[GIST] Yükleniyor: {filename}")
+    print(f"\n{'='*60}")
+    print(f"[GIST] Yükleniyor: {filename}")
+    print(f"{'='*60}")
     
     if not os.path.exists(filename):
         print(f"[GIST] ❌ Dosya bulunamadı: {os.path.abspath(filename)}")
@@ -137,7 +148,8 @@ def upload_m3u_to_gist(filename="vavoo_turkiye.m3u"):
         with open(filename, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        print(f"[GIST] Dosya boyutu: {len(content)} bytes")
+        print(f"[GIST] Boyut: {len(content):,} bytes")
+        print(f"[GIST] Satır: {content.count(chr(10)):,}")
         
         return upload_to_gist(
             filename=filename,
@@ -368,6 +380,7 @@ def categorize_channel(name):
 
 def create_m3u(channels, api, filename="vavoo_turkiye.m3u"):
     if not channels:
+        print("[M3U] ❌ Kanal yok!")
         return False
     
     categorized = {cat: [] for cat in CATEGORY_ORDER}
@@ -456,10 +469,14 @@ if __name__ == "__main__":
         result = upload_m3u_to_gist("vavoo_turkiye.m3u")
         
         if result:
-            print("\n✅ BAŞARILI!")
+            print("\n" + "=" * 60)
+            print("✅ TÜM İŞLEMLER BAŞARILI!")
+            print("=" * 60)
             sys.exit(0)
         else:
-            print("\n❌ GIST BAŞARISIZ!")
+            print("\n" + "=" * 60)
+            print("❌ GIST YÜKLEME BAŞARISIZ!")
+            print("=" * 60)
             sys.exit(1)
     
     # Manuel mod
