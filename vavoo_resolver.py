@@ -1,3 +1,17 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import sys
+import requests
+import json
+import os
+import re
+import time
+
+# ============ AYARLAR ============
+GITHUB_USERNAME = "titkenan"
+GIST_ID = "0956315177e258464a1545babe1e8ac9"
+# ... devamı
 def upload_to_gist(filename, content, description="Vavoo Turkey IPTV"):
     """Dosyayı GitHub Gist'e yükle - SADECE GIST_TOKEN ile"""
     
@@ -95,3 +109,4 @@ def upload_token_to_gist(token, gist_id="0956315177e258464a1545babe1e8ac9"):
     except Exception as e:
         print(f"[TOKEN] ✗ İstek hatası: {e}")
         return False
+
