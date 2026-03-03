@@ -26,9 +26,4 @@ jobs:
         GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
       run: python vavoo_resolver.py --auto
     
-    - name: Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: vavoo-playlist
-        path: vavoo_turkiye.m3u
-        retention-days: 7
+    # Artifact kaldırıldı - Gist'e zaten yazıyor
