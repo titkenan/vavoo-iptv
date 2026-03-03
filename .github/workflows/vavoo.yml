@@ -1,0 +1,35 @@
+name: Vavoo IPTV Updater
+
+on:
+  schedule:
+    # Her 2 saatte bir çalıştır
+    - cron: '0 */2 * * *'
+  workflow_dispatch:  # Manuel tetikleme için
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests
+    
+    - name: Run Vavoo Resolver
+      env:
+        GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+      run: |
+        python vavoo_resolver.py --auto
+    
+    - name: Upload artifact (optional)
+      uses: actions/upload-artifact@v3
+      with:
+        name: vavoo-playlist
+        path: vavoo_turkiye.m3u
