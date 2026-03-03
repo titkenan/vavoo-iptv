@@ -26,4 +26,4 @@ jobs:
         GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
       run: python vavoo_resolver.py --auto
     
-    # DEPLOY ADIMI KALDIRILDI - Manuel yapılacak
+    # NOT: Deploy yok! Manuel yapılacak
