@@ -9,6 +9,7 @@ export default {
       'Cache-Control': 'public, max-age=60'
     };
 
+    // Cache için global değişken
     if (!globalThis.cache) {
       globalThis.cache = {
         token: null,
@@ -17,14 +18,17 @@ export default {
       };
     }
 
+    // Gist'ten token ve playlist al
     async function getFromGist() {
       const now = Date.now();
       
+      // Cache 5 dakikadan yeniyse kullan
       if (globalThis.cache.token && (now - globalThis.cache.expiresAt) < 300000) {
         return globalThis.cache;
       }
 
       try {
+        // 1. Token'ı çek
         const tokenResponse = await fetch(
           "https://gist.githubusercontent.com/titkenan/0956315177e258464a1545babe1e8ac9/raw/vavoo_token.txt",
           { cf: { cacheTtl: 300 } }
@@ -33,6 +37,7 @@ export default {
         if (!tokenResponse.ok) throw new Error("Token fetch failed");
         const token = await tokenResponse.text();
         
+        // 2. Playlist'i çek
         const playlistResponse = await fetch(
           "https://gist.githubusercontent.com/titkenan/0956315177e258464a1545babe1e8ac9/raw/vavoo_turkiye.m3u",
           { cf: { cacheTtl: 300 } }
@@ -41,6 +46,7 @@ export default {
         if (!playlistResponse.ok) throw new Error("Playlist fetch failed");
         let playlist = await playlistResponse.text();
 
+        // URL'leri worker üzerinden proxy'le
         playlist = playlist.replace(
           /https:\/\/vavoo\.to\/vavoo-iptv\/play\//g,
           url.origin + "/play/"
@@ -59,12 +65,14 @@ export default {
       }
     }
 
+    // 1. Playlist endpoint
     if (url.pathname === "/" || url.pathname === "/playlist.m3u" || url.pathname === "/liste") {
       const data = await getFromGist();
       
       if (!data.playlist) {
         return new Response(JSON.stringify({
-          error: "Playlist not available"
+          error: "Playlist not available",
+          message: "GitHub Actions çalışmıyor olabilir"
         }), {
           status: 503,
           headers: { ...corsHeaders, "Content-Type": "application/json" }
@@ -80,6 +88,7 @@ export default {
       });
     }
 
+    // 2. Stream proxy endpoint
     if (url.pathname.startsWith("/play/")) {
       const streamId = url.pathname.split("/")[2];
       
@@ -137,13 +146,14 @@ export default {
       }
     }
 
+    // 3. Status check
     if (url.pathname === "/status") {
       const data = await getFromGist();
       return new Response(JSON.stringify({
         status: "ok",
         service: "Vavoo Proxy (Gist Edition)",
         token_valid: !!data.token,
-        token_age: data.token ? Math.floor((Date.now() - data.expiresAt) / 1000) + "s" : "none",
+        token_age: data.token ? Math.floor((Date.now() - data.cache.expiresAt) / 1000) + "s" : "none",
         playlist_available: !!data.playlist,
         endpoints: {
           playlist: url.origin + "/playlist.m3u",
