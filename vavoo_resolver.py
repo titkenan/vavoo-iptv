@@ -6,31 +6,28 @@ import random
 import json
 import base64
 import time
-import sys
 import os
+import sys
 import re
 
 # ============ AYARLAR ============
-GIST_ID = "0956315177e258464a1545babe1e8ac9"  # Sizin Gist ID'niz
-GIST_TOKEN = os.environ.get("GIST_TOKEN")     # GitHub Actions'tan gelir
+GIST_ID = "0956315177e258464a1545babe1e8ac9"
+GIST_TOKEN = os.environ.get("GIST_TOKEN")
 WORKER_URL = "https://sizin-worker.workers.dev"  # Worker adresiniz
 
-# ============ TOKEN ALMA ============
-def get_watched_sig():
-    """Vavoo için mediahubmx-signature üretir"""
-    veclist = [
-        "7b2263726561746564223a313637363833303630313030302c22766563223a5b32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32345d7d",
-        # Buraya daha fazla vec değeri eklenebilir. Basitlik için tek bir örnek yeterli değil,
-        # ama orijinal betikteki "veclist" GitHub'dan çekiliyor. Aşağıda onu da ekleyeceğiz.
-    ]
-    
-    # Eğer veclist yoksa GitHub'dan al
-    if len(veclist) == 1:
-        try:
-            vlist = requests.get("http://mastaaa1987.github.io/repo/veclist.json", timeout=10).json()
-            veclist = vlist['value']
-        except:
-            pass
+# ============ TOKEN ALMA (API'deki utils.vavoo.getAuthSignature benzeri) ============
+def get_auth_signature():
+    """Vavoo için auth token üretir (veclist'i GitHub'dan çeker)"""
+    # Önce veclist'i cache'den veya GitHub'dan al
+    veclist = None
+    try:
+        vlist = requests.get("http://mastaaa1987.github.io/repo/veclist.json", timeout=10).json()
+        veclist = vlist['value']
+    except:
+        # Yedek veclist (örnek)
+        veclist = [
+            "7b2263726561746564223a313637363833303630313030302c22766563223a5b32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32345d7d"
+        ]
 
     sig = None
     for _ in range(10):  # 10 kez dene
@@ -55,7 +52,7 @@ def get_channels():
     """Vavoo'dan kanal listesini JSON olarak alır (iki kaynaktan birleştirir)"""
     channels = []
     
-    # 1. Kaynak: live2/index?output=json (eski tip, ama hala çalışıyor)
+    # 1. Kaynak: live2/index?output=json
     try:
         resp = requests.get('https://www.vavoo.to/live2/index?output=json', 
                             headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
@@ -64,9 +61,8 @@ def get_channels():
     except:
         pass
 
-    # 2. Kaynak: mediahubmx-catalog.json (daha güncel, tüm grupları tarar)
-    groups = ["Germany", "Turkey", "International", "Sport", "Kids", "Documentaries"]  # Olası gruplar
-    sig = get_watched_sig()
+    # 2. Kaynak: mediahubmx-catalog.json (token gerekli)
+    sig = get_auth_signature()
     if sig:
         headers = {
             "accept-encoding": "gzip",
@@ -75,6 +71,8 @@ def get_channels():
             "content-type": "application/json; charset=utf-8",
             "mediahubmx-signature": sig
         }
+        # Olası gruplar (API'deki gibi)
+        groups = ["Germany", "Turkey", "International", "Sport", "Kids", "Documentaries"]
         for group in groups:
             cursor = 0
             while True:
@@ -95,7 +93,7 @@ def get_channels():
                                       json=data, headers=headers, timeout=15).json()
                     items = r.get("items", [])
                     for item in items:
-                        # Gereksiz kanalları filtrele (LUXEMBOURG vb.)
+                        # Filtreleme (LUXEMBOURG vb.)
                         if "LUXEMBOURG" not in item["name"]:
                             channels.append(item)
                     next_cursor = r.get("nextCursor")
@@ -105,108 +103,93 @@ def get_channels():
                 except:
                     break
 
-    # Tekrarlanan kanalları temizle (url'ye göre)
+    # Tekrarlananları temizle (url'ye göre)
     seen = set()
-    unique_channels = []
+    unique = []
     for ch in channels:
-        url = ch.get('url', '')
-        if url not in seen:
+        url = ch.get('url') or ch.get('URL') or ''
+        if url and url not in seen:
             seen.add(url)
-            unique_channels.append(ch)
-    return unique_channels
+            unique.append(ch)
+    return unique
 
 # ============ M3U OLUŞTURMA ============
 def generate_m3u8(channels, worker_url):
     """Kanal listesinden M3U playlist oluşturur (worker proxy'si ile)"""
-    m3u_lines = ["#EXTM3U"]
+    lines = ["#EXTM3U"]
     
     for ch in channels:
         name = ch.get('name', '')
         logo = ch.get('logo', '')
         group = ch.get('group', 'Unknown')
-        url = ch.get('url', '')
+        url = ch.get('url') or ch.get('URL') or ''
         
-        # Kanal adını temizle (gereksiz ekleri kaldır)
+        # Kanal adını temizle
         clean_name = re.sub(r' (4K|HEVC|HD|FHD|UHD|AUSTRIA|AT|DE|\(.*?\)).*', '', name).strip()
         
-        # EXTINF satırı
+        # EXTINF
         extinf = f'#EXTINF:-1 tvg-name="{clean_name}" group-title="{group}"'
         if logo:
             extinf += f' tvg-logo="{logo}"'
         extinf += f',{clean_name}'
-        m3u_lines.append(extinf)
+        lines.append(extinf)
         
-        # URL: worker üzerinden proxy'lenecek şekilde düzenle
-        # Varsayalım ki worker'da /play/ endpoint'i var ve kanal ID'si veya URL parametresi alıyor.
-        # Burada basit bir yöntem: kanalın Vavoo URL'sini worker'a parametre olarak verelim.
-        # Worker, bu URL'yi token ile çağırıp akışı proxy'leyecek.
+        # Proxy URL (worker üzerinden)
         if url:
-            # Örnek: https://worker.workers.dev/play?url=https://vavoo.to/...
-            # worker.js'inizi buna göre ayarlamanız gerekebilir.
+            # Worker'da /play?url=... şeklinde bir endpoint olduğunu varsayıyoruz
             proxy_url = f"{worker_url}/play?url={requests.utils.quote(url)}"
-            m3u_lines.append(proxy_url)
+            lines.append(proxy_url)
         else:
-            m3u_lines.append("# yayın yok")
+            lines.append("# yayın yok")
     
-    return "\n".join(m3u_lines)
+    return "\n".join(lines)
 
 # ============ GIST'E YÜKLEME ============
-def upload_to_gist(filename, content, description="Vavoo Turkey IPTV"):
-    """Dosyayı GitHub Gist'e yükler"""
+def upload_to_gist(filename, content, description):
     if not GIST_TOKEN:
-        print("[HATA] GIST_TOKEN environment variable bulunamadı!")
+        print("[HATA] GIST_TOKEN eksik")
         return False
-    
     url = f"https://api.github.com/gists/{GIST_ID}"
     headers = {
         "Authorization": f"token {GIST_TOKEN}",
-        "Accept": "application/vnd.github.v3+json",
-        "Content-Type": "application/json"
+        "Accept": "application/vnd.github.v3+json"
     }
     data = {
         "description": description,
         "files": {
-            filename: {
-                "content": content
-            }
+            filename: {"content": content}
         }
     }
-    
     try:
         resp = requests.patch(url, headers=headers, json=data, timeout=30)
-        if resp.status_code == 200:
-            print(f"[✓] {filename} Gist'e yüklendi.")
-            return True
-        else:
-            print(f"[✗] Hata {resp.status_code}: {resp.text[:200]}")
-            return False
-    except Exception as e:
-        print(f"[✗] İstek hatası: {e}")
+        return resp.status_code == 200
+    except:
         return False
 
 # ============ ANA FONKSİYON ============
 def main():
     print("[1] Token alınıyor...")
-    sig = get_watched_sig()
+    sig = get_auth_signature()
     if not sig:
         print("[✗] Token alınamadı!")
         sys.exit(1)
-    print(f"[✓] Token: {sig[:50]}...")
+    print(f"[✓] Token alındı: {sig[:50]}...")
     
     print("[2] Kanal listesi çekiliyor...")
     channels = get_channels()
     print(f"[✓] {len(channels)} kanal bulundu.")
     
     print("[3] M3U playlist oluşturuluyor...")
-    m3u_content = generate_m3u8(channels, WORKER_URL)
+    m3u = generate_m3u8(channels, WORKER_URL)
     
     print("[4] Gist güncelleniyor...")
-    # Token'ı ayrı bir dosyaya kaydet (worker'ın okuması için)
-    upload_to_gist("vavoo_token.txt", sig, "Vavoo Token")
-    # Playlist'i kaydet
-    upload_to_gist("vavoo_turkiye.m3u", m3u_content, "Vavoo Turkey Playlist")
+    ok1 = upload_to_gist("vavoo_token.txt", sig, "Vavoo Token")
+    ok2 = upload_to_gist("vavoo_turkiye.m3u", m3u, "Vavoo Turkey Playlist")
     
-    print("[✓] İşlem tamamlandı.")
+    if ok1 and ok2:
+        print("[✓] Başarılı!")
+    else:
+        print("[✗] Gist güncellemesi başarısız!")
 
 if __name__ == "__main__":
     main()
