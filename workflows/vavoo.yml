@@ -1,7 +1,7 @@
 name: Vavoo IPTV Updater
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Node.js 24 zorunlu
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 on:
   schedule:
@@ -21,9 +21,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: |
-          pip install requests
-          # unidecode gerekirse: pip install unidecode
+        run: pip install requests
 
       - name: Run Vavoo Resolver
         env:
