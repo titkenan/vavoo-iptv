@@ -9,28 +9,57 @@ import time
 import os
 import sys
 import re
+from urllib.request import Request, urlopen
+import ssl
 
 # ============ AYARLAR ============
-GIST_ID = "0956315177e258464a1545babe1e8ac9"
+GIST_ID = "0956315177e258464a1545babe1e8ac9"  # Sizin Gist ID'niz
 GIST_TOKEN = os.environ.get("GIST_TOKEN")
-WORKER_URL = "https://sizin-worker.workers.dev"  # Worker adresiniz
+WORKER_URL = "https://sizin-worker.workers.dev"  # Worker adresiniz, örn: https://vavoo-proxy.workers.dev
 
-# ============ TOKEN ALMA (API'deki utils.vavoo.getAuthSignature benzeri) ============
-def get_auth_signature():
-    """Vavoo için auth token üretir (veclist'i GitHub'dan çeker)"""
-    # Önce veclist'i cache'den veya GitHub'dan al
-    veclist = None
-    try:
-        vlist = requests.get("http://mastaaa1987.github.io/repo/veclist.json", timeout=10).json()
-        veclist = vlist['value']
-    except:
-        # Yedek veclist (örnek)
-        veclist = [
-            "7b2263726561746564223a313637363833303630313030302c22766563223a5b32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32345d7d"
-        ]
+# Basit önbellek (dosya tabanlı)
+CACHE_DIR = "./cache"
+os.makedirs(CACHE_DIR, exist_ok=True)
 
+def get_cache(key):
+    path = os.path.join(CACHE_DIR, key)
+    if os.path.exists(path):
+        with open(path, 'r') as f:
+            return f.read()
+    return None
+
+def set_cache(key, value):
+    path = os.path.join(CACHE_DIR, key)
+    with open(path, 'w') as f:
+        f.write(value)
+
+# ============ TOKEN ALMA (getWatchedSig) ============
+def get_veclist():
+    veclist = get_cache('veclist')
+    if not veclist:
+        try:
+            vlist = requests.get("http://mastaaa1987.github.io/repo/veclist.json", timeout=10).json()
+            veclist = json.dumps(vlist['value'])
+            set_cache('veclist', veclist)
+        except:
+            # Yedek veclist (örnek)
+            veclist = json.dumps([
+                "7b2263726561746564223a313637363833303630313030302c22766563223a5b32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32345d7d"
+            ])
+    return json.loads(veclist)
+
+def getWatchedSig():
+    # Önce kayıtlı bir key var mı kontrol et (basit dosya)
+    key_file = os.path.join(CACHE_DIR, 'wsignkey')
+    if os.path.exists(key_file):
+        with open(key_file, 'r') as f:
+            key = f.read().strip()
+        # Burada key'in geçerliliğini kontrol etmek gerekir (ip, süre). Ama basitleştiriyoruz.
+        return key
+
+    veclist = get_veclist()
     sig = None
-    for _ in range(10):  # 10 kez dene
+    for _ in range(10):
         vec = {"vec": random.choice(veclist)}
         try:
             req = requests.post('https://www.vavoo.tv/api/box/ping2', data=vec, timeout=10).json()
@@ -45,25 +74,60 @@ def get_auth_signature():
                 break
         except:
             continue
+
+    if not sig:
+        # Alternatif: lokke.app üzerinden dene
+        headers = {
+            "user-agent": "okhttp/4.11.0",
+            "accept": "application/json",
+            "content-type": "application/json; charset=utf-8",
+            "accept-encoding": "gzip"
+        }
+        data = {
+            "token": "", "reason": "boot", "locale": "de", "theme": "dark",
+            "metadata": {
+                "device": {"type": "desktop", "uniqueId": ""},
+                "os": {"name": "win32", "version": "Windows 10 Education", "abis": ["x64"], "host": "DESKTOP-JN65HTI"},
+                "app": {"platform": "electron"},
+                "version": {"package": "app.lokke.main", "binary": "1.0.19", "js": "1.0.19"}
+            },
+            "appFocusTime": 173, "playerActive": False, "playDuration": 0,
+            "devMode": True, "hasAddon": True, "castConnected": False,
+            "package": "app.lokke.main", "version": "1.0.19", "process": "app",
+            "firstAppStart": 1770751158625, "lastAppStart": 1770751158625,
+            "ipLocation": 0, "adblockEnabled": True,
+            "proxy": {"supported": ["ss"], "engine": "cu", "enabled": False, "autoServer": True, "id": 0},
+            "iap": {"supported": False}
+        }
+        try:
+            req = requests.post('https://www.lokke.app/api/app/ping', json=data, headers=headers, timeout=10).json()
+            sig = req.get("addonSig")
+        except:
+            pass
+
+    if sig:
+        with open(key_file, 'w') as f:
+            f.write(sig)
     return sig
 
 # ============ KANAL LİSTESİ ÇEKME ============
 def get_channels():
-    """Vavoo'dan kanal listesini JSON olarak alır (iki kaynaktan birleştirir)"""
     channels = []
-    
-    # 1. Kaynak: live2/index?output=json
+    # 1. live2/index?output=json
     try:
-        resp = requests.get('https://www.vavoo.to/live2/index?output=json', 
-                            headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
-        if resp.status_code == 200:
-            channels.extend(resp.json())
-    except:
-        pass
+        ssl._create_default_https_context = ssl._create_unverified_context
+        req = Request('https://www.vavoo.to/live2/index?output=json',
+                      headers={'User-Agent': 'Mozilla/5.0'})
+        resp = urlopen(req, timeout=15)
+        data = json.loads(resp.read().decode('utf8'))
+        channels.extend(data)
+    except Exception as e:
+        print(f"live2 hatası: {e}")
 
-    # 2. Kaynak: mediahubmx-catalog.json (token gerekli)
-    sig = get_auth_signature()
+    # 2. mediahubmx-catalog.json ile tüm grupları tara
+    sig = getWatchedSig()
     if sig:
+        groups = ["Germany", "Turkey", "International", "Sport", "Kids", "Documentaries", "Entertainment", "News"]
         headers = {
             "accept-encoding": "gzip",
             "user-agent": "MediaHubMX/2",
@@ -71,8 +135,6 @@ def get_channels():
             "content-type": "application/json; charset=utf-8",
             "mediahubmx-signature": sig
         }
-        # Olası gruplar (API'deki gibi)
-        groups = ["Germany", "Turkey", "International", "Sport", "Kids", "Documentaries"]
         for group in groups:
             cursor = 0
             while True:
@@ -89,25 +151,26 @@ def get_channels():
                     "clientVersion": "3.0.2"
                 }
                 try:
-                    r = requests.post("https://vavoo.to/mediahubmx-catalog.json", 
+                    r = requests.post("https://vavoo.to/mediahubmx-catalog.json",
                                       json=data, headers=headers, timeout=15).json()
                     items = r.get("items", [])
                     for item in items:
-                        # Filtreleme (LUXEMBOURG vb.)
-                        if "LUXEMBOURG" not in item["name"]:
+                        # Filtreleme: LUXEMBOURG vb. istenmiyorsa
+                        if "LUXEMBOURG" not in item.get("name", ""):
                             channels.append(item)
                     next_cursor = r.get("nextCursor")
                     if not next_cursor:
                         break
                     cursor = next_cursor
-                except:
+                except Exception as e:
+                    print(f"mediahubmx hatası (grup {group}): {e}")
                     break
 
-    # Tekrarlananları temizle (url'ye göre)
+    # Tekrarları temizle (url bazlı)
     seen = set()
     unique = []
     for ch in channels:
-        url = ch.get('url') or ch.get('URL') or ''
+        url = ch.get('url')
         if url and url not in seen:
             seen.add(url)
             unique.append(ch)
@@ -115,39 +178,32 @@ def get_channels():
 
 # ============ M3U OLUŞTURMA ============
 def generate_m3u8(channels, worker_url):
-    """Kanal listesinden M3U playlist oluşturur (worker proxy'si ile)"""
     lines = ["#EXTM3U"]
-    
     for ch in channels:
         name = ch.get('name', '')
         logo = ch.get('logo', '')
         group = ch.get('group', 'Unknown')
-        url = ch.get('url') or ch.get('URL') or ''
-        
+        url = ch.get('url', '')
+        if not url:
+            continue
         # Kanal adını temizle
         clean_name = re.sub(r' (4K|HEVC|HD|FHD|UHD|AUSTRIA|AT|DE|\(.*?\)).*', '', name).strip()
-        
         # EXTINF
         extinf = f'#EXTINF:-1 tvg-name="{clean_name}" group-title="{group}"'
         if logo:
             extinf += f' tvg-logo="{logo}"'
         extinf += f',{clean_name}'
         lines.append(extinf)
-        
-        # Proxy URL (worker üzerinden)
-        if url:
-            # Worker'da /play?url=... şeklinde bir endpoint olduğunu varsayıyoruz
-            proxy_url = f"{worker_url}/play?url={requests.utils.quote(url)}"
-            lines.append(proxy_url)
-        else:
-            lines.append("# yayın yok")
-    
+        # Proxy URL: worker üzerinden geçecek şekilde
+        # Worker'ın /play?url=... şeklinde çalıştığını varsayıyoruz
+        proxy_url = f"{worker_url}/play?url={requests.utils.quote(url)}"
+        lines.append(proxy_url)
     return "\n".join(lines)
 
-# ============ GIST'E YÜKLEME ============
+# ============ GIST YÜKLEME ============
 def upload_to_gist(filename, content, description):
     if not GIST_TOKEN:
-        print("[HATA] GIST_TOKEN eksik")
+        print("GIST_TOKEN bulunamadı!")
         return False
     url = f"https://api.github.com/gists/{GIST_ID}"
     headers = {
@@ -162,34 +218,37 @@ def upload_to_gist(filename, content, description):
     }
     try:
         resp = requests.patch(url, headers=headers, json=data, timeout=30)
-        return resp.status_code == 200
-    except:
+        if resp.status_code == 200:
+            print(f"{filename} güncellendi.")
+            return True
+        else:
+            print(f"Hata {resp.status_code}: {resp.text[:200]}")
+            return False
+    except Exception as e:
+        print(f"İstek hatası: {e}")
         return False
 
-# ============ ANA FONKSİYON ============
+# ============ ANA ============
 def main():
-    print("[1] Token alınıyor...")
-    sig = get_auth_signature()
+    print("Token alınıyor...")
+    sig = getWatchedSig()
     if not sig:
-        print("[✗] Token alınamadı!")
+        print("Token alınamadı!")
         sys.exit(1)
-    print(f"[✓] Token alındı: {sig[:50]}...")
-    
-    print("[2] Kanal listesi çekiliyor...")
+    print(f"Token: {sig[:50]}...")
+
+    print("Kanal listesi çekiliyor...")
     channels = get_channels()
-    print(f"[✓] {len(channels)} kanal bulundu.")
-    
-    print("[3] M3U playlist oluşturuluyor...")
+    print(f"{len(channels)} kanal bulundu.")
+
+    print("M3U oluşturuluyor...")
     m3u = generate_m3u8(channels, WORKER_URL)
-    
-    print("[4] Gist güncelleniyor...")
-    ok1 = upload_to_gist("vavoo_token.txt", sig, "Vavoo Token")
-    ok2 = upload_to_gist("vavoo_turkiye.m3u", m3u, "Vavoo Turkey Playlist")
-    
-    if ok1 and ok2:
-        print("[✓] Başarılı!")
-    else:
-        print("[✗] Gist güncellemesi başarısız!")
+
+    print("Gist güncelleniyor...")
+    upload_to_gist("vavoo_token.txt", sig, "Vavoo Token")
+    upload_to_gist("vavoo_turkiye.m3u", m3u, "Vavoo Turkey Playlist")
+
+    print("Tamam.")
 
 if __name__ == "__main__":
     main()
