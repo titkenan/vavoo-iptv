@@ -1,3 +1,6 @@
+# .github/workflows/vavoo.yml dosyanızın başına şunu ekleyin:
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 name: Vavoo IPTV Updater
 
 on:
