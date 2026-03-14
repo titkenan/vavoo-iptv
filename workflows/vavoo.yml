@@ -1,31 +1,31 @@
 name: Vavoo IPTV Updater
 
-# 👇 YENİ: Tüm workflow için Node.js 24'ü zorunlu kıl
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # Node.js 24 zorunlu
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */2 * * *'   # 2 saatte bir
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
 
-    - name: Install dependencies
-      run: pip install requests
+      - name: Install dependencies
+        run: |
+          pip install requests
+          # unidecode gerekirse: pip install unidecode
 
-    - name: Run Vavoo Resolver
-      env:
-        GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
-      run: python vavoo_resolver.py --auto
+      - name: Run Vavoo Resolver
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+        run: python vavoo_resolver.py
