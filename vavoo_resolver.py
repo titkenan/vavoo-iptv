@@ -14,10 +14,9 @@ import ssl
 
 # ============ AYARLAR ============
 GIST_ID = "0956315177e258464a1545babe1e8ac9"  # Sizin Gist ID'niz
-GIST_TOKEN = os.environ.get("GIST_TOKEN")
-WORKER_URL = "https://sizin-worker.workers.dev"  # Worker adresiniz, örn: https://vavoo-proxy.workers.dev
+GIST_TOKEN = os.environ.get("GIST_TOKEN")     # GitHub Secrets'ten gelir
+WORKER_URL = "https://sizin-worker.workers.dev"  # Cloudflare Worker adresiniz
 
-# Basit önbellek (dosya tabanlı)
 CACHE_DIR = "./cache"
 os.makedirs(CACHE_DIR, exist_ok=True)
 
@@ -33,7 +32,7 @@ def set_cache(key, value):
     with open(path, 'w') as f:
         f.write(value)
 
-# ============ TOKEN ALMA (getWatchedSig) ============
+# ============ TOKEN ALMA ============
 def get_veclist():
     veclist = get_cache('veclist')
     if not veclist:
@@ -42,20 +41,18 @@ def get_veclist():
             veclist = json.dumps(vlist['value'])
             set_cache('veclist', veclist)
         except:
-            # Yedek veclist (örnek)
+            # Yedek liste (gerçek çalışmazsa güncelleyin)
             veclist = json.dumps([
                 "7b2263726561746564223a313637363833303630313030302c22766563223a5b32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32342c32345d7d"
             ])
     return json.loads(veclist)
 
 def getWatchedSig():
-    # Önce kayıtlı bir key var mı kontrol et (basit dosya)
+    # Önce kayıtlı token var mı?
     key_file = os.path.join(CACHE_DIR, 'wsignkey')
     if os.path.exists(key_file):
         with open(key_file, 'r') as f:
-            key = f.read().strip()
-        # Burada key'in geçerliliğini kontrol etmek gerekir (ip, süre). Ama basitleştiriyoruz.
-        return key
+            return f.read().strip()
 
     veclist = get_veclist()
     sig = None
@@ -76,7 +73,7 @@ def getWatchedSig():
             continue
 
     if not sig:
-        # Alternatif: lokke.app üzerinden dene
+        # Alternatif: lokke.app
         headers = {
             "user-agent": "okhttp/4.11.0",
             "accept": "application/json",
@@ -113,7 +110,7 @@ def getWatchedSig():
 # ============ KANAL LİSTESİ ÇEKME ============
 def get_channels():
     channels = []
-    # 1. live2/index?output=json
+    # 1. live2/index?output=json (hızlı liste)
     try:
         ssl._create_default_https_context = ssl._create_unverified_context
         req = Request('https://www.vavoo.to/live2/index?output=json',
@@ -124,7 +121,7 @@ def get_channels():
     except Exception as e:
         print(f"live2 hatası: {e}")
 
-    # 2. mediahubmx-catalog.json ile tüm grupları tara
+    # 2. mediahubmx-catalog.json (tüm gruplar)
     sig = getWatchedSig()
     if sig:
         groups = ["Germany", "Turkey", "International", "Sport", "Kids", "Documentaries", "Entertainment", "News"]
@@ -155,7 +152,6 @@ def get_channels():
                                       json=data, headers=headers, timeout=15).json()
                     items = r.get("items", [])
                     for item in items:
-                        # Filtreleme: LUXEMBOURG vb. istenmiyorsa
                         if "LUXEMBOURG" not in item.get("name", ""):
                             channels.append(item)
                     next_cursor = r.get("nextCursor")
@@ -163,10 +159,10 @@ def get_channels():
                         break
                     cursor = next_cursor
                 except Exception as e:
-                    print(f"mediahubmx hatası (grup {group}): {e}")
+                    print(f"mediahubmx hatası ({group}): {e}")
                     break
 
-    # Tekrarları temizle (url bazlı)
+    # Tekrarları temizle
     seen = set()
     unique = []
     for ch in channels:
@@ -188,14 +184,12 @@ def generate_m3u8(channels, worker_url):
             continue
         # Kanal adını temizle
         clean_name = re.sub(r' (4K|HEVC|HD|FHD|UHD|AUSTRIA|AT|DE|\(.*?\)).*', '', name).strip()
-        # EXTINF
         extinf = f'#EXTINF:-1 tvg-name="{clean_name}" group-title="{group}"'
         if logo:
             extinf += f' tvg-logo="{logo}"'
         extinf += f',{clean_name}'
         lines.append(extinf)
-        # Proxy URL: worker üzerinden geçecek şekilde
-        # Worker'ın /play?url=... şeklinde çalıştığını varsayıyoruz
+        # Worker üzerinden proxy'lenecek URL
         proxy_url = f"{worker_url}/play?url={requests.utils.quote(url)}"
         lines.append(proxy_url)
     return "\n".join(lines)
@@ -219,36 +213,36 @@ def upload_to_gist(filename, content, description):
     try:
         resp = requests.patch(url, headers=headers, json=data, timeout=30)
         if resp.status_code == 200:
-            print(f"{filename} güncellendi.")
+            print(f"✅ {filename} Gist'e yüklendi.")
             return True
         else:
-            print(f"Hata {resp.status_code}: {resp.text[:200]}")
+            print(f"❌ Hata {resp.status_code}: {resp.text[:200]}")
             return False
     except Exception as e:
-        print(f"İstek hatası: {e}")
+        print(f"❌ İstek hatası: {e}")
         return False
 
-# ============ ANA ============
+# ============ ANA FONKSİYON ============
 def main():
-    print("Token alınıyor...")
+    print("[1] Token alınıyor...")
     sig = getWatchedSig()
     if not sig:
-        print("Token alınamadı!")
+        print("❌ Token alınamadı!")
         sys.exit(1)
-    print(f"Token: {sig[:50]}...")
+    print(f"✅ Token: {sig[:50]}...")
 
-    print("Kanal listesi çekiliyor...")
+    print("[2] Kanal listesi çekiliyor...")
     channels = get_channels()
-    print(f"{len(channels)} kanal bulundu.")
+    print(f"✅ {len(channels)} kanal bulundu.")
 
-    print("M3U oluşturuluyor...")
+    print("[3] M3U playlist oluşturuluyor...")
     m3u = generate_m3u8(channels, WORKER_URL)
 
-    print("Gist güncelleniyor...")
+    print("[4] Gist güncelleniyor...")
     upload_to_gist("vavoo_token.txt", sig, "Vavoo Token")
     upload_to_gist("vavoo_turkiye.m3u", m3u, "Vavoo Turkey Playlist")
 
-    print("Tamam.")
+    print("🎉 İşlem tamamlandı.")
 
 if __name__ == "__main__":
     main()
