@@ -1,0 +1,5 @@
+cron: '0 */4 * * *'  # Her 4 saat
+# Diğer seçenekler:
+# '0 */6 * * *'  # Her 6 saat
+# '0 */12 * * *' # Her 12 saat  
+# '0 0 * * *'    # Her gün gece yarısı
