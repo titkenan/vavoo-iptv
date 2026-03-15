@@ -1,0 +1,3 @@
+git add server.py requirements.txt render.yaml
+git commit -m "Add Render.com proxy server"
+git push
