@@ -2,11 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 GitHub Actions için M3U Oluşturucu
-- Tüm kanalları çeker
-- Tüm URL'leri çözümler
-- Statik M3U oluşturur
 """
 
+import sys  # ← EKLENDİ!
 import requests
 import json
 import re
@@ -23,7 +21,7 @@ EPG_FILE = "vavoo_epg.xml"
 # Kategoriler
 CATEGORIES = {
     "Ulusal": ["trt 1", "atv", "show", "star", "kanal d", "fox", "tv8", "beyaz", "teve2", "haberturk", "cnn turk", "ntv", "tv100", "a2", "kanal 7", "360", "tlc", "bloomberg ht"],
-    "Spor": ["spor", "sport", "bein", "s sport", "tivibu", "aspor", "trt spor", "fb tv", "gs tv", "bjk tv", "eurosport", "nba", "f1"],
+    "Spor": ["spor", "sport", "bein", "s sport", "tivibu", "aspor", "trt spor", "fb tv", "gs tv", "bjk tv", "eurosport"],
     "Belgesel": ["belgesel", "discovery", "nat geo", "national geo", "history", "trt belgesel", "yaban", "bbc earth", "animal planet", "da vinci"],
     "Sinema": ["sinema", "movie", "film", "dizi", "blu", "moviebox", "cinemax", "hbo", "fox movies", "filmbox", "fx", "salon"],
     "Haber": ["haber", "news", "cnn", "ntv", "a haber", "trt haber", "ulke", "tgrt", "24", "bloomberg"],
@@ -194,7 +192,7 @@ def get_all_channels():
                 break
             
             page += 1
-            time.sleep(0.5)  # Rate limiting
+            time.sleep(0.5)
             
         except Exception as e:
             print(f"  [ERROR] Page {page}: {e}")
@@ -226,7 +224,7 @@ def get_tvg_id(name):
     return f"{clean}.tr"
 
 def generate_m3u(channels):
-    """M3U oluştur - tüm URL'leri çözümle"""
+    """M3U oluştur"""
     print(f"\n[M3U] Resolving {len(channels)} channels...")
     
     # Kategorilere ayır
@@ -260,7 +258,7 @@ def generate_m3u(channels):
         ""
     ]
     
-    # Yeni signature al (tüm çözümlemeler için)
+    # Yeni signature al
     sig = get_signature()
     if not sig:
         print("[ERROR] No signature for resolving!")
@@ -279,7 +277,6 @@ def generate_m3u(channels):
         
         cat = ch["category"]
         
-        # Kategori değiştiğinde
         if cat != current_cat:
             m3u_lines.append(f"\n# {cat} Channels")
             current_cat = cat
@@ -290,36 +287,32 @@ def generate_m3u(channels):
         resolved = resolve_url(hls, sig)
         
         if resolved:
-            print("✓")
+            print("OK")
             success += 1
             
-            # EXTINF
             extinf = f'#EXTINF:-1 tvg-id="{ch["tvg_id"]}" tvg-name="{name}"'
             if ch["logo"]:
                 extinf += f' tvg-logo="{ch["logo"]}"'
             extinf += f' group-title="{cat}",{name}'
             m3u_lines.append(extinf)
             
-            # VLC options
             m3u_lines.append('#EXTVLCOPT:http-user-agent=VAVOO/2.6')
             m3u_lines.append('#EXTVLCOPT:http-referrer=https://vavoo.to/')
             m3u_lines.append('#EXTVLCOPT:http-origin=https://vavoo.to')
-            
-            # URL
             m3u_lines.append(resolved)
             m3u_lines.append("")
         else:
-            print("✗ FAILED")
+            print("FAIL")
             failed += 1
         
-        # Her 20 kanalda bir yeni signature al (expire olmasın)
+        # Her 20 kanalda bir yeni signature
         if (i + 1) % 20 == 0:
             new_sig = get_signature()
             if new_sig:
                 sig = new_sig
-                print(f"  [REFRESH] New signature obtained")
+                print(f"  [REFRESH] New signature")
         
-        time.sleep(0.3)  # Rate limit
+        time.sleep(0.3)
     
     # Kaydet
     with open(M3U_FILE, "w", encoding="utf-8") as f:
@@ -364,21 +357,18 @@ def main():
     print("VAVOO M3U GENERATOR - GitHub Actions")
     print("="*60)
     
-    # Kanalları çek
     channels = get_all_channels()
     if not channels:
         print("[FATAL] No channels fetched!")
         return False
     
-    # M3U oluştur
     if not generate_m3u(channels):
         return False
     
-    # EPG oluştur
     generate_epg(channels)
     
     print("\n" + "="*60)
-    print("✅ SUCCESS!")
+    print("SUCCESS!")
     print(f"Files generated:")
     print(f"  - {M3U_FILE}")
     print(f"  - {EPG_FILE}")
