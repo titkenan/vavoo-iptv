@@ -1,29 +1,34 @@
-name: Vavoo IPTV Updater
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+name: Update M3U Playlist
 
 on:
   schedule:
-    - cron: '0 */2 * * *'   # 2 saatte bir
-  workflow_dispatch:
+    - cron: '0 */4 * * *'  # Her 4 saatte bir
+  workflow_dispatch:  # Manuel tetikleme için
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Run Vavoo Resolver
-        env:
-          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
-        run: python vavoo_resolver.py
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests
+    
+    - name: Generate M3U
+      run: |
+        python vavoo_resolver.py --generate-only
+    
+    - name: Commit and push
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        git add *.m3u *.xml
+        git commit -m "Auto-update M3U - $(date)" || exit 0
+        git push
