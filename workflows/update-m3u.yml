@@ -1,5 +1,33 @@
-cron: '0 */4 * * *'  # Her 4 saat
-# Diğer seçenekler:
-# '0 */6 * * *'  # Her 6 saat
-# '0 */12 * * *' # Her 12 saat  
-# '0 0 * * *'    # Her gün gece yarısı
+name: Update M3U Playlist
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Her 4 saatte bir
+  workflow_dispatch:  # Manuel tetikleme
+  push:  # Her push'ta da çalışsın (test için)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: pip install requests
+    
+    - name: Generate M3U
+      run: python generate_m3u.py
+    
+    - name: Commit and push
+      run: |
+        git config user.name 'GitHub Action'
+        git config user.email 'action@github.com'
+        git add -f vavoo_turkiye.m3u vavoo_epg.xml
+        git commit -m "Auto-update M3U - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "No changes"
+        git push || echo "Nothing to push"
