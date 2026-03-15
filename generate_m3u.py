@@ -1,20 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
-import sys  # ← BU SATIRI EKLEYİN
-import requests
-import json
-import re
-import time
-import os
-from datetime import datetime
-
-# -*- coding: utf-8 -*-
 """
 GitHub Actions için M3U Oluşturucu
 """
 
-import sys  # ← EKLENDİ!
+import sys
 import requests
 import json
 import re
