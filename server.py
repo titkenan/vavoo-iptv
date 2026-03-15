@@ -1,71 +1,104 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Render.com Statik Sunucu
+- Sadece M3U ve EPG dosyalarını sunar
+- Hiçbir işlem yapmaz (hızlı ve stabil)
+"""
+
+import os
+from fastapi import FastAPI, HTTPException
+from fastapi.responses import FileResponse, PlainTextResponse
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI(title="Vavoo Turkey - Static Server")
+
+# CORS (her yerden erişim için)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Dosya yolları
+M3U_FILE = "vavoo_turkiye.m3u"
+EPG_FILE = "vavoo_epg.xml"
+
+@app.get("/")
+async def root():
+    """Ana sayfa"""
+    base_url = os.getenv("RENDER_EXTERNAL_URL", "http://localhost:8000")
+    return {
+        "service": "Vavoo Turkey IPTV",
+        "type": "Static M3U Server",
+        "endpoints": {
+            "playlist": f"{base_url}/playlist.m3u",
+            "epg": f"{base_url}/epg.xml",
+            "raw_m3u": f"{base_url}/vavoo_turkiye.m3u",
+            "raw_epg": f"{base_url}/vavoo_epg.xml"
+        },
+        "note": "M3U updated every 4 hours via GitHub Actions"
+    }
+
 @app.get("/playlist.m3u")
 async def playlist():
-    """Tüm kanalları çek ve M3U oluştur"""
-    from datetime import datetime
+    """M3U Playlist"""
+    if not os.path.exists(M3U_FILE):
+        raise HTTPException(404, "M3U not found. Wait for GitHub Actions to generate it.")
     
-    # Vavoo'dan tüm kanalları çek
-    sig = get_lokke_signature()
-    if not sig:
-        return PlainTextResponse("#EXTM3U\n# Error: Auth failed", status_code=503)
+    return FileResponse(
+        M3U_FILE,
+        media_type="application/x-mpegURL",
+        filename="vavoo_turkiye.m3u"
+    )
+
+@app.get("/epg.xml")
+async def epg():
+    """EPG Guide"""
+    if not os.path.exists(EPG_FILE):
+        raise HTTPException(404, "EPG not found")
     
-    headers = {
-        "user-agent": "MediaHubMX/2",
-        "accept": "application/json",
-        "content-type": "application/json; charset=utf-8",
-        "mediahubmx-signature": sig,
+    return FileResponse(
+        EPG_FILE,
+        media_type="application/xml",
+        filename="vavoo_epg.xml"
+    )
+
+@app.get("/vavoo_turkiye.m3u")
+async def raw_m3u():
+    """Raw M3U dosyası"""
+    return await playlist()
+
+@app.get("/vavoo_epg.xml")
+async def raw_epg():
+    """Raw EPG dosyası"""
+    return await epg()
+
+@app.get("/status")
+async def status():
+    """Durum kontrolü"""
+    m3u_exists = os.path.exists(M3U_FILE)
+    epg_exists = os.path.exists(EPG_FILE)
+    
+    m3u_size = os.path.getsize(M3U_FILE) if m3u_exists else 0
+    epg_size = os.path.getsize(EPG_FILE) if epg_exists else 0
+    
+    m3u_modified = os.path.getmtime(M3U_FILE) if m3u_exists else 0
+    
+    return {
+        "status": "ok" if m3u_exists else "waiting",
+        "m3u_exists": m3u_exists,
+        "m3u_size_bytes": m3u_size,
+        "m3u_modified_utc": datetime.fromtimestamp(m3u_modified).isoformat() if m3u_modified else None,
+        "epg_exists": epg_exists,
+        "epg_size_bytes": epg_size
     }
-    
-    all_channels = []
-    cursor = 0
-    
-    # Tüm kanalları çek (pagination)
-    while True:
-        data = {
-            "language": "de",
-            "region": "AT",
-            "catalogId": "iptv",
-            "id": "iptv",
-            "adult": False,
-            "search": "",
-            "sort": "name",
-            "filter": {"group": "Turkey"},
-            "cursor": cursor,
-            "clientVersion": "3.0.2"
-        }
-        
-        try:
-            resp = requests.post(
-                f"https://{VAVOO_DOMAIN}/mediahubmx-catalog.json",
-                json=data,
-                headers=headers,
-                timeout=15
-            )
-            r = resp.json()
-            items = r.get("items", [])
-            all_channels.extend(items)
-            cursor = r.get("nextCursor")
-            if not cursor:
-                break
-        except:
-            break
-    
-    # M3U oluştur
-    m3u = ["#EXTM3U"]
-    base_url = os.getenv("RENDER_EXTERNAL_URL", "http://localhost:8000")
-    
-    for ch in all_channels:
-        name = ch.get("name", "Unknown")
-        ch_id = None
-        
-        if isinstance(ch.get("ids"), dict):
-            ch_id = ch["ids"].get("id")
-        if not ch_id:
-            match = re.search(r'/play/(\d+)', ch.get("url", ""))
-            if match:
-                ch_id = match.group(1)
-        
-        if ch_id:
-            m3u.append(f'#EXTINF:-1,{name}')
-            m3u.append(f'{base_url}/channel/{ch_id}')
-    
-    return PlainTextResponse("\n".join(m3u), media_type="application/x-mpegURL")
+
+@app.get("/health")
+async def health():
+    """Sağlık kontrolü"""
+    return {"status": "healthy"}
+
+# Import datetime for status endpoint
+from datetime import datetime
