@@ -22,6 +22,45 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+@app.get("/test-direct-hls")
+def test_direct_hls():
+    """Direkt HLS URL testi"""
+    try:
+        # Kanal listesi al
+        r = requests.get(f"https://{VAVOO_DOMAIN}/live2/index?output=json",
+                        headers={'User-Agent': 'VAVOO/2.6'}, timeout=10)
+        channels = r.json()
+        
+        # İlk 5 kanalı test et
+        results = []
+        for ch in channels[:5]:
+            name = ch.get('name', 'Unknown')
+            hls_url = ch.get('url', '')
+            
+            # Direkt test et
+            test_result = "UNKNOWN"
+            try:
+                test_r = requests.head(hls_url, 
+                                     headers={'User-Agent': 'VAVOO/2.6', 'Referer': 'https://vavoo.to/'},
+                                     timeout=5, 
+                                     allow_redirects=True)
+                test_result = f"HTTP {test_r.status_code}"
+            except Exception as e:
+                test_result = f"ERROR: {str(e)[:50]}"
+            
+            results.append({
+                "name": name,
+                "hls_url": hls_url[:60] + "...",
+                "test": test_result
+            })
+        
+        return {
+            "total_channels": len(channels),
+            "tested": len(results),
+            "results": results
+        }
+    except Exception as e:
+        return {"error": str(e)}
 
 VAVOO_DOMAIN = "vavoo.to"
 VAVOO_TV_DOMAIN = "www.vavoo.tv"
