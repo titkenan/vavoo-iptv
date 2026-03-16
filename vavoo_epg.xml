@@ -97,6 +97,9 @@
   <channel id="4k.tr.ekol.tv.b.tr">
     <display-name>4K TR: EKOL TV .b</display-name>
   </channel>
+  <channel id="4k.tr.english.club.tv.b.tr">
+    <display-name>4K TR: ENGLISH CLUB TV .b</display-name>
+  </channel>
   <channel id="4k.tr.epic.drama.b.tr">
     <display-name>4K TR: EPIC DRAMA .b</display-name>
   </channel>
@@ -260,8 +263,8 @@
     <display-name>4K TR: TRT 1 HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png"/>
   </channel>
-  <channel id="4k.tr.trt.2.hd.b.tr">
-    <display-name>4K TR: TRT 2 HD .b</display-name>
+  <channel id="4k.tr.trt.3.b.tr">
+    <display-name>4K TR: TRT 3 .b</display-name>
   </channel>
   <channel id="4k.tr.trt.avaz.b.tr">
     <display-name>4K TR: TRT AVAZ .b</display-name>
@@ -643,6 +646,9 @@
   <channel id="bein.gurme.s.tr">
     <display-name>BEIN GURME .s</display-name>
   </channel>
+  <channel id="bein.gurme.hd.b.tr">
+    <display-name>BEIN GURME HD .b</display-name>
+  </channel>
   <channel id="bein.iz.c.tr">
     <display-name>BEIN IZ .c</display-name>
   </channel>
@@ -823,10 +829,6 @@
     <display-name>BEIN SPORTS 5 (MATCH TIME) .s</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
-  <channel id="bein.sports.5.fhd.b.tr">
-    <display-name>BEIN SPORTS 5 FHD .b</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
-  </channel>
   <channel id="bein.sports.5.hd.b.tr">
     <display-name>BEIN SPORTS 5 HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
@@ -903,9 +905,6 @@
   <channel id="benguturk.s.tr">
     <display-name>BENGUTURK .s</display-name>
   </channel>
-  <channel id="best.aksiyon.b.tr">
-    <display-name>BEST AKSIYON .b</display-name>
-  </channel>
   <channel id="best.animasyon.b.tr">
     <display-name>BEST ANIMASYON .b</display-name>
   </channel>
@@ -927,8 +926,8 @@
   <channel id="best.komedi.b.tr">
     <display-name>BEST KOMEDI .b</display-name>
   </channel>
-  <channel id="best.loca.1.b.tr">
-    <display-name>BEST LOCA 1 .b</display-name>
+  <channel id="best.korku.b.tr">
+    <display-name>BEST KORKU .b</display-name>
   </channel>
   <channel id="best.loca.2.b.tr">
     <display-name>BEST LOCA 2 .b</display-name>
@@ -977,6 +976,10 @@
   </channel>
   <channel id="beyaz.tv.hd.b.tr">
     <display-name>BEYAZ TV HD .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
+  </channel>
+  <channel id="beyaz.tv.hevc.b.tr">
+    <display-name>BEYAZ TV HEVC .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
   </channel>
   <channel id="beyaz.tv.hevc.b.tr">
@@ -1200,9 +1203,6 @@
   <channel id="dinamik.dram.b.tr">
     <display-name>DINAMIK DRAM .b</display-name>
   </channel>
-  <channel id="dinamik.hababam.sinifi.b.tr">
-    <display-name>DINAMIK HABABAM SINIFI .b</display-name>
-  </channel>
   <channel id="dinamik.imbd.b.tr">
     <display-name>DINAMIK IMBD .b</display-name>
   </channel>
@@ -1250,9 +1250,6 @@
   </channel>
   <channel id="dinamik.salon.7.b.tr">
     <display-name>DINAMIK SALON 7 .b</display-name>
-  </channel>
-  <channel id="dinamik.salon.8.b.tr">
-    <display-name>DINAMIK SALON 8 .b</display-name>
   </channel>
   <channel id="dinamik.salon.9.b.tr">
     <display-name>DINAMIK SALON 9 .b</display-name>
@@ -1565,6 +1562,9 @@
   <channel id="eno.vizyon.15.s.tr">
     <display-name>ENO VIZYON 15 .s</display-name>
   </channel>
+  <channel id="eno.vizyon.2.s.tr">
+    <display-name>ENO VIZYON 2 .s</display-name>
+  </channel>
   <channel id="eno.vizyon.3.s.tr">
     <display-name>ENO VIZYON 3 .s</display-name>
   </channel>
@@ -1579,9 +1579,6 @@
   </channel>
   <channel id="eno.vizyon.7.s.tr">
     <display-name>ENO VIZYON 7 .s</display-name>
-  </channel>
-  <channel id="eno.vizyon.8.s.tr">
-    <display-name>ENO VIZYON 8 .s</display-name>
   </channel>
   <channel id="eno.vizyon.9.s.tr">
     <display-name>ENO VIZYON 9 .s</display-name>
@@ -2834,9 +2831,6 @@
   <channel id="rumeli.tv.s.tr">
     <display-name>RUMELI TV .s</display-name>
   </channel>
-  <channel id="ruya.treni.b.tr">
-    <display-name>RUYA TRENI .b</display-name>
-  </channel>
   <channel id="s.per.fm.t.rk.e.pop.b.tr">
     <display-name>S PER FM T RK E POP .b</display-name>
   </channel>
@@ -3234,14 +3228,8 @@
   <channel id="tabii.spor.3.hd.b.tr">
     <display-name>TABII SPOR 3 HD .b</display-name>
   </channel>
-  <channel id="tabii.spor.3.uhd.b.tr">
-    <display-name>TABII SPOR 3 UHD .b</display-name>
-  </channel>
   <channel id="tabii.spor.4.c.tr">
     <display-name>TABII SPOR 4 .c</display-name>
-  </channel>
-  <channel id="tabii.spor.4.hd.b.tr">
-    <display-name>TABII SPOR 4 HD .b</display-name>
   </channel>
   <channel id="tabii.spor.4.uhd.b.tr">
     <display-name>TABII SPOR 4 UHD .b</display-name>
@@ -3249,11 +3237,17 @@
   <channel id="tabii.spor.5.c.tr">
     <display-name>TABII SPOR 5 .c</display-name>
   </channel>
+  <channel id="tabii.spor.5.hd.b.tr">
+    <display-name>TABII SPOR 5 HD .b</display-name>
+  </channel>
   <channel id="tabii.spor.5.uhd.b.tr">
     <display-name>TABII SPOR 5 UHD .b</display-name>
   </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
+  </channel>
+  <channel id="tabii.spor.6.hd.b.tr">
+    <display-name>TABII SPOR 6 HD .b</display-name>
   </channel>
   <channel id="tabii.spor.hd.b.tr">
     <display-name>TABII SPOR HD .b</display-name>
