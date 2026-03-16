@@ -5,13 +5,18 @@ on:
     - cron: '0 */4 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write  # ← BU EKLENDİ! Write permission gerekli
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     
     steps:
     - uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}  # ← BU EKLENDİ!
     
     - name: Setup Python
       uses: actions/setup-python@v4
@@ -29,5 +34,11 @@ jobs:
         git config user.name 'GitHub Action'
         git config user.email 'action@github.com'
         git add -f vavoo_turkiye.m3u vavoo_epg.xml
-        git commit -m "Auto-update M3U - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "No changes"
-        git push || echo "Nothing to push"
+        
+        # Dosyalar var mı kontrol et
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto-update M3U - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        fi
