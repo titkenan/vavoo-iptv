@@ -80,7 +80,7 @@ def get_lokke_sig():
         "iap": {"supported": False}
     }
     try:
-        r = requests.post(f'https://{LOKKE_DOMAIN}/api/app/ping', json=data, headers=headers, timeout=10)
+        r = requests.post(f'https://www.lokke.app/api/app/ping'', json=data, headers=headers, timeout=10)
         if r.status_code == 200:
             return r.json().get("addonSig")
     except:
