@@ -97,7 +97,8 @@ def get_vavoo_token():
         
         for _ in range(3):
             vec = {"vec": random.choice(veclist)}
-            resp = requests.post(f'https://{VAVOO_TV_DOMAIN}/api/box/ping2', data=vec, headers=headers, timeout=5)
+            # Yeni Endpoint: https://www.vavoo.tv/api/box/ping2
+            resp = requests.post(f'https://www.vavoo.tv/api/box/ping2', data=vec, headers=headers, timeout=5)
             if resp.status_code == 200:
                 result = resp.json()
                 if result.get('signed'):
@@ -125,7 +126,7 @@ def resolve_with_lokke(hls_url):
         "clientVersion": "3.0.2"
     }
     try:
-        r = requests.post(f"https://{VAVOO_DOMAIN}/mediahubmx-resolve.json", 
+        r = requests.post(f"https://vavoo.to/mediahubmx-resolve.json", 
                        data=json.dumps(data), headers=headers, timeout=10)
         if r.status_code == 200:
             result = r.json()
