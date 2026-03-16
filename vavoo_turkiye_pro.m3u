@@ -1,0 +1,621 @@
+#EXTM3U
+# TVG URL="http://localhost:8000/epg.xml"
+# Generated: 2026-03-16 07:52:09
+
+
+# Ulusal
+#EXTINF:-1 tvg-id="360.c.tr" tvg-name="360 .c" group-title="Ulusal",360 .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/ColfEvrH1zZQ-irCpkETeFSZQ1ApurqZoEjZc8q6CLYlbcL2P-1N895NhlG9HCoB49RvtuJHh-ORl2tt92ETzB_ZwPJLKu7II_UDB2DyWJJaMR3KF1-bKieKNZqXbvEZxuvvMyGFmCAEbWzKzLphm971jytZ2S7QF9MBHAZ4C8Tggx51-EAA-XkVKR0MCulNzW7UttWNmPZXJ1psV-X0GICwEx_TCR-mu8_bVqq49dDB89DkKv1gnl5dmHsVqGS9qC-vxqB0EhTLZlcLPbrviw/hls/index.m3u8
+#EXTINF:-1 tvg-id="360.s.tr" tvg-name="360 .s" group-title="Ulusal",360 .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/W4nOrm3z6YVqX1Cz1zqF_Z-57TXvzeyN0mYH--SLrZUROZ3X2saIvHtexaZ938s9DmGwNv4u2a1UZ8DX0BrvZE6ZRab43rbEX-iGsvmfiWKbgTIRGfcQ2IrgA0T71gEUAkqUb7vFm9KNrw6_ThdNKuc9YaWlj--L8V0Mo7e7PrEsEueFz_3V6fO0ogU2jMJL1MuMThxxEIoG7VLeNrlA0uXYceOl21wHiZ_tub_tFe1i9sgRT717Lrd2IBXJkInVANJ9u_ZEvKUQyny3N6lBlg/hls/index.m3u8
+#EXTINF:-1 tvg-id="360.plus.s.tr" tvg-name="360 PLUS .s" group-title="Ulusal",360 PLUS .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/QVA-S31TJbP_yRJNvJVzcR1zQzSp3LgfJiqa6bFlrc-S1LeO7h_XTsHHOWy-A4e6N9AFAm-AtebIyrZawypp48ounsjHYmE4WDCl-FNe56VOJCL3YRUdkLdaVMT5IjMfVh5JmgJ9mD7iyTdCfQY1xBxo6EuzYSRGvD8IyMvTsNnpwXHJDqn39Ksk1f8s5s9C-NHAS74aCAxjmyPVr-kDyVyVk1w2Usl4HDegjFfnG1TYdhssG0pxAXYh-AxomomHxSdtOb_Bj8TIiCDuvU7C7Q/hls/index.m3u8
+#EXTINF:-1 tvg-id="360.raw.b.tr" tvg-name="360 RAW .b" group-title="Ulusal",360 RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/HS3inB1GuOp60-HDOWoAGd2FhJHxO6nkNRhYeDfwFATKErsdRSnY9PWf1kG9hhfk7ZeG_sofuyfO2BYANlKPiNzyCprXrRzViXgEw-yFu3i9XDliTH_WOsNVK_9bD3yuQCpPnUjf96D_nUtQExQBreAeGU1QSYGHlUaYvvj0zSDRhTt-N9pvrw4bi01QeGgBrVeRNJS1K-HAMOihPXkqXwxLzac5-qCUWtuMArZW3hl8tmVqkkNF8CLGaeK3pRmgtRTHEONLX9K9MpJVs_VaAA/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.360.hd.b.tr" tvg-name="4K TR: 360 HD .b" group-title="Ulusal",4K TR: 360 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/CnANCjRUBwNeLW8Jwc5H_CzzjpEKTY9glF_Bs5iMQR4MMQJaUnVE3XnII_Xaxm477UD5PJr9Ja6p7AusNap55rW3KMNLVyyomZwWEUh2hEbaZDItDFxOKgVVwJo83-ZfwICrLZSHuXGoqLivbU39caabLgxB1qJBX3XjOnYnzae4gLwqAQ4RjkTmv4CpkAsF0FGVuhd89MkYHniMmyvfHhqLaWJ13goYAmiRmTb-4Ot2rEjwFnolmqOQtbPt6mg7pGtVoMc0PaVLXi83MYmOtQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.a2.hd.b.tr" tvg-name="4K TR: A2 HD .b" group-title="Ulusal",4K TR: A2 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/lAQApxknq3iokNIWNaBciJk9cXeKdLED5x0Yv7gJsRygWo-sDtHTounmTJq_fHe0Nmhb01n2XrWuFuOaamLHTTXLHhVUuZjOCe2jCce6TZ4Qzb8MbuZNzszM41-ZcNRlEuJyC8CwpKzSbR2iVWwbEdfWnaiPFwwYjd6Gjk7nI6AzlMhyFcTx5obSarqaL6YzwjacW9PoaRnSC67v3zSzVwO-atoLZM4EId4gjMIrXomupIFhaXplOkbL-CgLnFc6qNRiKRr3gsEi-6N_t0NzsA/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.atv.hd.b.tr" tvg-name="4K TR: ATV HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",4K TR: ATV HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/6v2as86vDxTq6pAqhCUjeDdI0jT8RF3XgpxIQTGK0umBWSxYdpgl-pGYto6V6L5sTwEZjMshe_59NX2vXHSpyiLV7EFBIfvEJOfwHvWrkOQqEnGJSs3RpwBcZ1Fj4KcZoGTEpvw3nqveJMGxtoL2u2KMVdVWGtwpmuelCvAvzKQ-0CTw1WiBdtEeH0ED9CbHM7N-IaVmate6kmkpaEXn1ukdwZ5UCLnXuTylW95rwvb6xLLFqyX6alejhz2v73rokwLv14Zn-FpNrUkSFKw2HA/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.beyaz.tv.hd.b.tr" tvg-name="4K TR: BEYAZ TV HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png" group-title="Ulusal",4K TR: BEYAZ TV HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/g_F8H_XzdkA3MYfKd0K8mT_EzboRwGU8CkTF_kteEhVK2-XzPgBa7y0G-ILhKhvbMhfE6DMbeGCTizIm-rRX2SIGk8_ItuVxC-aN_IS_jP77DEmQ28Qkzxac5vy9fwkqB5b9RJWIvtoaxXCoi_Wp7JrFQtrdVY_rQ9tUxFVz0eaIGohMnzscJiI7ZeIe5r3JQXndLAUIKz2PJVmtmKOSwxcCf5RJiryRJ-iGgtaESv7WD0o1dDb6k2PinSe1CvpKDUCEweewTiAo-JfP6m1QcQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.kanal.7.hd.b.tr" tvg-name="4K TR: KANAL 7 HD .b" group-title="Ulusal",4K TR: KANAL 7 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/tmrRgfq-hqE_SSK_4r4Bja7jaDul0di2id2aDyTGmg_0DnouxQfbeLh12gQQuqFSKKf9_rAIv67HB_QPql9RXitmttNxih05BkTVB-7Z0dUM4PvhQ_dhS9oMdL3O4WRp_K9OEjd5BM7RIVnOVS0hjwnmCx3FFbWNEmjsGjdxOCeT_x5FzZHE_91i_QeYXCNnXbpUmWIH0_Ff-6b_2S00LQ2s6uap7A0vOXmtsWQQCb5Bk0C7bNraMkRVOxuextY2RfaQDybMlae7w4zoWGCVxg/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.kanal.d.hd.b.tr" tvg-name="4K TR: KANAL D HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png" group-title="Ulusal",4K TR: KANAL D HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/qVB13DN6BF6_05d5Cw3ihonsy0IqQ53U7fNLDuqIvAqML0S-omSeH4khs2lgM7VwUJ_OhyIaWeiA3KZTro70uud6iOoNjxIGAURfb88msDpoGthsdSt4NObewT27EoeE7L8ZM3JtalOlBlnvNYPl6OpBCPCS5IP6tM-9r3XtZ4qzVRsoH0y4uPLLdVp1xe_En57u1eUfSRfpAgYLA-zbqECffA7dhdw4GPLWzYllqi2oQEsI6UoYkRKMCR4jJz-cjJtjQY9L3J2riK2_8fNG5Q/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.ntv.hd.b.tr" tvg-name="4K TR: NTV HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png" group-title="Ulusal",4K TR: NTV HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/LlPso_5w5aNGndIwS-y4muZPiFZtrwGY1DaulBooJgRbc0QLeObDgWj0sO58kMme9g9VA-cXNw5CGxCL5eHSrSDndu-oU4DACIDvelChpuQLQfp9ycSdZStqaPeX_KmVw7Wr8494T9Wg3Q0nxU6MMEo12mgLN2O6koa9p4DvpMSg9PPVDzM_8wQcgroOODqOwnaDHz7k09dr--TLDUAL3mUDiiimLxeUklc8m78rnBu93DtZyx0XL3C4EnrLgAiRpVRMSi6yM7Dd2hXN2Aizfg/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.show.tv.hd.b.tr" tvg-name="4K TR: SHOW TV HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tv-tr.png" group-title="Ulusal",4K TR: SHOW TV HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/RAiHyiNt035fZI4AU0fyDHT9OuYAlIlFXr0zplQOwT0j2bYwXsJegxmYSCO-5s0aeRAqIti17GbiKA_Sb_Azhs2G8Z2Rv_bMJUiklsg7y5YAfaqfcAiF1hsm2VlDQoxzCG_4H21CvY01LYoWSeKnB45hvZuWykjukKi3VHXfEUqgbp6bjV6rYpq6sJSxBb1GX4WFrX1YKhD_R1PggEpSEJ642xrLFpf2t1q_sf59uyihP6RyqikN6uRE-kBF7gi8D1dZX2XvHhn_T1z4ItreoA/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.star.tv.hd.b.tr" tvg-name="4K TR: STAR TV HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png" group-title="Ulusal",4K TR: STAR TV HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/TE1blp1_yQo4tPyu30wbnxmXRLC0V0tYQePEdry87lsj0Rf3jx6eldBRVjhJotRR_qQ5XygpA1gurNSnf2hl5dnqR-gsCUh7begE9qnLrLbuUhuindbuHG-440TtYR7duIj4C33LhWr8fkPlKKslKyJRV6VblxX6OjEpNTbvp32QT5LXi7PcXD0nrUltzm1qli2rtAT3g9tFGjywAa4Mkil99Mgdu6vsc2RitUNDeaGrOhkpRMaTQ1yNX-00F5ATRNG2Nna0BIxB9CQuIYJG3A/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.teve2.hd.b.tr" tvg-name="4K TR: TEVE2 HD .b" group-title="Ulusal",4K TR: TEVE2 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/Q6kEfLeSgX8HgyeRhksWAOsYd_JCqy1yE5u1smWnDzf2s8ZWIC81OZi5GrJ9fobR2QAJRG06x6IwCJYSHui7fNbD26Ut1I0-4Fjoc1iCyI_gfjFkGq4YbGbr9wa_qcL2hjjwtGhQrCNBUdzyYI0_1-Zox1Fe4kfo5xToHKTTKM_XFew-qVfv3Xvpt_d_ad61vUQZ30AIVGq8zyC8Sb8hVTyIUxJ06FFloF8mW3BsDjtLttmw7r02Hk--eIndPjfRXuSQl86xy9GGv83KQWjAbg/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.trt.1.hd.b.tr" tvg-name="4K TR: TRT 1 HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png" group-title="Ulusal",4K TR: TRT 1 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/j0VRe9tSTU6qkxLSe3BeAnGe4ncxAJc5ql7bBv9rJbjQWBTUOwP6-nAQ-KNR0w2H7q3EkZvLoDHfj-PM4y0iVlZfEd9Wwvl8ZJoO-Z4nqsWi17ABY5ugi42RC0jH2CPOglnyUBM34GRMQLOhavI72ibIG8Gnfj14vPAEGDHmF8oRyCvN_ZvduIjk-VzRgLidccZTdtOnr4PKE-wd6yZJL9WxQGDnyU9CuyiMk4DwIT6eRu_w5Uby8FzfAxHRK_vJk2VCZGOHIzRHRdY1Ww6-mA/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.tv100.b.tr" tvg-name="4K TR: TV100 .b" group-title="Ulusal",4K TR: TV100 .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/iKPATumkMVp5KffEdC-4lErwwGT5CJX722Vx8uoZx7GeKbkoyaAlFpxqRSwOAFfmaYGvjY-zAwCQ9zZeeh7sPstXTj0iBsVphv9cn0LLxy6osmjooxa0Xy5kbfaq8hOMcTVHhc9-FIwQV8GWvj3bG-Zi9qC9TNQsF8QbvY2DFWHQm4kqloOH6blB4OOmJ7yHihrVaMLx0YF6IWjlBZXzlezuywTPoxhkhxbpVcx92ZMpokE379tWDZzLXNSEgcyj3RLDJP-9KTQNkIZe7h74Dg/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.tv8.hd.b.tr" tvg-name="4K TR: TV8 HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-tr.png" group-title="Ulusal",4K TR: TV8 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/Sb03fOcJCwvgl4mZruLpWotMYCQd3uAfAPR_GGVj0wHkaiRRiThdY0f30GCemCdb7Pbdx2vMM7xlST7svr3vN1S2KvzaPttkdB6ztjSlW9Flc4c5bRYmzGD_sYGe4ClhDpUyD_WwS-CB3mBCdRc4DJ784hjL31MrJwFbaTxqtTFzSvUsQbXFcF0oNdLxiYtBbehLfQTRRxJTWybv8EhW2JDRT5UmIV5ZkYtX2hICoZapS8DT9JYovr8AyYtZmig4DyUJ7DSFcDovMvv7GlEweg/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.tv85.hd.b.tr" tvg-name="4K TR: TV8,5 HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-tr.png" group-title="Ulusal",4K TR: TV8,5 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/94VAytVIrYUfknXiuXpJ0o1rOYYspshODYKMtlNOk82hP0js2696htdOTVeAtYmXoZU0FX5dF-rFtV-rsTAG-X4kHkmqn30sHRkG2ZhmXxvpWVi2S5P_RyAoipr3sI7MfWFSuM5t92DGRwg8-7Ile-7u7bonrpnliPqTX1TtcEVruwaRSj1f5sBlRx7jV6ATVoaAtQ0MTvGIJBPEWbLa3AY08iMNhpzK97hObKw6PL30VMKn0n8NSFM_3-i8g3nAk-vT_tguZb4u-QttyhWDmQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="a2.c.tr" tvg-name="A2 .c" group-title="Ulusal",A2 .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/xu36D5cKJKnuG6b28B2IBRiSQZ3sDoueSuXXyjjS3bAOHWzBnlkVlWBEZMG186YIxdIO1toJZ21ekEnowyt6FVFoPQdTRyrYUsGYNVJoroVZrTjQoGTCa2DumiQH3T1dS9K5GLFd7NDK8s1UdNgL-SCtb7hcaAho2Pl2LOIHBPxvs5-rRvIKRPQaMn5mYOKR1zAApmT-NhAPU0FZLDHnJC4dRQ0QgxG3Q0G357L86NlpL7uAy31hzqUxQfM2bNayJ8p05Dl6A_oe6otFOBEBBQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="a2.s.tr" tvg-name="A2 .s" group-title="Ulusal",A2 .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/5Ka3IyM8GVAzbHTobgjmFjqXGpRr2eConacb3QQVWFnq6pF4ht63ACrUGGVtFSOiNWGx4-fnnJS3QhUk5m2X0wFYR1EkjcbOdnTY4WfnFepXc4v8vzSfutVc-G2hQUCXFowHki-RrZVFmKCMqYoLgANo4fqrpurv0PwV-eQAicAvQOybmfQ-WtS1AYQzdJmZfC0G07KIiyGYVB6TLDP_K3CYxT29ZYxFUzyxblhG_t54AwvrnUGuk2XJCJAR_gTsNyX51Q924GembAGV-vdoWw/hls/index.m3u8
+#EXTINF:-1 tvg-id="a2.hd.b.tr" tvg-name="A2 HD .b" group-title="Ulusal",A2 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/dPV_w3IeDaWYxyHnnJBAwTsp9ZkB_AWpk9dkxC29rxccRNnOCYH1kXZN-xol1xcDKyLlyZMwx12edmT3JImujUoarIko1EWhgTD-OSt2Kk8JNwuoMr6FKv7xqbskVS7oIwzBzSMmBQb6yxte-zRZAcvRsqgEzGKMiLH1oqD0vnxsVVL79B-TlUKKefS3StB-rvI314sYvSzNxy4sRCVZMxQeoXtC1oRY-e805AtG31WTZtfE8ys5VPypXBe_UCbyUk2FfpwudFnDJQIwkrLcEQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="a2.hevc.b.tr" tvg-name="A2 HEVC .b" group-title="Ulusal",A2 HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/uPRmoNm9l9dXTDdMgy4BrikAKxBzq6Je7IVm0newWnZMmGZq-gtv7FsZJho2tQenLBXt6MKHxD-eH9zd-GLETNZEtoH13Dq1FoN3qk5Uo9ZJv0t12_Yxa6bGWhnPrRkpg0WNeoaU-cRfV5a87SiYxMw-ZsCGZ7jBSi6DkSU-Xrm9EaEe7DqxpeYK5b1omBtaZ8Vf7yZ1pNPN98UftiZOGjZnzZhkvg3gzJ1Lk7oRBwj3dowgEfs-8ADdKzNFC1fMk3Sk8VNUOURW4kpKj9z7kg/hls/index.m3u8
+#EXTINF:-1 tvg-id="a2.raw.b.tr" tvg-name="A2 RAW .b" group-title="Ulusal",A2 RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/Bo-6ZIjBX00MitcHAEjAR1orLBGa1Li8WtTa4W3tS0EqAnUnDB08tWIclAG0PXWu7pvBuZiWkSDi96_U_zrcU906eb6aFvO_4QnXQuVhneRlMnqtRas2rgfK5xKZua-Fx8TRpC3Lj4f3MRid7xxmHP6LBPgErzXx1yHYnfcRqJROxZ2HCD742YeQTVldNqdITwGJdMkgEdS9XccnKHd8mzp0XLegMDlrSp88pZ6RFUW-ziu8yEYXvg9EFF70PALv6Af_SATi6usJo9E2pTF35A/hls/index.m3u8
+#EXTINF:-1 tvg-id="a2.tv.sd.b.tr" tvg-name="A2 TV SD .b" group-title="Ulusal",A2 TV SD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/5EtzezKY08OU6_1VJc5kORXmW3HaAMFf3TvOf4iFuFOQtXtr8z1eLuMBwgdy_nzNfnJmf0A0aAcext4zqz985g5aMLJo3rt0hfCHDcCkbLJPMhLaPfh7e4OLmg4vTOvgdfdH5JDFUDsiSyXLBM27cOTeXaN8GbpV1k9i6O1dmEt3M0LyP_r9PRwlbtRxB340zEoSzjCjdzsr-dvCpQZpTGUfXCDoKhgnFriAX6-oQsmRQf1QxFKc3iSZ7TPYMY9MAaSPb6dDKqNORyJEaT3yvQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.c.tr" tvg-name="ATV .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/96sgLLjrETFlFX28jPsS33I-Pq6_KlNV3GQRhnCs_jennH8_ua9KjPu96DGhVzogHq8f4e8n4H39tQcyRnFcUjc07uCMSZ7S7fvp6T9CSP09bs307Zo3h6Q9Fg1OSo9cUYPtvkeD-QMARJiu2xyeIzcxpguQY65AFBj0Bojbw6-vwoOABcoTdzlx1aF4uNkEV9UITCuUkQQ7DilFDnFqdzwi_qnzgH7bDk8O33SJrYZRFxnHMMwkymTgBOMDxha908SdSkDOnZd9SOjZz_l4CQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.s.tr" tvg-name="ATV .s" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/FiEq7SIUPpu-6ok9kDCvDcKGHUSFZXgPhZrFM3cQ8TH8uMUuQmNeOlOg-twRTupPYeUG4YoZaqwLiPSzG79VPvHsd64clb-0HWTpZ2DDKiBd3dpDuiJv0JsMbMrLREWwxxbq5ggeMPL7yTw8yZMZi2mpXm0ry2ZTlDtR7r_W18EOmkvWi5RN1lRDJrDmX13jfZYG4ouvm0SyWrPfRIH24PbuyKB5qsf0l2sAZgmF1Bgy7ObitFrQ0DnTH9neUOU9OJ-M69_jsC1hCJ9qNP8O7Q/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.alanya.c.tr" tvg-name="ATV ALANYA .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV ALANYA .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/f06nc6smuq65OHN2wuyQJXD-d5WPYhEacrNaA7IFssVJNL4w6_AVH0jD5TAyrwgFAUA0E7cYJyLnUrSjd6dScpZRs-l7Xfwxv2UjLsqlgbxb_1YiYqUMlYh-sa6Dv7weeFvxp6zzcJF2DQKKedN_SVbCctDkeRAH9yxoI8KK42NnZMIpAtdUKTs3nNZt-FExHRdEzKuFVXmBwoiOitdK_9CLlumtiC9_xmhBulcHNVz4mFkvXSRSOJ864LZqymp6FtJzkMGuid7xY-u9JaxUDQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.avrupa.c.tr" tvg-name="ATV AVRUPA .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV AVRUPA .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/W93QMAen91mhN5m0Cu5a7rPKjXrpSzbkydZEXI8yE6oO543sKcyrFXSzBHGNDdHFhSMNakXUlBysAIGPqvxYhL_VgSyOe1Fng1YddVuqH6DM5BzITTDA_RDY2u1d6lPjmIu6UKIq7yjMLr-b3aiOJGxKl3cLgRv-c9ShXGiVdHf2niAOLBvhN-OvINkuR-EqBoBZSdcLKgKoEYxtPj-d7BJjzaJ-BJFfdGbIEBCA_v7Ycl272U_ECimY2JjIUTR5vNvmSmlZvBvhc9Y2zpLSPA/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.europa.b.tr" tvg-name="ATV EUROPA .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV EUROPA .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/OdwSpgAmk1--IQcC4xWw9wG5EZLqzuJmEinUzXO-A-XVPxkW8BcLcf6wspvXm2ju6eio7Zz25pn8ZjWSWYmtijx755YdLN55nN8qMx1gXgUi9ypfZVnUYfDAnUxbBAhDyqpOjfEXfBy_jrXu-qpnnljG-xcIxKCxLlu3ZppqPcDvCUzsJYwil7Y7JseljVKE9kgkhAmVZQ_exuvqZqV9JcNmhDMpIJVL9JmAzVIpCUVc6FqsEHPkfpGZOGf5AZN1JBPOk_tNgoOQWR3JqkMFdA/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.fhd.b.tr" tvg-name="ATV FHD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV FHD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/3dJx4lTXSwDFOXHo1LekyiD7kjH0BtHBE2Z_pBkZZpOut8jyLz17Y6yJ_096TAM_g7MJDxVsF3ggbOy3FCs42pnkjgHjdeZa0_ElPjBwhcY18WNctm5lSXGA4izJXjpADvRsfpHix09tASNdkWXjhDjSBKW1PiJLb9ojsFAv80rN-pPuoNtmvL7NilFoHlOLZhSsHriWuZNfTg4UaKm9sSstqJ8APivGmHEoqCGftElfC4-Eids0yy5Ko4c23vO2bnM2wWI4lKnbVX3c4u5Psw/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.hd.h265.b.tr" tvg-name="ATV HD (H265) .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV HD (H265) .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/XezoNqVYrDgPlFbDn1FvcGtTOxwi82RJXc0Xl15Ivmf_MNNaGRss7tydRMlRMItOjsrQbi1HBtdyDVz5y3TZhmU-ukOruKUrf8Ge4VKc7NalYTf11DNd5s7tSwMKaaSiPj_lrnkkiRf5A0wDIv8BkxM42TZoq_eEqSZIZCFol-n397vilqbyoIBNqxpFNovkoSM-WmxWbbOrYlgtqD1nSg4ZLIx_9n8hcrzQtRQd0EoEH89l2tZX7KnmH-N-FIm_dPAd-PGBNKdVXxNv_h68Rw/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.hd.b.tr" tvg-name="ATV HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/DkdCwCyNNTWwIKv3dVVhs4YQLvRbg850g_rl-CTtPtBki8SpFA0j7J8qYiWFVKJszGB_WnS1XyGyMC-fow20zzkjlbS5jdcKBDaFOv7aegV-fDVnikV74XThxzEQLyE5obhjWhL-nGHVvPuqpsv9okILh0K5spS5jUezQX5Ohp42H36FEu-4ZNZEESJCcP1_pOuW4i6cyLyG0JYWo4zukeeXhIIQJKmwWG8_jZp8guDl5xiHmyMfk-s2533JPAs2DtcPukPdioLu2VMT2R2TLQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.hevc.b.tr" tvg-name="ATV HEVC .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/qdrZrn_mB1wa0c0ebQfyU6JRV9bhVxUEulQ0NPdqIuyxN2ypIH01KnJmj1fjpSDSFPASVHfEXxDeo0D3iCoujVmwrviiKcFr9TubZbZzDQm43tyk30oz0tyw0d2KftJiD-tQ2kTLHBJDb-GFxTxggJdJTw82TPRML3UXP5PEqENt4tpUfvNPXX2bnbfMSEuUWtsey-Q2N_pufh8H_ALFcv7pnhcdjJCmBJHCE-owlPD7MEdsQLWip7deemMRED9UHJPmyGt3_omAT5sJqLZ4Lw/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.para.c.tr" tvg-name="ATV PARA .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV PARA .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/JnDWZVhr8_4E3JaUL9lIruSI38NPrc12YhMb-56yHt7Yf3LUNEImGJ21RL_LYI4mPUSYqEuRIh8QpIsLuPHcHVSICBySdjbFwrPTU54M3HguBIfqDR5svLqEYbP9uS5UVYVatqvc8zYsXPARaF_bwKRME1w5cl4_oLwRA-DiyQBQDMll23BdSP8QOZkxFzAW4QIvei6_CgGLTvmst1IaEm2eb9bVzLBCNUnbKMo6jXTXJb_EUo2ug6n9YXWlk8qeVIKzwl5FUTzTeruqvQHGnw/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.raw.b.tr" tvg-name="ATV RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/LvX-b_X553-gETjVafpzNaXHAwjAsItfQCqXERz1jsZw0QPElnQguhh9cNH7cQjyYbqVCc3LUMlGZlxz9cuPo9J8FQ65tSdHVlw7vH8YAhWM61knROGoZtUH2EBMIpmpEJbRL8cwvFq7pvzXfmIT6fVPlb2ij33yTgfE1iWhb13DHE0Vq2SldHgngHzhy5owljzcKf1EZvxZdf-uSxor-3IqDVh15iFzII3rS05bwZlsrtObcskNHWDudrxq-XOrQtgQXWLVpZz4vaXJSPSvQQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="atv.sd.b.tr" tvg-name="ATV SD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png" group-title="Ulusal",ATV SD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/-SiVsxZADIB5uh-NIrFnIPaJFAncQW-ppVSljM2_jwHHK0F4_5jv3ZwyZ2eCt0H9VM_ig2s12HtNZHtLZm0QFwFqj2bVRbn1OSa51eO_CqO39LwT6v6yFXJr5BFzf0CldZM_d2stiK05eJP0nbrK5xH93EuGMH9Qxq1u6iv76-z0klUUhbbmrVh3fKjpVpsUi4j3DVjDKpBpZonsaZd1rQk1HJVxVBAE3tqPUVVJswcmdg2WkV9i1XqW0EUGfsoxO6QQ-q_hEsM_Y43BH54nVg/hls/index.m3u8
+#EXTINF:-1 tvg-id="bein.1.sd.360p.b.tr" tvg-name="BEIN 1 SD (360P) .b" group-title="Ulusal",BEIN 1 SD (360P) .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/hit2msAOaaVvzZ9n_MebVvha6lNnHtzx9z_9knzVhcCUUupj_0O2TKibRLemFxV4QmXrkcGUQbjh8Zwbr9Np4IMF3y25S7qLLGWcQaC6PF_gQotyx6XcmXdaCEJ6jg91bKUIT46qxkxPo9SGi56cyRrXsEKSm7JKXCDeCwgm5khUAYwYyoWh4NLzHlBP5YORJDL2ApiXSTkB4PqMNkX0A5ZEHwLjF7eBAwT3C98jHQ0ABvBLO9qJ3qCh8PdBwWFGtru85lqt5r6zS0AduqeDuw/hls/index.m3u8
+#EXTINF:-1 tvg-id="bein.movies.stars.c.tr" tvg-name="BEIN MOVIES STARS .c" group-title="Ulusal",BEIN MOVIES STARS .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/zF3nx_9IQP9dd0C9SPmuvkY9KMV9xOmC1kNoxeZIv3gaEZZuHWBFcPRqAWhQZQl4hkvYsiIOxnLARjTJaH-HAlWvaNSgdow6ZesUPZnpdwIgbRbk2bLVgzlVFxVJgK99yVJIXK3rAFCXcA-53PMz1LRM0mIweH-XlIDiP4_BXQQRxBb-mJT1ggmZFiDznlj3UqyTCSblcymTYSfeL2SJqC5tbX7rPYSizJucB0KwjMvxGNUeK8lPj7wXJbJHKMyP9wJlyquMpeYPDWVQJnuG3Q/hls/index.m3u8
+#EXTINF:-1 tvg-id="bein.movies.stars.s.tr" tvg-name="BEIN MOVIES STARS .s" group-title="Ulusal",BEIN MOVIES STARS .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/VRHj0dqWiqrcHpX_fwxEUyZnMTTEftee-E45dmGV_7K8a2UaLK11Prv-SIjIkIkcql4RYJjH5GSfgY11Yo8c9qnsby5j5_un6Pt81dBxwJF58kQCQ2fntikcDy2Aw8O0qNyy6mF5PvsnZT5P2FQ5jB7SlXdbPZtOdfUcj9ox_0Vf-_kPTjBaAXHbLfStUVQFnlwiC2MiX7AlvjHZzaOXtTP8dB7s11tS9rpIvruZH5Aj8uDwBaPKTKwUtSAYoQ09x8iDgu45ojTQ_erFII9Dtw/hls/index.m3u8
+#EXTINF:-1 tvg-id="beyaz.hd.sd.b.tr" tvg-name="BEYAZ HD+ SD .b" group-title="Ulusal",BEYAZ HD+ SD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/qIkJDlDek8a4CDOU6Z9abHFGCikRinKIrb67c1a93_PX4sKYOuxjThRD7DsDlxARVZIjp1oPFO6oFB0Zz6xx-UZhVfmuDpEHsukqOxU0hNwPD8Hnq1zn3J-S0kEgNUjst6830if_wbZgUvvuRYWvbGI_63jOiBNmp3E1fbLXYVj5OFNKT71I_uEbqiFdUWbs-6EYKhRp17qlKxqu0YNyiRO3o7CTUn1d4njGMV1C0VtcXKCt5oPiSrSXlzfaM8xL8TOO02BZk8cTPX0WcHzkWQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="beyaz.tv.c.tr" tvg-name="BEYAZ TV .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png" group-title="Ulusal",BEYAZ TV .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/2Ujq8h1TkFAv-ANMCwRDL5jdx5slNAhscyLcMGBMRv8eE8ATJf-R17H96t7UAkqeB9pU0ndPtbsJ8y9uDaSAsaXashWfyfl5mu6QxsQl1mn5dMX4t4dElPleBAi3jKmLn0grz8muJoBOJbWzy1TJK8AjnKUJhWzDaWN_VYdOindJMgj8WwYxCGuChZG8ILWYdtINE0yv32EM-6dO_tvP_LslgRtqOkqiI6cA7BhNMYEVcRJ_AMwAFWWX5fOB0aWcfO0rec-B21wB_GGMlHMT-Q/hls/index.m3u8
+#EXTINF:-1 tvg-id="beyaz.tv.s.tr" tvg-name="BEYAZ TV .s" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png" group-title="Ulusal",BEYAZ TV .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/j5L3NPg53yGSBu0WTIDxBbLn6JSuUacJMQMg8rXzc88p6MS9pggGOrKQL3T-KvdGlK3CLcGCSZYhfZJgHiPsFyL68j6maqH0QHSu93GGnkkBCAZxCfCk372CXxrbiUak6eIQe3lM5QibxfHlzsllL3SKHUbnXpShYuhUBvlATC1G2h9JkUD0uEtKsVsvUlTYcvEjgOSyVpOXyP8jPkshizwv-Qjr1FSa2VELWXojmU4hJ_gg-swXjak5vdkybIhjLH5g-gpv1J0zD895fvYECA/hls/index.m3u8
+#EXTINF:-1 tvg-id="beyaz.tv.fhd.b.tr" tvg-name="BEYAZ TV FHD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png" group-title="Ulusal",BEYAZ TV FHD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/cB7XKo-VDQRRoHpdC4aZL8iB9m3RWWj68hl__MQdN7Jka11WzYtmsIir0XBDP8TwmLih3HKn_Iqqgz3Aym6uUptkyp4O2KKjplnFFjI0Aylo5KpD-MvM-TCYYmrgiI7g-PlTasaigkZc_r7X2_KAT6XBAz2_OXvEhpRKbVSKldKuNpkX-y2w2IJMH1vVrlxfHsP7OfrzXBeXb-ZlU0cmO4efWh6GxQhHi20X9ZrjwbqpBcrLDCF1GdiA4AVc_o0NGMexmNoNUHGWJy8R55iRcg/hls/index.m3u8
+#EXTINF:-1 tvg-id="beyaz.tv.hd.b.tr" tvg-name="BEYAZ TV HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png" group-title="Ulusal",BEYAZ TV HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/kN6EO-xQQJSgXIB5LZFeBdEL3fs3yXlR1ey_a_apdsf9sfiTtq43bsK0In3GxGg-_tWyIFTgSirCZ-ahq0Tntb-o6cktrXbfdAW7BoJvSfeLUdBy9mD8C5NU1vcF6P54iaTudoMW6KG3AlTxDigXbdgbnWisB2vzkQjH4U96oxBVCJUPm3V5CJJ0wqa6PDiRnJ7DarvTH2PT8uUHPWJHT8W3-g1P8999p5OyW1ycwZay5OsLSX8sn3Bgh7HgJ4jdTxXUupTCHSD-kh9F8O1aGg/hls/index.m3u8
+#EXTINF:-1 tvg-id="beyaz.tv.hevc.b.tr" tvg-name="BEYAZ TV HEVC .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png" group-title="Ulusal",BEYAZ TV HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/6eGkDSYZNTGayogENLcLzfjJnOZzJjomRuxCdhCeQ3hQy6eKVWduwC2ZTgOjTTdZYrxE6bnP7dhTGCBL-0yfBFSUzTz2AA1bG_PeOcGsFr1BWnvhdmNeqcpb2QDtN506XcPg3ekFrd0-oI68suB-NOs1AbOB2bVcDI4F2GJ_5GpI8yGUhIc2FJll9O-uDz30odbCcm5-rgp-eL18sfw0b5FtkoWIisTcEaT4DZklVmbqkGhjEGGOTM0QD6a4EUxwnBby64JACNUkxyEZ3N4dSA/hls/index.m3u8
+#EXTINF:-1 tvg-id="beyaz.tv.raw.b.tr" tvg-name="BEYAZ TV RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png" group-title="Ulusal",BEYAZ TV RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/q59uoKO3giR7_Kn0T7G4J2aPQ_y0UZ1TBphIonG86Xtd-HaMWJGySM-ILqygcuv6lDK5pbkiygdu4RbYYBU1v4HviWFI_vEJXD0W4kAch784Kk-hor1CZIaq0Hy7lBbNtHOrJPjQPXPsp-jxjyNsHk36NryIyRs9zwHQCVJ0ly0GBmBrupbT7UIoJSMbloLNYU2vXK9Sc1LH-44bI_E09FaHyzSxrUk3PIUBBfVHal5avvObYRywFWCbA5UxyOZ8JDwjtubrylCZ_mElNX7G4g/hls/index.m3u8
+#EXTINF:-1 tvg-id="cnn.turk.c.tr" tvg-name="CNN TURK .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cnn-turk-tr.png" group-title="Ulusal",CNN TURK .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/PSElqBmiP57eVnRiZLJA5tvfukpkUnWBs_Q3xjtDzTbiIke-UwJ6xsy21YW0GeDYx3D8Puix17i0G1rVEBpR-ddpPfaZs6H82_ILKR8xYrfxVQ8B6pwTKVXSotEwsVYxJICJV8iJfhgHj4x_-JnXyaCDFdwivjqoAfAQHqKlYV1mmR6El9XiS-i6k2wIaxRzYVzVbp-r4PliIVbTUyUWdYHX-y0FcTAFjzdC0ahh7CKlHNmNyzspYu2A7NwpIo7SVCH3fYQW7KuIxvbABxTafQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="cnn.turk.s.tr" tvg-name="CNN TURK .s" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cnn-turk-tr.png" group-title="Ulusal",CNN TURK .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/I3GIthmwIW1HQaQ28_rP-JZnhkdbajUHYVrpj0akJnLzQCXNqYDu6kttFIWCG8dV5AzP-4j_jUnslcqp8z0ZZ7S-LAxNry90g9xSw8AKqwXyvG1DV7mdR5ggTKEvftr7xuw9tmghE4TZGriFnVBo9r4K7TZKM_zoTAcxCrpRPvc0TS7h5RWEGwY3GzAmkP09o_Fc03tyFOFP9jkIoa_NKvW8ydsveDdsvSNat9YhQFfedc76qc19ZCYHUNifr3Xm7n9I7_Azl1l0EdUJV0Pyrg/hls/index.m3u8
+#EXTINF:-1 tvg-id="cnn.turk.hd.b.tr" tvg-name="CNN TURK HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/cnn-turk-tr.png" group-title="Ulusal",CNN TURK HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/h3s8pBK778XGbQtg8_-Ybt3vFoPiZyqw4vW39fFIpcX_yXWEwG_Ng6onY7ORQAPyLXNhY7q_s80fn9mAqopYNxHvhasRQQu5frz7RXWuZbHcxyryZ5wB_qW-pzfy3rq5SkmKIUuZr8LRjYZ-BvVeIKcvI7_eSloI1vwBSGC4QsahwM0fQzBcZWol1Z6eEiqIIHcWHlYFokJkiw3XHudk7NpVU6wIUxSIMJ1aCqXbojbD5mb7qQwnzq5QUKMnqX_vRHD6Y2thlYOhNrZ3DzELiw/hls/index.m3u8
+#EXTINF:-1 tvg-id="euro.star.b.tr" tvg-name="EURO STAR .b" group-title="Ulusal",EURO STAR .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/6LAzYvdNzEu5gZ3KYIiyiCQVJ7ftlu4G84dvInt3CCOyZRCNKYOinRodSIa0PpA91Q_riz0fMTQ8ny_XGyZxiGZmMQWVih18bTLA6TB0W95g-us14_5_FCKmj-4F-Yl1h2fi2qM9k0f3WlXlltr232po3Qij0X7I8F59vow3EPtJGuHdNjK11pOT2b8l66MDQt_oEDuFfuJXQww-QaYhLDSV9Fu6V5hNSy_8baTfjqJm0wjFVStoaU6RUCYaFCeMA09L-N0SVwXakZPj3mv87Q/hls/index.m3u8
+#EXTINF:-1 tvg-id="euro.star.s.tr" tvg-name="EURO STAR .s" group-title="Ulusal",EURO STAR .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/Tg3EBfiWRXzHsBYaqJDOiI86desHKIPdevihIVui3Z_xLRUVWVOHhizeu-Qn9Gaz7PVga4CSfDO-jXbVHguuzFpw-rB5IgRI6F0zih1JbcsCVROmU6VQGpWO-mCtOXdVtwNk2K0JWDnZvhPIYswdOWTbJuM5anhhmmyyy0RBB1JNy73gT4ZqrVzLOVP58gnANKOyvEHeJV7zybacQOIrzsYdU0YWR55qx-P3E51IHWvOCrz-7d7f18ZN8k75VmtrF4X8cVkTDRuVoSpXQP0cwA/hls/index.m3u8
+#EXTINF:-1 tvg-id="eurostar.c.tr" tvg-name="EUROSTAR .c" group-title="Ulusal",EUROSTAR .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/-96RHfyhDzrecptivtvkuLbZ94AeFkliJkP0Y7iAIx5Lx6K-YjOnyZ5wYNWxcohZQQhwUhuX85RmECuE2b4LYKtGDI8sRpkfE5hDScsqTRJ0tkVSPewH_B7yjQ83x-zysj44KR9FUXtx3Ii1exE0eaWNxN89nNcn_NK6Ucnpvx0zHILjOsQylIS_G5ptFoxEnEZxC6Qq6i1ipdhV6xlr5GMyHiV5yrGUGTkQnvzxlOHRbGt53RwOnRuqvXKkiki7NyatpOjCLO00i2n3VVV9ew/hls/index.m3u8
+#EXTINF:-1 tvg-id="fox.c.tr" tvg-name="FOX .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-tr.png" group-title="Ulusal",FOX .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/DwRQHipQvutZqnwjLnIDevdaE_gJCgezsWcongEk5Or5f0CdMk2Ze_f-6qjoIKmG2x9q86DiseYlqjvEW4t9yfwUSM0M_q4gKqemUZf_qwPJprfoGySSM9PBM89D-AcgV69_aDz1LsS-RFnA3V4Uo2d2YP3UsgxVDG-C2lqPEK8yKAJ7UkNHnybrZDFUSrUlFgk5WhmF7W_JaRw-oxzkNprttaMsVPIaDnTs-L2BIobyNWYnkbwjzavov8L6M48pwwV-secTeUDuziPnYijp3g/hls/index.m3u8
+#EXTINF:-1 tvg-id="fox.s.tr" tvg-name="FOX .s" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-tr.png" group-title="Ulusal",FOX .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/Nm6NoKyrdhrlMG-NatEYpSoMjjL3YcfBr4WnS0kr2cBn9qk-MxufgOCW7fdKpthVZahIEscan331AhWKdbp0bqEfZwdY5NbAXB_BIo3_dyFfN_KTFcXmE5eQVftULQ6Uhj0qHFrkCg4ca13nAvsLsYIYJDf447NpITa5xWAJ5eTZWdMO0SV0xUsT5hM1DYo6KnNkqOCmLBgiUlmMXBt_0PBuTzTMq4S6eUpk97mXFpq76z0gFg2n8NK4WEOqnJ241qVW3az_t_mpbGxgOaybgg/hls/index.m3u8
+#EXTINF:-1 tvg-id="fox.crime.hevc.b.tr" tvg-name="FOX CRIME HEVC .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-tr.png" group-title="Ulusal",FOX CRIME HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/2ZKs1T2Biy33Kot_u53flJbjHSMwI9gQLXs55R4sO6n9kVtSqIcc56qlaDgl92Ngly2KkiVqQ6kX2vPSAWEbyqdUvtDGfI1Zp5httk2kPcn2YJCE0IWBr9chYmjmqWHXngIs_45S3Yjlf5mJq8rcUaPlGH-B588sPhoeIm8ij647bKTfznuQQNiOE54Nz66RGYtpkayRWHer01UzgPIivmduJU9kQCDbwt_bFkiFiaArgKpe-KfTC3BYVoYVkyi7mfsrDg5DZKR3gQm6wxSfjA/hls/index.m3u8
+#EXTINF:-1 tvg-id="fox.tv.hd.h265.b.tr" tvg-name="FOX TV HD (H265) .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-tr.png" group-title="Ulusal",FOX TV HD (H265) .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/RDgpNJ0JdOEQH0ojgxija72lCTZKsTPDTpxy4J7CgOyd1O4pHHukMdieQPM4WPVHSaTsl-tx2u7l0T-bs4knvKpn4_f9Shc7fJHiDM5Kcrpzf5CvQqdNRKOhVWQTMrdcjOGaXlywjdkkBIyY7x7ugoMP72jxuJZ0pJqZjFf5ONb43qZ1rkQ79j0eqoTo7Qyf3oQhH9BzK40QaGIm85hVV_ynD-pO6-u8Ku9CTYG73gO8FwJYpEzY51LNdjAac0pAoaiukEpex8eGSPLWPJM7JQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="fox.tv.hevc.b.tr" tvg-name="FOX TV HEVC .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-tr.png" group-title="Ulusal",FOX TV HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/70L-mVJPNOraa0e0EMF5Pbv1vKcZmWLeHgQ_F8npQYFYKouWElcFxVAL7YKQJzO80HeBkKC4Y2kHonSQDChpEqEpnH0PJgE22A1pajpjnaXVyMY-fls_zVtakWxyPD43ITZpOpIJD5E-mGCY74mzBY36zMkkbrhvU0gdhMg_TrCX8td07zL4AeIEb6_uyODYI7I1FC_Y46M6mJ7ZWnL1ZPIGt_0RTEu8tZbeHagdFCeA2O1UXbStpDqjDiCR32s5aGL5waP7YoIlblrJj1M49Q/hls/index.m3u8
+#EXTINF:-1 tvg-id="fox.tv.raw.b.tr" tvg-name="FOX TV RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-tr.png" group-title="Ulusal",FOX TV RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/YbazXeHprSc1rEgNidBXPwZY3YoZoAVsK-IaPvqJXtya3n5yWs_DKHBVwL6RUHtafNPwkeDGKILDlbVQj3JcmOnnW481j0NMuq8oUNwG_xLaRWvoZLGuN8ubrXOiiwLG0nXlVJaB0PLEolMzs7bd1Qgcp6nMjhF_XXgek9Qx18Jbo1QQyqsqKF7gXR1XQDRi37NSuwAqm7YO_duGvdBy6-PcNfwOy1Arix-oj6qS7XP-f-OrDMPBvzzjEklRWIOdSHiOsr_ArMz2mdtd2dzrpw/hls/index.m3u8
+#EXTINF:-1 tvg-id="fox.tv.sd.b.tr" tvg-name="FOX TV SD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-tr.png" group-title="Ulusal",FOX TV SD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/octvrQ1LC02Z194Rr7-jIOQH1OUM3iL4w4EhPEH4kgcsVsoxytySX8cWVEKvTZQ2aYkj1jFZw-RUYIrvtmSxk4WjI0rU17-eosnwu4lVLjponjoGAFYQUOc890W90S88vonY5aetjBhjfcPvTsN4f9_7rWiI2c4DIrklBsaYFUAfSxZRbbVyALmfpwC3JhYGyPmQwp_xpj-D6R5JKfWl6Q3DrlRUUTxvnsaikbwzn400ZWKWyQjEsnnBr4Fg-emxBtJBwKbH_eCIgRkkt7przw/hls/index.m3u8
+#EXTINF:-1 tvg-id="haberturk.c.tr" tvg-name="HABERTURK .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/haberturk-tr.png" group-title="Ulusal",HABERTURK .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/DvVTDoWEDw4vSVlkmtelwQvzH_QuR8N4sdiLGhFV7sJL6MCG_N_6X2kaSqjxdQR8UZe20AdAl08nwUKdw06KqVAOOkX_Iw-7bcvP8Q5FtFhQDAtcBbXUkZiAopDnsTydwmpDSypmIlBRTzGe3UDg7RifAq3D2RAO-kJe1LaESd7K3VPRJz3sv2lFXB2BD2iNCGdTZT5514i7ClOwgnzNJCXm8vzfKRNujumjFRnbn7Y20QovSQBO-qk6wJJrQNGDRSoR_Wmenfv99flV8212tQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="haberturk.hd.b.tr" tvg-name="HABERTURK HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/haberturk-tr.png" group-title="Ulusal",HABERTURK HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/E1zMVdWzQhCBPxR4_XT3Xh1x7TOfe3LL7otSnFwhhLmeP0GO6JjphTVfd5ceu5CigzKRNuuyM4k-T5uIYb3SrsRONmsPEsaHad7Aae2JHy7pcTD7LmvbUe5cANn1BB-phGqlYlM78LXjwrgHqvdIkD7OjtBSj0NEprsdrOl6kbsBbPxTd0b5D_chvZ-88y7J4doTI71vYbKu327tmQI4s804dVNb1rt6gSv7cbp-95Q0TL4bsPZUDAiFo5FX-1DmdZM3YCZ8cgY8-tSelAlVLw/hls/index.m3u8
+#EXTINF:-1 tvg-id="haberturk.raw.b.tr" tvg-name="HABERTURK RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/haberturk-tr.png" group-title="Ulusal",HABERTURK RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/F3MZCzpbU4y7q2BNCMZlCxR0rLGYQRmqPg9FadG45iOW6GlSqOFH53wAma8XwnKktiqejWXVdTHd3rzOc5Fhoi8U1kkvUxlZhSeLLggnnUBcWQ6UBJDoOjNEaDKIt2uKa3y-dYfupX--6JhRQK655829avpElBcx8IB-bi2aGIoQdEBKqiaafQrvSm6sBBCL-Pkd-3daDkGqEPxmfzG2WIGcoTl7wVhJhn5-XwsnPuvpRgcuforWTWjWpJZRLl5YIEOs1QKjw7UauIaS11SBug/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.360.hevc.b.tr" tvg-name="KANAL 360 HEVC .b" group-title="Ulusal",KANAL 360 HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/bkVqOC2zrie1o6Q4W5q6Gx0UeKripg0GpMaBfDO1FMQD366xOKPbkWUqzny0wdiTka5AdyXw0wWr2YD27FbLs3A8PF0HQ0yhhwLlA3W2qHYynzGX1Mlsx9Tl4fAI5hicurDSYp8FSh9LM3zkc1cDiY2ZMcmR4K1k9ffTurlQrNHfKNsBJGM1gGkcobYIE-vt-MxdJ5D10uWLxpQ3oGd_Eg2ecohpSZIvZ0uBZcHvOtnD9eTyl9Sx3PcELCT6yxO7IIuG3_wwl-Xk3JvoYPn-UA/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.360.uhd.b.tr" tvg-name="KANAL 360 UHD .b" group-title="Ulusal",KANAL 360 UHD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/g1evdqkTZadBJtm1qIhUBx8bOkxB56JTIgqF8iH7Dk2fbgcDeYSJHhj64cGfaJPDWvJASptGw8MSa5UfMlKLNAw5pGRHkGpnZcied8alkMFrL6jgeFIs90NOqG1YV7C0M0x0Ebpn7cGvF17bO9myU1NkvnrhEzzb_bFRbZUSORvHxZu1D36MMlnnI7vH92s36k4fC4XHaiRDZkCIRoohiYDqIx7UTaUw83qCqBGFRjWo46v2XcYOASeS9omzbJ6x9p1yi8wyA2_UttH9VK4hlg/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.7.c.tr" tvg-name="KANAL 7 .c" group-title="Ulusal",KANAL 7 .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/St6W_3kiY--vSsLssF67Y-7mXJFWyXdIPAg3FZmUaWYG6u7eLpjhRnm696iU4KU2RxgPts6LFvs-3NnsRRD4K4EPbK945x3WJfhuc4itxxd0ALwZD4SoFEzI5QaXVbPvGmpDz3fl3S6MlSIKWr04qHNelOiCwAcdLen25wflmfZD_l42QSxpHOm4IkxH5YK67R_nM2rfPFM4RMaLqHGeWDmMAzxemJJ_Eq4KIxeI3luS3sh0WHXmytlInsxOcDoxN6oYyr0uRzG2r5WX205wsQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.7.s.tr" tvg-name="KANAL 7 .s" group-title="Ulusal",KANAL 7 .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/-regcN34nm18Lz0v-CTU29G1m3dZuvpZ0LLEyk2WD3BwIjYOCfQdkdiqa5f_P22lRxSRgrPpzpYoQLoXlGIyG0lBBppaTntaa_OVEuONzeBILUci2yMADVoungv5NhekuGsLecnpl_FnaWJfBlI-eUN0xAzdq4E-hcP9x_StqbHrZsa7BYsWwIG7orXk_-iprdV0nhpVmCUQTCPmw8EV2EV2Bo5_9ZswjPtMkeCpEhVY3ZBEtFyg5Tvh7bRFG3Fu-5Wf7wY3hBkYyu9xG1eMmw/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.7.avrupa.c.tr" tvg-name="KANAL 7 AVRUPA .c" group-title="Ulusal",KANAL 7 AVRUPA .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/VgEuCkMNr95DLWoDVV3Rd13h5IZZTYlUMZalJ2Tp3-Dx0mSwMuSPd6cEcsTN5mfngggzw2dInsa8X0uCoylsuFJ3L8WxuGNXIMJ7J97bo48rGB7FL4Vo1c_TaTRSE3pCZ6YSoWOc5Mn0lXb5lLR0LAiKtGdC7jqWVaxwCds8s4KZ9jxBtzjUH1WYiq2N0Xq2YryAQb0UcfysVCs0_Utv4KG-rJZA-E3fPFGaL1Q2TOLB0QkKjbegtfnNGqPKonQVejSc3ffRuCzu-ZJ2Bj24Gw/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.7.avrupa.s.tr" tvg-name="KANAL 7 AVRUPA .s" group-title="Ulusal",KANAL 7 AVRUPA .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/k69xMuUDs-cK2DmsmDu5kneK7VVfYnPaK5_EdPAisunJri87UbaUq_GX0P98dxXPOgz65-4SnDgEOgzZxGXWNwJRzb7IQY0cxH7bizi6UcEcmua0wjWYe35l6-S9CqudUmUkCkumoSHKGR-amGSpmZ_mkL5wCxG-TpLXALOtzeJjiuDu0MuPTvkKso_txkWUYhABcG1TufM1tSoLyHN32OfOkHz6532ssw2uJokxfeE8Z3-T-ZbY1D8oQcCIV1vRPCvnUlduoIb82KBU3Lr6WA/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.7.europa.b.tr" tvg-name="KANAL 7 EUROPA .b" group-title="Ulusal",KANAL 7 EUROPA .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/3b2ORHXoDKYz2W1He8FG_lDsddYALDHB-gZybEIjKYejeDthrJ3xLqNXOj_HpEEdppMhYkfUNLQspJFm14q_c6iGh0ulIDQmRbEqmPnptXnde0FBzY8N98WSZLmEtcFypo9vF_gO-M0RMIgYJfeLqCPobcJRrhYxY3cbRsbFFtlJNmDjEbK0T3c-4PopQVjcfYEYht4zhsbrhOkxJ0sEviaY4WOMvfcDpbA4Kipu0_8LL9c6s6CVYcaVj66C-VOQpbmQWSX9-jpM6Fvm4EWqSA/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.7.fhd.b.tr" tvg-name="KANAL 7 FHD .b" group-title="Ulusal",KANAL 7 FHD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/dpseE2EPk1664p3miC2X_aN-zPUoziZlFYcMV8QTg42n_2Rbhh8mr1rGuyDBCGFkOc6SAQi12FupIL5vUPSTwFtvWluCEfawMlXuUeFn7IQDWjvu-XGxpxCLNH69No1qMXN2giuezeKSVMTUj-RBwfWkGLMFcY6kCIMlft_l5RWEhoRGutb-rN504TbuLCmCusR5dIqv0zJtHpk4P-oobQT7XaDrJL1EjjyePG_BiVehsIab7ek06F1IKEnzhX5Bwtcj8gA7B8RNwLSf3LdPEA/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.7.hd.b.tr" tvg-name="KANAL 7 HD .b" group-title="Ulusal",KANAL 7 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/S_7Wod8wW1sLkZ-VFKvXmzyPrk68R-IrJbPQzz5Lg6Tbb6Vz_39Bmn39G9hBYKY4jodlsOAXNWu17Vjdnv1lQQihGZDRbMbTTdfa8Pm4bne_kJ4f4ussO-Ur9ACRRLaAQYhf33JKeyNTQGJ_-06RyuxTUXkWXJYByAeG45s2Un7s_icsgu9ShAi05W9t-y5d9QqH1nIDxkMpsP0nzv8OklXysDypzt4z5iJcfgXVDe4g3cBP7KfJ1rv63_21hLkDZf9k0Svzj6vSJ-XO1GWJ8A/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.7.hevc.b.tr" tvg-name="KANAL 7 HEVC .b" group-title="Ulusal",KANAL 7 HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/0ceGt9FSsIEFtpRNqTV25EbvlpMAUKYG9HhM6x22pC24bdSScJDv4C90UO14DBBg5cJ0eHPIn_piEi7p219FZThd_SI3A2ku_V9N-TNYTXydry-wFoETBRbDjPsfDY7pDl0YAx-_UF-6D_-aOOcoas86mz9m7c4C-lJWgxiEOXStAbfj8-RGzVgsu60JS41aG-XuCjAbt6egbrbMlFnh1v8o6pUdakR4OvlUxsQWpDcp7Xg7JE9YxK9ih9cgYCpqtGGXkr46mazF1cXY7jX34g/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.7.raw.b.tr" tvg-name="KANAL 7 RAW .b" group-title="Ulusal",KANAL 7 RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/r1LhcqvWVVFORVY9UfZy6o4fOXBgNB11QoGM2DtZEYYBVQrJHWjH85_I3dsJ2FleSEB1IgoXDLoOPWeEkxoR5uZ9Y9a2ztRtyqf6XbW6Qpe47xBYZOf0gVYe8lJGtrLAyjgO-5F_VxAT9INlpisPh1P_R9OcCjVU9lB9jrMWCzJ-gsTPf6K8rsDmmqtmWR816vLtYb9lhn84wGK8yjTgnv809TBMEUpZNK-qGAVco7-apCKObPdy3bi5PPrmloBDygZKemU8_lj9rYAZyf9ljw/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.d.c.tr" tvg-name="KANAL D .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png" group-title="Ulusal",KANAL D .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/klfNHZvbuzUZKLtOJjbo4RSS_7VowOAhTkNcqr1o8C-2BahECz5q7uhfEgEuSGyllHYPPQ4jFYQNOjKHOUzUuJshmhYwwDJ0n1xqKeM5QSM2N7uIv4UGmeB-IHH6_OMYwyg7qWoNyglbsSnDV4bgED5MopBipS_7_697p8Vump_uX_Ua_OfR2Xcx_EQpNnjKjm6ehPWIIRU1suIBbRulwsdv2LxxvO8UlFkSpIf_5aZyX9WzTNfHyrHkrTI9It-7uVeXxeimyetJDmb2MgD67A/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.d.s.tr" tvg-name="KANAL D .s" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png" group-title="Ulusal",KANAL D .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/z6b_D-v9ecDtcxqVvOYNhfEBBoiaXoJhUR-kcMWGQ3YQ9qKlmGhuO7eQjcYGfFgpdRwk7RD7VC31unLGeVjqHIdmDqGUhMPwY8qMQkV9MV55mWW70OVXxciSbVDIxxLRjp453JymMNPltysfKSZ-MWzNsIucbHrlcMr3CWpntBzwSfsQULQG-KU1Q4xE7ylTPn6yXZvaK6FnlhxwxcGXGZ3ueWmJ75lh5-c4uifPnX9QO8bIw2J2zWJ1GhsmBgDHWU4vyfla7JZefGk4k5sy9w/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.d.fhd.b.tr" tvg-name="KANAL D FHD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png" group-title="Ulusal",KANAL D FHD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/cZqDD5dSI7MdX1-xr_qHP5-1dHO1fwfrKE9QvyGNy4WEvDzaLvwnO2_BE2vV7NmFE-LClBx53aQ_Dyb6Ov7BXjESSitXixuTZlMVdJHcPygym7YE_92btzHPgj4VbpLgruw6TvzZVzmOTI0BRSzpkLDgtUiJCrvOch-zWFii-f_TloAwH3wgVYH0dpNJND-Vh2eA7QeGBStUBYiM8kjiw56G175WUjlq-eZFFds-DnIh3FqxJzP0Hn55XqQVkdUIbzoiMODHGxbA5M3lyPJLtA/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.d.hd.h265.b.tr" tvg-name="KANAL D HD (H265) .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png" group-title="Ulusal",KANAL D HD (H265) .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/L1IyTnb0Mhhpac_X0HRCF-HjO9bBTEoR-HIhjUxWY6uX5ivw3AyBn0papujUpePW3j-Rowwb5KtXoHC-_yTybzF7Gg1IBLXKL7RdsyBmSnhWpJaatfJ1rMieXfCrZ1lYNe71tOTUBwOvEgHgZ4Hn5QmBIGfL7KPLJ4vgKTQ0wZW4-ZRJMvyHwblq8WLAxhh-mbcicf4Bp4IgjN862GEoVA6ovw4NEVV1l9d4gtCqb2h6DY8zJrBdSxrnq1MakrUB9bm7QEE1_WrNYb188VVyMQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.d.hd.b.tr" tvg-name="KANAL D HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png" group-title="Ulusal",KANAL D HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/90sO_m-LRKB0DkR4JvRnyMnFIdbZqkL0uKa8MJ04sPLR3Fpyu-b3JsvGhhtYSbp-xDv3OmITCUzuoA309UM__wo3-CtauXM2nrkVKvAVF4y1nPfmL7m0NrpNml_mK9fU9eIbvLq3Zz8QXH4xGYcwwhddMDKJzt0XYrCdD1IanWohq_xMyj-W5ZXnDPJ1g0HmANlzRs9GKe2a9eXkxaKYX52olfohe5C4GFhfyUtKnIisNwtuKS4UNhw65pfhBxOLO9NuMcwP0Kfcpi4oSpT8lA/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.d.hevc.b.tr" tvg-name="KANAL D HEVC .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png" group-title="Ulusal",KANAL D HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/sD1KNLN96dm5yxaYOaGm-7aMp84NysSGi8WrHnnZNpgTJdM0pqg8Ee_L4N8C3OhxpnfQahfuoq4jJagNgPRc7GqgaSOv7FQs06dPCVSCWPhWRLi5pXgk4EITsCtR7h5C6ZDVcPY45PfIktP5uCbZrjeNn5wzWRsrYWh5_DAlrRGbg96GijdX9xPAWCZlCMwwflONg7gvNugBGSq4UFIMgEZKPvTCNheTfxM-LX1XgvEQW87EZ4v79xQgjUkgPk7C0mAlieEsYjGCyOzh1iN0OA/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.d.raw.b.tr" tvg-name="KANAL D RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png" group-title="Ulusal",KANAL D RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/RfgvxpbDWg-RLS8B5_gLPNKsS1ROGiaqKsBtFAIfre9GKYZ4skp8dPtG1C2_Ht8rqtM1RCqGjmqB_8bllbzqqGaPETGQ9903CA54pwuBU-jy_6x5Zs7VMTsH-B3FvvxMsBH056Bn5ZF4iuX5uWXuRQEOlsjlPAHxVZBk0SAKzKa0PYA-XZAUGKzxcngjBEW7pNcRXcaYhkbC3fq4toO2yFcCbkSpzAa1_lNlAnQH7SkgxG998DCdlzG3PMnqlHFpxaRiF-_Z_0jlGvzcXOJlSQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="kanal.d.sd.b.tr" tvg-name="KANAL D SD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png" group-title="Ulusal",KANAL D SD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/8Rglewei33F7kGOFIZMib0PX2oryOSk7OQvawKyWuHqtW2jyFUSA41P8g00uXTO3-uySbZHAPlnt88VwWbEdMirBbn1smHXRk-QyIi6cYYbAPdDs2LBim0QtCfTHkIKRflm2mt0dOQyqiwc29Yrz7qIyioNBlQrrWeRmYDQIURlZ6ATbrQ7DcVtcA1uCl3ygfTOQ97WpZARhvlbEh5qdiGyDkhQrlT3WjBOU3Kz9mQYssoeh2ps-S7xt7LvnJQEU68BJyVPADB4cxe7byPnpoQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="ntv.c.tr" tvg-name="NTV .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png" group-title="Ulusal",NTV .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/zMOoszGhjd09ScgroT65ylrhwWWcY0U4yK8TzSfcdOEjdb4nWbKu4ND98inGCKwjt26CZVF3y_zu8YPcEQcFedNYn2MJYUU2nlIf0pVlWhf1fDsLk5i7fWdunbA-nVaYwFHaHnbm6pCtNxtyO3ZsArxW6J9X8OiDRuGRTttG7Ull7qW7-KMm4j-ZaH9qGk5L3i76KfB8ytHKD-mkgRg2vnNS8AKE_8xvsPJxnHJMfZ8c58S1-kHOxUPnIPM1L8iJ_lJWRTnoxADOKDY88mbbUQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="ntv.s.tr" tvg-name="NTV .s" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png" group-title="Ulusal",NTV .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/fndk3yeSVGEPa7VeK6miwBqELXw1cKuoG5pY55Vd6pAg9XsoH5s5KbzVnNH6WmzcmgjCFyqivEgpLtyFvP5jJYDQl1ToyEB9cgJyzFUVDTlW1jKI80UpNWxphOdY_cubUvqlu6Hz4xaT6tdYkt2BIpdMLylKJ0xsXheYj4yG3S3-JRRJhSt9rvO4ss0b0lk9Jfm6X-qrOh5OyRm70loBUnwjJNY1MnaOq73M2cR_PnRtdKFAkm4Wd4ZoXpvBE5fS4djgXNzagte03eoZKSAjqg/hls/index.m3u8
+#EXTINF:-1 tvg-id="ntv.haber.s.tr" tvg-name="NTV HABER .s" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png" group-title="Ulusal",NTV HABER .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/w535ZsZiLPiJuXNMuLzIzfhCkMMB24rzDCNTJZcYglm3076CvaB6kcJKCADvMcT4ekiJ9BFV1TiNrG3GFvPb1QHSn-oWXhC7tRylQYsgxjALk-KiEe44BOSbkknh49hXFL5rZDa-mDQjIWnGU-f9LhgITFlAOZ19ylyJWQOJs0BrY5XSgIoMx7ATAA5Dfvale8H5lvuXfSZxWvgzXgBens1_xfDDHJpR4LGn5Ezx3OiybWPxFDGgqE7RdSOPIQjvnj7oeQWJ2TJIOdbjwnUqmg/hls/index.m3u8
+#EXTINF:-1 tvg-id="ntv.haber.hd.b.tr" tvg-name="NTV HABER HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png" group-title="Ulusal",NTV HABER HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/0ba1Y2YVGHY4eCTz82A1kH2L9syZe87uknwlCS68FxG0yeSj8JHhu04X2CphECCglawZACiaVv_Bvz71ZTUZPcl6tOHpTB6CPHEhGWLAsCCg1XP_7yM0iANWEEA4WErzKDXAKXOf8maDdLUR_Vr3hRjQgoPsaiDERQRsmETfmYasrvTABB-y_GPtSXO90sZHG12L1VkYFWJVdlWNM1if-dzxCiY7dzd4CToQp4UZwMJ2coYzL3deOjNmEaUuk8UVW6cHCvJpqK813tZ1zayj6Q/hls/index.m3u8
+#EXTINF:-1 tvg-id="ntv.haber.hevc.b.tr" tvg-name="NTV HABER HEVC .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png" group-title="Ulusal",NTV HABER HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/cZmjQNvKhXNNfvlS7Xjz_2jvxg6V5IDCfvjEk8CW5Yt_hDdpE1uukZktOFXWVITj2EO0hOEmIViCvkn-rh9eA7RJG98qwPhO-RNr_WC4uas6cp-odmb56A3R2dHbVSkaVoiLKtiAEtFbS1Ex4jKxJvCB8LUq4jt1orHFPeEvnHQjk_PPbdeXUt5EsddKgnaabm6mgh6Ih42sKrFNuDBw2debu_moXxObJze5JBHWZevBspfG29phLkBJlmq9xDjHFoeob4w0V3yYHtzxXmg7sQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="ntv.hd.b.tr" tvg-name="NTV HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png" group-title="Ulusal",NTV HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/K50gz3Vi_zPseNGb0P_OvuQATappsLdhRLKGwMxwRVBFmXeYvRqtRO17VGlOU1sN0gOel2X9pDEfEqLrBcwNJI9fcwoY9GmNL6kPAy-2Fxm2N6mqXMQ1DKkmYE2vKOYC70J8UN266dv8IbgGSDG3jMb9R26Fzch_wpDb7zSkSyTWrsIvA9Q__sJhMtk2ZYt_cM5dxn57iotpYEF6WwFJcuxYX-QPCorQWWDFzeWZVl4bjd_fCw7JslqYi5vdvDAOj2YA8cNulh8xpqPHFEDZMw/hls/index.m3u8
+#EXTINF:-1 tvg-id="ntv.raw.b.tr" tvg-name="NTV RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png" group-title="Ulusal",NTV RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/cfCr4OpjpZ-RKDiyvVbVC_dKREPwhzSm76MKg8s1rLSo0VywDoXKZzCxkaMiluYX7FhmzFDPusZG14nXyKnTZZuySFimvrhsZaeuYRsn-MxV_9JRRTHrCA5veleQ_n1zoJ41O6SvBN3Ogx0oOeOBJz9Ma0hcFmx8_eq2RXNLFG29pSdf2OGFBUGa4xDsrBNf__rR_72kdk_KmZBGJ8m5Q6HNZW5veAwOXZY6wakjlIs2cHi1H0qQlDzp6qSdVittwFj2AaCXqz7iJpkMQ6UngA/hls/index.m3u8
+#EXTINF:-1 tvg-id="ntv.sd.b.tr" tvg-name="NTV SD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png" group-title="Ulusal",NTV SD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/QV8eVsAH1cAOth7vuD4htTt1WgSCuZ8B5JlOTBFERXSpei5s0HG5fb5Ya-P2V5nxs5baKT1YPeJiJZfurAQ2_PHYhymnPIHfo8cMmvWsHUIH_wFtGt-MQBRiC1jIqWdZmHoW2YATpNqtIS3dyem9cCSquZpKyRAUvvloytvfKBQYfiTKRKRFKL0ymNvjPIMvpiS7j_DeZOUabQ_FuVNZlIh2I7HdaLRxXipfqCU0zss_R25EknchvNrYs9ie2UBcTO3BtrlL1G9elTJutnIXRw/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.hd.h265.b.tr" tvg-name="SHOW HD (H265) .b" group-title="Ulusal",SHOW HD (H265) .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/tUe58doWU76DipLDyNmFBQgXd91iKDcWlAR9__awSCMAN9jdgCLN9tAdvIeUGELsxtP9ECWaEKchok2mnYPY7AkfEMoHg90mCiydva6M89Vem3TUD1XZi-mVrHbZultVeP-KFDS1keLnmcBzER4f8bbLuC8Dc1v_TmsNBoFPG0DRxvvJKZLYPpik5T3Prgjd_Ds1fW3uvyPFm2mK9nVLqnEoRd98eeIEAiydsvjBzk5vJZeXlY3VaiL87afbSGa-srX3CQtdnMEePTmAkSYzoA/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.max.c.tr" tvg-name="SHOW MAX .c" group-title="Ulusal",SHOW MAX .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/x4zeI-QW1A38I2pAMeO_PckaG5Kl54MmRLvEYkPl4smkWsGfQ8mJipZL5RgwPsRha5cR8pVXsZsUbxP9DDkBUg47MeT2oDs1DQRcewy8E8ujVIA50B4sFlrnmqDCSFsQBBwQTMvrfr8CBtu0lsjTCd_gcwvFWjGuOKBahSclPhm8ZoBCS8kIbF_DskooMxLgz51Ptaq-QptqK1iK7hjXNpuoz_lK6S6ztJjm8fsp-IJIkAwP9HIVildagfvtpw9DluXA_aihxA9M1vL-QPkXhg/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.max.s.tr" tvg-name="SHOW MAX .s" group-title="Ulusal",SHOW MAX .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/E8T9Pax-2bHndZWwW345WL5a8967_JpOjOp4VSwlB_cPG8FMfOkenAMsYdS8EF9O3qL1mlpx3M2yKW8Hs_aRLxNZVVUzvWnj4ZnN1puYyaAsURdCsKtBWpAQO8bgPpUEOc2EPvowWrLIvzVEkPCNNyDme0fb4umu_-z7zZ66kQeYfmT7TdJm3uXpqblkKpGHbqYtSBug0JvH18x9SYNxo4K9g5CHCn_pkquUsN4nQ8JJFBFwNOhfYNXce6R0AJquXtKtPE0h8bGKhHRKtV3jTQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.radyo.b.tr" tvg-name="SHOW RADYO .b" group-title="Ulusal",SHOW RADYO .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/Pb7AZifV268N-qCs78fgTyTgo0tfc3ua4c5cuDaZNPuq26lDvZxe3sZryBPP3_eseH9zM8sNWsbhPkxmjsAfQi6B_Fbum53t0G9uvjmEB2IEJF_nbVVtn5K36p-O8Px2FngJSv4LoaSDhzosvXb-76IsmL1kU6tiEGGSy5uMLEpYOvt-uutit3obNHK7U6OmVMurZRl71ArOOgCioGbKXUD1qLZg5CRsnHOlfj15ktaJsIusJUdTkahBsZPSl2oGFOiR_93rkVX8xfL9ootM5Q/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.radyo.t.rk.e.pop.b.tr" tvg-name="SHOW RADYO T RK E POP .b" group-title="Ulusal",SHOW RADYO T RK E POP .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/39QxS3FgIchT-JJCKDIJFYQApR6MAAS5C59btI8AzQ4GpmekLP9k4Uq0JqNQCIc39dfOmj5a8mXblhXHF6lY-PqTXdGH6y5Kt7e6VDE_18PnxAbQ11UtRyikOgUik9N8cCht7SiYGihahX08GgeTd6rBFtiB9IsUtOhq0gHIeo3tbhKwkbSLmGADqWdnbmQy2JeyUP37P9cipMy0ZAzpubA1Ye_AEy3s0ucXrIA5uXk25Cu16tI6JeGn95cKzUoOiBfoqH4jWDpEMxi_wGZ-2A/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.t.rk.europa.b.tr" tvg-name="SHOW T RK EUROPA .b" group-title="Ulusal",SHOW T RK EUROPA .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/WARuCEur3P3VTGNivPumY2Z-FycFuNtPuCQCfatIkIVFqcdnyH-U_DAMWkNEUk0OSjUvoCParefVKril8YD_oljcVwonbMAQM65VB-R9Bxv44J0vaDtQ1U7Qnp0geWaLjcttkMF9UQzZeA9vXk-pPlfu4wHFZ8ReNyhqoxskJYN61PpGT1QNtk6UDGnJKT8vjuQrykcTADQwhsGAtHSMiLlHuDVijXWA3XOeL7rbfhtVXhwHdxhW9Gs1-i6caD9Wj_j9mQTU2jZhFfatgFOnlA/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.turk.c.tr" tvg-name="SHOW TURK .c" group-title="Ulusal",SHOW TURK .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/y4chzqRGWOvptZkmGKjxFMdW0jQPyA7DemZFjW6VkrK9XXjrc3j2dawi6ZN3sopvF7ApLfWRpLqSyV-CUXKy16yA3H34BYNBbHC1vN7ZyCfvv5zyPG8fgGMfhOhb67MAxoahr28hckEEFD4iBJPbK36t_uTpR8__3lb56aKkUSAyB2OcRjeTeQQX4h7paIYBHYZsUZpQCB4tgp_GgPEC7aDLYPKTQ7PvQexgjKK3xGCOpZ22WZKQFFcjtNh0P5IvEPxkn2S4eyL6nyGQiwK9mw/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.turk.s.tr" tvg-name="SHOW TURK .s" group-title="Ulusal",SHOW TURK .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/WCZ7bc2pBqWH-noVWpkVPx3fWAWBtu_7wnfm58hKb8fJ-bTVz6qw497lLf6IFxCEGATmIM--OtSrY_EeTijGKbfoiY5E4kY32zZ379tqg8A2hr3RZmSRMSssKQ7vez1iKsmRG4Fwkwjyv9oqhv6QXbGNeMLwOUIMz8BZid9jXEpLZV7-d7xW7bi6jXJrjCVHjx2H6ZjNCyVmNJH1wHMS8DnY_a8BL-z14t6ZB40SYo49UgGKSvIHq5E-RXEqQQQZ06uc1RElNnaIGqDkmbZNQA/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.tv.c.tr" tvg-name="SHOW TV .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tv-tr.png" group-title="Ulusal",SHOW TV .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/IZCqj3tE0rxqCrC5yggF2p69600i-7X_XCNA3ixjH8NmEoYlGo38AVuWpkI0EnB794i7gvkNl9TBXP3f-l8mP_8NKEaA6mJ9397trTYNffzKTCGJ7HcbKdzHUNQ25V7No9MTXdI-OCvEDQvDcsEVYieM4mjuaoBBXqdV3TCvhm-n-yoVIT2XcbDvCdX28dRcXmUJDRb6LpwyZsxT5WeefHzCB3Igc65IrJU6El2fa_AQvDFkD-LQHSF4v-AXv4lahNXgYKk0WtlRT2_1snOnQg/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.tv.s.tr" tvg-name="SHOW TV .s" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tv-tr.png" group-title="Ulusal",SHOW TV .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/2EfxW0I4sSCH10w7Ay2PG8W5UEF6cDHJnFLHkWQSht92hpE-9f2AdLJKzXm7IKGw6Fb0N3vesuSxLRUxYdGgEBsN5_pFMcG6dDovNBygLgfeuxlXCooIqEI9Fpf5b7DJMLLTRb36YpDU0JbhmiFPXw0pHaF5KADij3N3_7gSG9tnRIfSSkAyXFtW1fDWHow39CGC3OMWX2hM4jVVONgtaPOm_rEHtW-48AhVOpWJPUmkEcC2_kBX4tS2vXIXeUiaRvvcTe-AmCCl4kS3GgSZlg/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.tv.fhd.b.tr" tvg-name="SHOW TV FHD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tv-tr.png" group-title="Ulusal",SHOW TV FHD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/scsTKpkcdYo4vYnbAV5HqfRmwYRx4SlvME8zJNAS5I0lcYntLMJ4wqCBajc0f82yj65mPD4fPntpJthSGTbguqkIECubJhyA9auIUVjZ4Ed95n0nkZj8OR7fGMwqBgtuO6chyxaPB6rdH8vZJINIgOMhmQHekOvMyMmCwGQ1dO0L4OIwOaPuQ9L6r7TO4_Px04ra9Z2T9lfY5pm0ospk-buOGokujdzw4IJoA0BpiF2efgH8GEmEJT9X2CGvdiJPR_hFJWGqYoGdvKR_74H8YQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.tv.hd.b.tr" tvg-name="SHOW TV HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tv-tr.png" group-title="Ulusal",SHOW TV HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/VbOaOTUqtddSj6fXpM4eTBdfEPzNby4Rc9Uct-OyNaaH69gcV5cxTo5WBCO7CV0oLO-l-ktloDULoSn-y3bWF84SwfClT2Mi9QXyA0-ixt-SooLbd_-fSKu9qLq99iWRG2TceG-tjPp7Tbe5PBOtBXqF5IUBa8IH4zvrSsb3wQCoq4xyN8TsnCpSVy__HXU_jPoDjPtmulijyFXfDg-vKZzNjyduYNPZB8vJsvJ8Gr0_jbQAkixxqtKSjiaNn00tDUbYNf6NV1JJBNUMUBuq8g/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.tv.hevc.b.tr" tvg-name="SHOW TV HEVC .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tv-tr.png" group-title="Ulusal",SHOW TV HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/mOoNl9vw_KJPdT2wMe16Vk3x9d4k2SAPO_N4bFfleTr5AEHmfFtisP_AgMMtE8r9juElD3HDscsjuDJmlih5MhieXqCyqQWIOvMEefyAL4yhjUVXUL-6_4ozg9FA1MZnuuPrgqqWkZvBoKqNihltcANAqeBGLsiHk9L_OrxvP0sJ34HqEl3xSuISu0iS_lJBAY0bfAjDGSvc18H6n5T0ImhdhDT9s5nv41Cbh24SvYujUKiPHhNb1MTRyVV9UvXmqWMlZU6lXI9zNw1zInvryw/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.tv.raw.b.tr" tvg-name="SHOW TV RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tv-tr.png" group-title="Ulusal",SHOW TV RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/5Qk1DxeCYyOK4mF5GU9nMNvQf5UKlCebMQZADNSk2VliCYk_SJ78j2_ts_9VelzdiHvDeZ21VraXbkM3NoE1dVId2Fb3i0Lhkmn3DcmXINXLVM7j_eqJa_dgyGEMvp2eswSg2IQsm3VawVRMG3-vr3W1QBb5NeRf4Df3P_8DAThS85eVSFVOrvNqWlJwzUiHTeEfsU6jAswKlb_nj0VHla5n0xERPd1R-q2-xogHsc7akv2tvuNODqz0-XG-o1f9pMapUEZMWEw-fyQye73Qzw/hls/index.m3u8
+#EXTINF:-1 tvg-id="show.tv.sd.b.tr" tvg-name="SHOW TV SD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tv-tr.png" group-title="Ulusal",SHOW TV SD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/BMC4g2fnmM7C5GlazQl1HguPVW5IFSSDNTIrzNvEV1i4vQGpEMwEMzNn8dnY52ji4E9YhGtef-xu8DHO5Rc-Fv2mVCbdZZvfKYmXQGbtCi44ILwTMHICpH9j92yy6zadiQRnsHU4xG_nemtiAURV2drPjBL5UuHs6kEsQ23jg4bbUxWrf1uoL4Z6LV6gOE8FB0aeAXJiCA1qB5yJs1BK0mxsgAJ7bn7-9lTJk4uYa0LQrcAmDojoDhqk22wOAFYO0y3K-oiGQcjdhYri-xAAVw/hls/index.m3u8
+#EXTINF:-1 tvg-id="showmax.b.tr" tvg-name="SHOWMAX .b" group-title="Ulusal",SHOWMAX .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/pDmZ2dDd3t7f-xPEaC8h9SKk7uGLf9sr-xQ2vcqs3yC99dVmECsKIP08P4ApOi95l96KsJ4bZyYge-LutTkOig3IBftldZt0nDSwCZ-yk0jm1vQkzqay6bgShejnlSOoB1lPLnN6t3WPAfIeCO2gji5jL_wILrCrxmrxCVhssZzmIojlQyNr3DNxxKrgBhLZxHA7PVYoZPWS0FfZITIBF0pKlJiMRQCi8590chmR6fwrEuBEekBhm0NpxtiK-n3koWEHK6-enDTQQ6NKbMWtOQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="star.hd.h265.b.tr" tvg-name="STAR HD (H265) .b" group-title="Ulusal",STAR HD (H265) .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/8CH5xnMfa4yzecdojjHrjKoe5KJ8or8CRkkhw6sSODHfcMcT5VjWsZuoSSduREfrPMnZOf-ilFbDUpjy0MvCsmC1x21POP-skEQScOunzsCzabjQXTc54MWjYQAJ5X74K7haEs0BdIKcaaCTJSLjBWVFfghbpVkidTECTDOlAicxCpZhAfo-Az6qZhiipEn2DkaK-1RQBTtv23I-NLaJLABDYB4l3T8W_h8Urk5pmD8p9gUmKL5jSlKAoJJcKDyt4ejCtSG4hNjdxckzstOovw/hls/index.m3u8
+#EXTINF:-1 tvg-id="star.hd.sd.b.tr" tvg-name="STAR HD SD .b" group-title="Ulusal",STAR HD SD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/okWiepehTsmIc-3Hsp6eNxaZVE27DaBwiOz_s6mp0fp9IrCJugaqApWFiOajALQSsPqe7y5gzF1m_ecJQfz4RViz-p-rrPRNApuu3RZLy7vQ0t_ZtrhT9m4059T92pLS7-wwkjm-sbWsiSQoaymVdSryffUQr4EF9pgJMrDoCh8A8fEkenAM5nE8gZXWTKqXyMLyurFWLoSknoty0qqC43tQ_sflvkqeiDsziB9cYPE1eWFgkkGdOkvKsmnbrP30a5gq4pkjwt7lafbANFAEvg/hls/index.m3u8
+#EXTINF:-1 tvg-id="star.tv.c.tr" tvg-name="STAR TV .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png" group-title="Ulusal",STAR TV .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/0ldUeWGy4-5NYvoQ__rsqdzB5zhotaW60YJo2rHXC5F7Ksfrq7XPc09FoQKdmK08F5DH06gvT4k5gzjMDhQ81hxgSvtvWapULYLV7LrRlZkdA9WEIrgL2nO_Zg1Cov3JVXImVoelH1BOtLVpi6BYzwOo8of-UNOz04RJLGsyOjIvK8ZYq6IZjVh4MIjBW_Tjxl_bcolhA-0H1U-62Ud6I1qXjeQl7ppyQ7dLOOZDV9mmeehl7xz6sEw044MgnwvTtinnSzjHXY5NloXSPXQ-CA/hls/index.m3u8
+#EXTINF:-1 tvg-id="star.tv.s.tr" tvg-name="STAR TV .s" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png" group-title="Ulusal",STAR TV .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/caSDgAOVEwpD4pBanFPA56BZZEVu8jbUz7btwsOZ8FotZNVQM0bfKcYOPZxmiVm2k2dAlFGWgKHufu_aJSWEg8QlVZ3OD48zCdDzAXN8qYY874hRqHXDPmHVRJWu0BFR1a4IRMJsl7tpgk8LuY0LCtJ6iMMiUvhDJwKM1IUjzoMmMfqjpDtE0dK0NeF-5fCxyXmAMk2l6K47TA-XW2bSnLZeEcO45TPwpm-2Wu7IUw6B7YIgDiKcKcYdbsAGYOqXGFLN6jMLWG1OUE9cWC_lUg/hls/index.m3u8
+#EXTINF:-1 tvg-id="star.tv.fhd.b.tr" tvg-name="STAR TV FHD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png" group-title="Ulusal",STAR TV FHD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/uCumfzlogNCBzej4oV1pAbRyiZZ7VTuGdpIG-FlJi_u6fVIqi2b3BhKeyTaIoIFD5a6Mbazs0xajJBGw1zRG84DwHG1lyzR9qjy0vQ5vwBhPWg8tpyhxaLJHgruMr3IoX3zV-h5Ogw05A-iISbXGnGY-XqdfaA3O7Ya4PCm5pVePgv5UMngdX_DwO_kG--ZAxQKENIm_GxuxqT6l4_lIBeTkHC8pX4s9A7qkbyzCXCzdbAR1IT0mOUyHnLZT4gaYcOpp-rF2QEH_Gjmr0YwNjw/hls/index.m3u8
+#EXTINF:-1 tvg-id="star.tv.hd.b.tr" tvg-name="STAR TV HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png" group-title="Ulusal",STAR TV HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/wKseJWLWKggye0-JyExqTJQ2HFwTFVlL1kSOHbL-R3_iYqB_c9JymenbIgQwmfsw79SEy8odYgCEYk5_3VH3u5MShPK9qmRM7xYNgOT-d1tZ6YTlivgLgM10vI_g9XmqR5ocNQ36vvcmvxb1ZER3t6OIeF2yb00Uo90w93nlN3MLptmGpYiTgupWkqETHhDSrQt3PywrKg86U5D6BCg5vhm0J2gzbsm0RigMhLkshZ-YCHmwJml-tOmGQ8_5KE4hwZnwA56WAqbzNHwY4klWXg/hls/index.m3u8
+#EXTINF:-1 tvg-id="star.tv.hevc.b.tr" tvg-name="STAR TV HEVC .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png" group-title="Ulusal",STAR TV HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/5C8pBFNCXCayD21wPYmtLvG7q7np536W_0FAXkW4VP5zxJSrl8lmyu-uMnhaLz0mDjnTIdDjUTKhfD-KTMbiWFs6mP-DFHg59krcEsaut0Idu7nzg7aZX6k7eiQKaC35NCdMCm5tlUFuxGBxwLAdF46blwCLZyKQ68yNn2Jl2WMBEBIm46rfNHfvihkLdV0oyQUQFnuOoRX_bDur8K94h0ixioZgFrJ2vNL5SV867GDkIU4WwC3VQeUBMqdq0ItwQeHav4IzTGHJul4vLbWU5Q/hls/index.m3u8
+#EXTINF:-1 tvg-id="star.tv.raw.b.tr" tvg-name="STAR TV RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png" group-title="Ulusal",STAR TV RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/7l2e3AMzru0keCsZJhroLnB44MJPHq0N9vzUbbh0q3nznS6BsDocTq3nqDhxDYRK8zbs2fe1g36V4F1fyNfcXPXlKGYBpiG3bsnHcUh9XmWFyLy8YcW83-K4lasVO7nB5juX3MUoq5afH0IkeCac-YHHeloAnlbSUiQDUdplzfGuZbLI1SvCbPYu2WGpQZf2IFBODkI9pBdt8W_H-QnbwADuSbjlaqbEYxhQSbDXnKfuzju84mMa3rOgDZ4FE3f7D1eGca1725piDte3Pudkrg/hls/index.m3u8
+#EXTINF:-1 tvg-id="teve2.raw.b.tr" tvg-name="TEVE2 RAW .b" group-title="Ulusal",TEVE2 RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/2-pphWjLh20tsUI29teCtFr7HpXu1RIKTY_ALuX3xfsNSgJGy-MJa9p_iv6Mt0LWMZg5y7nzAktAZuu4IVFcyyj61IEWgxFDzvDA0go54ZoF2IxFuviZ8-RNhBneiPD7pAsjsclvWg-i8SJtohkPXcmAiwjAmRy9krN3w1t-F4GLdD0LmMQxz5rRbjQPQIn1qDonjd3lz9qhzJ_2sDuV--LBz8IkOzeknZwtYbQUcRzRL3ilUS-HaXmBLCNUxZosvwpneUot6YZ5wTNXuzwEAw/hls/index.m3u8
+#EXTINF:-1 tvg-id="tlc.c.tr" tvg-name="TLC .c" group-title="Ulusal",TLC .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/fx2QW-0ve9cd4UCJHU-5ifu7_dYnQvLIpvusmGIJJ9VjK8L_ztBd6dwWUaHE48cRAC8VTh7WPg5oAMA9Dr9m-BxnsfmJ7hxMVJfapblP7GOJ9SZ6jNBziYtXi4_xVZHa7ajsItwfOyM6MvGOZyUzJ85WBtwdB-ZLJPNIVVC67ppItlgqzvBg5MD72Hhphi1CVzhZq2UqlF2IYk9BvplYaCzgaOGAOijiN2-FLj2ibcBkKya69hQIbROb_XfFTip4loMIq-XvK-MumU-Gd_vg2A/hls/index.m3u8
+#EXTINF:-1 tvg-id="tlc.s.tr" tvg-name="TLC .s" group-title="Ulusal",TLC .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/V2giuTDQ1jLkqrnU_lCXnySluJd-6xZUZZ4TdUy5IX_vKHo-wJmqsF-llvUnO-R-N0MEpLi8irxzVKoIeWAW37Sl6qTLuwqgz727z36jAYsakX7pgpahKbZMhhGfp_RNGk_uMaxB0w2NWDXtxcXul5LdnMDdTlDR206ZB3gzUVL32ezjrvdxlynviSRhzakB41-A_A7_h2Elez11JjQPZP8F0ACuvPFMiJDViLRVHVrUojtxLmMggwYsUO0uhMJgeuC1PReHXRngpiqh_IBSGg/hls/index.m3u8
+#EXTINF:-1 tvg-id="tlc.tv.b.tr" tvg-name="TLC TV .b" group-title="Ulusal",TLC TV .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/LGu9autGn-UrnAPJPnxZuhS_FmRSu42i3QVPUu0UBR8E-XdLvyvQ9oqm9CMyOswDenIp0Qo-fQWvRXG1n5cGBEO3YVpFnqWX9wUA1AklTKca8GF1xU5mVbCKFRptytiajWt_zc5nraPqdthHfX9j4fpcSTMUHQvNZxKnlFSXNX-QWJv_ujBWM-n5LmoNpHHnJyd9tsazOj-gOXv4Bpdma3SNr5jD5XoCEWILv476__QImxaTKkVQluV6hzNXUwZx3phATWj8wiCswyGaGM32kw/hls/index.m3u8
+#EXTINF:-1 tvg-id="trt.1.c.tr" tvg-name="TRT 1 .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png" group-title="Ulusal",TRT 1 .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/IMFync1BGl8xbB3oCt6Kjz8oMLho-YJXF60HUb5bqGC1s-dwIjO8YGZIMZYMqtrlm32Yj1fBobIwImIYydoqKnVfNUP_GQ52l42jJDmkw2BwPwKto8jWHsKmYgE8s_TwwV3lc6LkVuvFKV3_gTDwvc8OMvM7Vrcz4uggh3DnN_9BJEL4lfHg3AWZbTkBCmugtbyikBfE5bRpt6urJtSnZEzN21zWQMf2yvUBnNVg_KcCxk6dqM08MdxlnP1TPEJkP5lfU07hDn36_250PQBNuw/hls/index.m3u8
+#EXTINF:-1 tvg-id="trt.1.s.tr" tvg-name="TRT 1 .s" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png" group-title="Ulusal",TRT 1 .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/Ezm54y4duvKPLgNrhDKOfXD90j6jlLS7lASsm3_sMfX5ZldRauiPB6BuuJD54kp8IzPjTtbsOQo2KGcS9oK3K1CGvimTraQWnHN5ABOOPCQlRGVkpSnUptOUdIejlniXbcNvGgjoGhYxIrX9XDpMCpSx-GFzPPJXnT9kHKDjv5epzX3oPfbbMIEgQ8J_Pf_13tfcgABq7QpiC7OjgeRrxq4nTVzCIK849l5tEXuHEkfHvj5mhYrhwuPUjyd5qcVjerdv-PbJI21NUp8fse1leQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="trt.1.4k.b.tr" tvg-name="TRT 1 4K .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png" group-title="Ulusal",TRT 1 4K .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/_s4BsDfeowRyt44TeUzMKjIC_QlJv_ehkAsU2BZt_szGGgpfTnP3ARRKG5_a75hEsoes7H3Me9UURYJCSyhQijRjav7i0dAKn4grnbM8m-SRhJU-6Dnp3iSCMt138LCzm0XZmR0wxor7Me4VKptyXjSx2MssnE0MSf2wE0_ZgxQLB_qPqts8exgmEZZJTTI_2c0yMgig5bWfFfJm47Tv5YL6ImpXf4JpjgjpasoLFvnBDLjh1Xbb_-UgPqVsm9fyo_TdPvHmbfnf5iMk8Yp3Lg/hls/index.m3u8
+#EXTINF:-1 tvg-id="trt.1.fhd.b.tr" tvg-name="TRT 1 FHD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png" group-title="Ulusal",TRT 1 FHD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/0D8-eZnkJ9cTo8_NefmoQBCkRSyq5gVdxE6aAjk_s59vMceZS4uKWX9hK3pv-bUoRaYXAEz7zxf-EhmM0sJS5DTbBz4TMnOqRgnReJ1-hyrtrWPSC5qWlTdZg51KHLxH4YtXdk7V651fy2cGoZdHbj-b6JmHVjy3RMPAZ9SrknSBAw2_WfNEf7WPZZQI9RDTGF5h8H_PAWNdYMirRv0V4L-7p-5nC7TPjFRL4Vdmrk1Ysz5HFO8DVBgyHYwUxZyhCrzywepIF7DpQeGo5V-bTA/hls/index.m3u8
+#EXTINF:-1 tvg-id="trt.1.hd.b.tr" tvg-name="TRT 1 HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png" group-title="Ulusal",TRT 1 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/6Rdm4SkcdJ2F8zCVVlo6vwAkhxeyYbp9eKyQ43h8zaW6yT9TUKKOnAhGotUwJi-c88kMo110Ux9b4KytSBn1UdNVw5OKFN8tZU2BnXVvjpsGUiMizOEkSq1gwqCZTZRyeSfya_cBqZEY6zdMtEwErs_9sXtPK6QEzvQ6Pevpn__OFTvLZeh6Wg8cpH_trGSfZGYLO6e9mlzLw7x1jNq1U5MuSl-pIyIDWNkfDHpt84PzEdZmBHYRfIsPPwJn03sAZK8bKhpESdiXW45zyNUwTg/hls/index.m3u8
+#EXTINF:-1 tvg-id="trt.1.hevc.b.tr" tvg-name="TRT 1 HEVC .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png" group-title="Ulusal",TRT 1 HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/CWpzhGiRMydB6S73-Abrxv1u9sBKVFzfFoTa4Lb7rF2SP2hy5GkKmkK_--wnsjk_xy4IdyTQcAIR_sIE5P9Q809CqMzo6dwM6zTXy8RI6b3ohAxrXKLKTrHWGBpdVwwJdrNM4vrOMjx40ZS6upqiypXPdB2UXyHYYvFZ5wsJuXnrQA_56hYyj3TO5yGIGuffJfqH1u5CsDB9mOxqreXgBHr2XyyfnjFu3sBT2tT-Vq4plKYQ1DgKUXdJDZBMqP70pwkgB8cJuRuooowUMZR8fA/hls/index.m3u8
+#EXTINF:-1 tvg-id="trt.1.raw.b.tr" tvg-name="TRT 1 RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png" group-title="Ulusal",TRT 1 RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/8hATPlKwWZWWtXkNubtN179n1yxYs1aOXtv14FBf6ykNh0IWSjXZmE1l4u3UTBZ1kNqA7hGx3uquQfXgi4TL4JpzgF00UOwl_ZJUjprdwKS9NKXS46WstHeQSc5Cuw4siVvU0OHDMuKzh9jif0ME9Jjn0Lq7jaEghNN4cjUoEDPKa31zlQWvXzIRXI8miI3szqjT395tPiQdG76B3feSRRrPSvyCz0LrZWDjzt83V_zJJyuIcy71c8IYrZyo0bRoNGpGBPUcFGahg-aVIZjegA/hls/index.m3u8
+#EXTINF:-1 tvg-id="trt.1.sd.b.tr" tvg-name="TRT 1 SD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png" group-title="Ulusal",TRT 1 SD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/34TCSG9NdvFQe7gmjo49zpBtCu7xvk7IoiUgB2Knyjn3J07LRPaQYxWhMEthBk0oXaMJO-9F54Iqe7YvCeD54EKx9mgmuJuyN8uIn_lLaVvcl_iFjHAZJ12x19fYG0Z1FXOtp8XVnGhIxLc8qCqUWCPaBncMegp2XjuPiQYJSdbkUKnOplXn7inVTHNN6_3KZrGFt5voobE1oB9mdA0tBxcv3ROND2we66my5V7TcApXQlN-QFQl87wpqtlHlghcGt5mC81CqO9RcaIjnP6daQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="tv8.5.raw.b.tr" tvg-name="TV8 5 RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-tr.png" group-title="Ulusal",TV8 5 RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/xUthOmrSmHpjkDfDpq9QADsUhI__Gv-l-C6vcXGg3PhfGV5pguGrznASNvLlPqUjOy2ZdDruU-_csGVB_ccbtE3YUZBM0nv_XsuZo87-ZNTqxaRM0F7JNR1M0PXkTRz72FYKxhV6nLBgUbLJhIhSchzofEmoDfy43_i92r2ZpukWkVjVmTX3G8Dy27GHuITMVVsJOdIAbOLXwk-VuIvH_gr9X6rEiVnIDG6-tDWEXj87kMr1YRPoEZHGVLmgH0wN6gaBEkjqFIyY_vi4XJTRpQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="tv8.fhd.b.tr" tvg-name="TV8 FHD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-tr.png" group-title="Ulusal",TV8 FHD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/JU5iarDOW7A_9IinZtQSfUsUxKx3IqzBv9J3ZdnvrE4w_-FPDXDWUZ6pJkm7BarWL1IMFX1gMH8cN0H5zuIckK-mZ65WW9Njqb5PoDbtWCHAJJWS_xKZmk6G95CTdw4IVESdn6IRU7vu_fggDGKLQ5ExuOvMNtgCuyf0TVmP6IAZNZYfoaFIBndR_Udd2AoTCoFtLNsG2FQkT2WAIcsA4SYNSbF8pVQAwDVmAtl6n5LPY41c9JRrBdrDfgwOPVjZ0_5-2JvA5sB1wkaOgNfFOg/hls/index.m3u8
+#EXTINF:-1 tvg-id="tv8.hd.b.tr" tvg-name="TV8 HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-tr.png" group-title="Ulusal",TV8 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/DOfrQjm6EEQ9JLrL21wdui8qn6g4q7rA0xnVUiHZcZxhbVznn1UTTN8bvLRSLEnj2qF5wCMu90Z1XS5-LC5tG9tt8QX7uPuM42TRGf-sYLCRo07daVkwKTGcpOfo6vfTnGKsyUpgw_OkHSMajWogoZFcAv_FWFgShPdpHTSLATk84GgWN-0bhXYmwqApgGwvlp4PUpH3njbph0d7HCYQUyOPyubDlG7_AkqznITyNX_8FZmiNZq_oAG9H0yGDRCjQiuuooOZcfD8FeAhCVY3ew/hls/index.m3u8
+#EXTINF:-1 tvg-id="tv8.raw.b.tr" tvg-name="TV8 RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-tr.png" group-title="Ulusal",TV8 RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/Z98GdgOCpWjYlYrvSfxIvVMrUBYx3T_PAFKvsatikQiEtIPyHXarTVG7B23iPJfqpz44xDk83Qg5Va1HhweJLIWKQVCDXedHpKVTB5SwcLldJN0oppX0WG6KnJz9WVlUppMODbnVQDBqhc-FhnSy-gw-a-8NSB3g36qU9EmOlC4J3V1rRUN1PAHeCqQ1lhrxHq50GN96tlyYMXwjFKVn7iy3FflrmU0qBYBcqp5DHT8Ji2Hv5pPcpASd7w3CqclrW7Yc6aPzqe3hRuYMXgWPeA/hls/index.m3u8
+#EXTINF:-1 tvg-id="tv8.sd.b.tr" tvg-name="TV8 SD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-tr.png" group-title="Ulusal",TV8 SD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/f_64u7YdTgNiSJVQk5NGZ_0PE_rkW3p8RpIY5o7OUYSImhLV2CGWNcI9HMKTyE-yBrQet4FSWdn1uKOdBdU9sJ7Ezlwh-VpiW8AzKeS4woPTJFNfgBysjuPXoTRfmoccEpk4S9ojuArWSkEy9IrmMevNAZmxPkKV67d1BKuTqF_0qmktwZs5sWDCCwfHLV3EyNP4kKxqR6G0WABNLfW4F5LlT_HYi8SpKOfoe0g-Tilv4wEDBObqmGcd6QvKO27DVZprb4PzSUVxbSkiaCqdgA/hls/index.m3u8
+
+# Spor
+#EXTINF:-1 tvg-id="4k.tr.a.spor.hd.b.tr" tvg-name="4K TR: A SPOR HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-spor-tr.png" group-title="Spor",4K TR: A SPOR HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/6io3ygBQ6vebcu6KG2E269IaVI1vEIzbYBfzeet-xuiutEaYgrP5ZhyT54Pd5m1nzCBPczs4MvojJmo9ntZFZznFN2njRBxMtggPi6mrsaWrT4qEWKUGFUqpGL8QtmY9JkfiOwWqkXDY_eckh7q2zR0zcwRUC4UHJxMgUckOblPkZgcEtHbKywkljK9HIJTOQ1qWlV8mlgsJ0DynWLHGL6ekDvIBxWT_WnZOEbSeXmBc3lk0Da-CekGnKetj1Nu1fXcKaAvsrFLvbsuWR1-MCA/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.eurosport.1.hd.b.tr" tvg-name="4K TR: EUROSPORT 1 HD .b" group-title="Spor",4K TR: EUROSPORT 1 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/GRlDKQDWVBYxrqTkBaczGpmrDBxD3G42HKapifRtq7NeD0jOVRZy8BnPxXpFnvQOBTJ9s7N3XOVlj7B7c1LL17_-8lY4CSM9X5EQjNIXH-3gzcm-NRDZd5Gqi0i3B8pZWHHXJZ0bzWVjensLx9fZiT1Vth7q7w2nD_qXGcLbTQ1dGi-YwQXJC9aw4uyfGccjb2R4Fn7AYrminGJF_W5DJ5TX7QNRF17AT87ERwD2gr5ml-cDQn25RtFJByPbI4aNPmzjlerLJ9DthmxHAdLeVg/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.eurosport.2.hd.b.tr" tvg-name="4K TR: EUROSPORT 2 HD .b" group-title="Spor",4K TR: EUROSPORT 2 HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/TqiFSBF5XMrOiVfMjoWmF8rNtEWopkBcQvPg9V1saWFIPOFsqouEWZECevcDfg67x_Pc1jN0HMI4kdffqiThenhw6M5QLujanHCmwfiKN6k12lDm291Oup9QQWNDYR20YtJiVk8iWq4w7ykkgvBvdNACVET3cfLVLzNAoEnmamoO0Ew49H10CST3suE80N-l3irfHqcu4mJOQgGXosxuLuUXgUNDRKk1vtNffqtjAtrtyspIB7QlzKZ-twJ4e_tutCTfNFg-8JBFM3jwIWM-Nw/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.fb.tv.b.tr" tvg-name="4K TR: FB TV .b" group-title="Spor",4K TR: FB TV .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/IApwFb-uMv25u8Bjr7yUndejUFOrSPmtPknOsmSeR2LRc3R8goZlIow_g2tIwqylPKeOxAp0YYVpaH_G4otksJ8zwzI9977AeHG6kKt_HyaHx6qIuhVIcZJKR7tJJx7KZ-N6oON6g_v1bGPItrLyxEZn2h11klBuyViMv-Psp78bv66vxIzna_47dyeKPAdy72dyWhJEX_2_TZZMPIQTF-A_kIIhjCOM0b_pvoOSz2yEkejCcj1ATAGd2Ki3Fhigm3GoRvWQgVjQSQgGBpLEAw/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.s.sport.b.tr" tvg-name="4K TR: S SPORT .b" group-title="Spor",4K TR: S SPORT .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/f9pRDc0hiXz6AN_HJEQrb9qYbMkXfObj7MAnby3UZFk2nyzaJx1NdVbDQV-uwezznzCtJY3qtSBxRQWBRIrYYyUtSPhC6UMU2xStjnGBecTNt6DWK_Eria_rOt5b5rqKfobTdShe56pDKOZm8YzDf9cECI35uEK6wfgVifiPLJxRa349OSMxZ4Eq2ozkjohJzz-4mEPptM-mqox2PpHYSwvNj3Vij_DafGRpWpJxeRP7OYxZp_L0n8Tt1WY_lSGIiywCVfxW0L8uRlZoSZyhUQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.s.sport.2.b.tr" tvg-name="4K TR: S SPORT 2 .b" group-title="Spor",4K TR: S SPORT 2 .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/2jnU0HPm4pLxoRq181LqbendhJ2cMhbL24PAcFqJpp5DW89TO4XMtvu6UhyADVVtyAbyiCCxRI1PZVvL4bKZAEBLOONTG875xpHCK5PM5zPBqHe7sZarpCTUeP8vjLNWJE7wEIYv3rXUq60MQXb4Sx0F9W1nZ3S-s7TgQ0C409ofyauH9PoZ1RC1HNB7SX3gaEviHTLzlEFeOC78ugYBJtos7eYEY3yU_PkVlmhMvVejuTPkSkvjU6R2Il5UPBGbOC0fYrq44r2dc0LLwbajAw/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.spor.smart.b.tr" tvg-name="4K TR: SPOR SMART .b" group-title="Spor",4K TR: SPOR SMART .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/wC6tRxN0wofizxjUlXtK31iHgFadH0uw2y_3xTuSzY2Cy1el4yqnAMHWH5gOlbqIgLd9hJgOLeuCZZ9U0OGF3aQCWpO2Lh4vCoksEKzDb41HWKmIEx6h9oAAX_ShoatHWVynjgUp7DU1qBHyJ3zVObIej3cTmkhKDheyaH0_tyvaua5rsQlHSQGwV2sRwBKbp9-ays-t1oJ3yvc8UPOCWBx_2ZbN6rc-wbmKIvPWKkQMlYBoWK8XTF42j8keD8KCZrFFELqfWa2XcEsk2erwgQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.sports.tv.hd.b.tr" tvg-name="4K TR: SPORTS TV HD .b" group-title="Spor",4K TR: SPORTS TV HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/_sTWbyeBqUKAOOxCKs0GNPWlE1gXVhOOZHwTCryKvoQsA-sjFuFrwIRubEE9NhoSQ_ef8qzI9j82AngLxw7JC7oWz6iGJqiye8ScjrXgY5cPMu_YUwvdg4ev8j9SwtUkOXIpeC702UJ4KaC_w61dK7XiEe5EC9PkYee0cb4Q7Lbr6zhckIHCPE8RUMKb0VzWWuFzhxc0vuJsotiFsQ09VXUrbjBNuH5_i6JB5Kya1knuk0ugEatyveVcDelbJCtqsmKNZ73k3ukSYHdEguuLhQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.trt.spor.hd.b.tr" tvg-name="4K TR: TRT SPOR HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-spor-tr.png" group-title="Spor",4K TR: TRT SPOR HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/vujDoMkXRC7WQGfVyjUJCUnYL3H7n05f1mDDl553JyWuXw9rsm0CKXfrAgL-JS4WNmj6Y7miafIklD5aj5hvE41y3mNj9EbHALOJX5oGdB2lyMp28ZYmFst7XfMF6gXHST57xRfsPJqjZvo1MQustnzWEeh_uiaqC9t7I9coyfOAyk4AGmQGeeaDdnx539kxfx9U1YG2LNmMqlHC6SfXxn4LYjWcD7yYqBY-wlqL3De_fYtYWzZvXyB_xGhFStPBc1XVJbYvfQbRJPTVIcyeug/hls/index.m3u8
+#EXTINF:-1 tvg-id="4k.tr.trt.spor.yildiz.b.tr" tvg-name="4K TR: TRT SPOR YILDIZ .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-spor-tr.png" group-title="Spor",4K TR: TRT SPOR YILDIZ .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/Ai-oGsr8OECYhsCi1Gge4o6efSlRTmAMFGLvijiig78UOQa1jhg19Sm5tr0cdheqDPiR5SV1kwPYNPogRYvqFYIErk7pKUSvUfxdjtkBKSP_UK9WMgDmGPQ-j17G0HLpVo-xS-vvik6RAlaoOOu_-DnFZu9RvXHzr715NmMQz3ohV-KPU341etHh83OU70gmRHx3Zy4PIiQdgPZOc-3e16oP5PANegTtUVUlaS4ifq08Xc9w7PbMrxPDqcUM854P_8VM6UDxSy3_qnPxSsQrgg/hls/index.m3u8
+#EXTINF:-1 tvg-id="a.spor.c.tr" tvg-name="A SPOR .c" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-spor-tr.png" group-title="Spor",A SPOR .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/UAdYchaIjYchSNcO6AMSQ6JUvvTp1MICvJk75YkKjjwZAHfWDX_cBdRD2l9AVwd1za3t_C7uhYlle_Vaa2N-F1MakP34xvoYG1RVstSftTjqgWL0qmx0cOUwxwBM3CanVNT51UrVAFQGzh6VOzjGEtA8lnRLy-cYcYhDMOqHQQzGE3Awgulhb9-XGUQ-MFh9kAnwDxbAOWvwNMGPEH3ixOvYXa3YRh8wI6SpKx9-guh3a6bLwDTtEVfyOw6waAj_eZk9bsPBqMt_IVkeN3yQUQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="a.spor.s.tr" tvg-name="A SPOR .s" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-spor-tr.png" group-title="Spor",A SPOR .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/irVkkMSy4ZIYp6xEbjUF04w8LPb96OZAZhnyi5Q7ZyeaFF3jxkNQxwYyB5TIm5Yy0UlFaFKwNMSGzYjnK3TLcAj_bjdhdzCuo7APp6_-bXO0fY73U85ziHR18ZvXvCNGUbEFV6919-HHe9dtrlplCXrby62zOc0ZbU0z38BE2nh5yUw1p1nsgaQsXeYduPuCdTK1AiXDRBYCEs6fTsWGlt6lrvF5Me6CWRmA2Xk0VITj7Hqde26uLZOXaSpRzLbJSyE5PMTP5z0sERSuZPQNJw/hls/index.m3u8
+#EXTINF:-1 tvg-id="a.spor.fhd.b.tr" tvg-name="A SPOR FHD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-spor-tr.png" group-title="Spor",A SPOR FHD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/inE4kiqwD2ilABISRKzqhJ-GyisTeNjUAUnZS3AD0M-QUqNOWqAdM_Dysjie8POYpLMvBuBMUfc2DZe668DVIqY_L23HIjYAq4Wm7oE81phRulCzU01pZRYmNWO1te4b85tUkbKUIKMJ4khs_Dccw5TcCohaj6_keQ1LRE-UHciCQyhc7ZyWxoH9R_UUOxWRApo4_7ZKmi6dHEb0IlsIxo_wIS3VxFuk12UszD7BbhaocWyUlW08NnSkRu185FjHGLU6FEJFwRUeMXHl4Lcxvw/hls/index.m3u8
+#EXTINF:-1 tvg-id="a.spor.hd.b.tr" tvg-name="A SPOR HD .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-spor-tr.png" group-title="Spor",A SPOR HD .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/WyDchnn9vb0Pxxd3nx48ZkFZEt5pvNz7daemzs92-DVxWLazwGvJLRcdS_zLrdRaUWTd53_HBDQilk5I8f5xQqkbWVwY13E-lcI2u9z2HmQd8lvS2gBzO5NqBU4KiJnMxmoqE3d3Je4r6OybjsKPdNV9wuKY_MddWRo6kxB0kBL4rLHVLhTNitUWtNHFXZP6Et00AmqZNqnHCYi-3PPJTWFcb9MBE24nnkUuXZww7F3z0vcVcqcoygNN4N69EwGecbUQCovfhE7OJGYZm8GZvg/hls/index.m3u8
+#EXTINF:-1 tvg-id="a.spor.hevc.b.tr" tvg-name="A SPOR HEVC .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-spor-tr.png" group-title="Spor",A SPOR HEVC .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/sDiriIjuvx4HF5iCjTBYPMg6KtuKh53Qtf03bFhhfYnjW9akz_mCTyKJYpJB--fP20MtW1EQWGcKh0COsrtqmG-D7bLpy2Q4iPcG9fAtmPxFPfcEOHc_0iJU8q4cp_XE3egPsTOE2RTy8d-kqtKIqW8V02bhqVoE00ibtOnztXulZ_12J-Vd-EgdCgeyZTlfqqCVR_pNsqMNsNEBrKleiAcla_qw3qrBJCKo_qYIfBjOhGTm5s-BVD7ZnDS3-2ipGBsXb-E0db84FyanAOUMaQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="a.spor.raw.b.tr" tvg-name="A SPOR RAW .b" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/a-spor-tr.png" group-title="Spor",A SPOR RAW .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/AtiVPxT-cR0qWpfaABEebtLFvv7MMZkdPd0-fZE-feFtxbtZviblPvsPL8hjNXM_GePHu1UHVbF7oEXGzazU4rKhcfISpq8dgXDJ84tmwSUd6vZu3BEssYVK6jpR_RvERtj-b1rcdbcPH2Jtg-ispH4XQg6wDYuVLLisrne1R8-qPVkhThnMjrcewIpmkcyffPWm_b-9xr0AcyFNp8w7w2yoHuoIbBtBi0M3nrkA9PV9agdjSllKv45ZZqQrJPJfVDZOKb0DUqR1T7tBNEdMMQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="bein.1.feed.720p.b.tr" tvg-name="BEIN 1 FEED (720P) .b" group-title="Spor",BEIN 1 FEED (720P) .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/uuaLSb6I7m6MeXCUuEf_E6Yh2_eUB32h3ZWHWph4634ocGQIfmVN61ZYCIpzHtX1vAFkUeuUkI0b8GAE7gb4kOC1BJ8FkKT0FsaqJF1iMDbpqvC12RHwqSgku8xgJudyDaLnFgCYepZ-EdcCjH0rQaXgULMXXe3w5Q583fCuPs4HfNhtCZmEnEC0wvu870EeWoVM2BZDIAZgQZfo4Gno4M0Y2PZhdkVmP8bNegvEPfA5lW0SKVrKv1SDG2s-9EugsEk-LhlRC4JXS3_34hmiNw/hls/index.m3u8
+#EXTINF:-1 tvg-id="bein.1.sd.480p.b.tr" tvg-name="BEIN 1 SD (480P) .b" group-title="Spor",BEIN 1 SD (480P) .b
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/jPVtkhYbYauRq18ehDbC983tv__lw_z-NgFDxDaDAd6-sUUUAnF8ECzcWqGoDU9Dc4UhiGfB0FcenecUbBjoTuIp0Ng5-JggEt4aTY5C9F1ui9VK_CnCuePSZ1mgtTCrivrBrlXvUe2r_XYXY_-oEbEeuNJCv00G3NTtNzwzirnuK7ihTW7f3DGBkJ7SY0FAHtHORwnk8MQoE6pbg7ij-I1H_bSk0QUxAyaWnzD-h8mZxLdhBVZbko_6tGAtfaT-aTjRIEGnYWZb23dnXIy9MA/hls/index.m3u8
+#EXTINF:-1 tvg-id="bein.box.office.1.c.tr" tvg-name="BEIN BOX OFFICE 1 .c" group-title="Spor",BEIN BOX OFFICE 1 .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/G6Q1xW60XYp1K1cx_66K1FwbB5mZw_F1TpUlZT5-MgSOpBi7t3e4AvzDNNWEKI3fZi4p7W5-7Rwf8s4stKGmJufLnkVxxBP7gbrSU9N4ib6dtWCWnWgJ6oHIgaeZ7tskF4eBPElDJtU6OsE6x_0X9D-6h4TvRlx2imCQAFw4WH89srkC9KhBie5eKt060t9AgPD2b-DJnzKVGHjtQmQ4EW2fONnGGiMElQhd2-9xfMyCtMS2_zGP8aN0S29K-afjxvzOu2ilgk6h-7ZLVig7fA/hls/index.m3u8
+#EXTINF:-1 tvg-id="bein.box.office.1.s.tr" tvg-name="BEIN BOX OFFICE 1 .s" group-title="Spor",BEIN BOX OFFICE 1 .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/BvVXDf8esyO6DLL4vwcvWbOQmcL3CBOyge7Z0323UYciRhpSY5WcSypNt5lS9eQJNofDVbIiKcno-LEN5qpItOhUfknqBbapIWnT33_7o_qxj9crn-UVMNv0yyA2sDq8hp70Yk2_9uXnvi0MpSn4GGZMi-Cp33yGryXUO9_UW9D2ch8IhJQjRh55KSDWKUB5Fa8G1Pkb_GLcU-21GEH865qUmMY19XL4UHCL5DpZL07kO5HhsSGaPGmzjxvvXtWYBmHTB7naNrjRCoh_msOEcA/hls/index.m3u8
+#EXTINF:-1 tvg-id="bein.box.office.2.c.tr" tvg-name="BEIN BOX OFFICE 2 .c" group-title="Spor",BEIN BOX OFFICE 2 .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://qmaalhy7acgxwhm.ngolpdkyoctjcddxshli469r.org/sunshine/Y9JEjkKT7RaIlbWEtFdDxqEqT46xpoFFdJkoJ0eDaieSoOhyFyLBucbPfca-god1f8jbTkLxw1NOK3HxdtRUV0F-0rEBCPVziUIgwuI7uSmYVHHOubNu9Qf3zo-fA4NpLTW8wbcU5mzleQdN_r4n7rL9g6hsmo6-K_ySu-lyFbcXS4UClB4vCSmP0mbLVVSCLYE8_BJMpKlR8wRlU9YwWfpeeMQseIZlGI7shohAI-G-EkstOIzC-saw4DajBySx483oBKXm7zG6-v-Pt--pmA/hls/index.m3u8
+#EXTINF:-1 tvg-id="bein.box.office.2.s.tr" tvg-name="BEIN BOX OFFICE 2 .s" group-title="Spor",BEIN BOX OFFICE 2 .s
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/1Eq2zk759OvIXgXEPVszE2RxCW1p_B02hlKlFjx4uOOLD8vC4OZwi2mNq5y761giN7mYvG1KuRuAR6HilDIZaLZqo5pQ8SwcYaau688LTA-JSVumMGbB0Q_ZNccabSA-fcCcL7bS7GoxeggoV7oeRYtuMsVKDHd9rjeb-rirL04SJ1Ozp2akF7_Ex2S2YoBx3ad_03a8LScrM3dEDzgXaJBMLv8K1N-egcOgeTHRc6rgeMn0s8dW8dbnbjqyvz7MyoVtxAZV1LGDjPIjzn-jjQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="bein.box.office.3.c.tr" tvg-name="BEIN BOX OFFICE 3 .c" group-title="Spor",BEIN BOX OFFICE 3 .c
+#EXTVLCOPT:http-user-agent=VAVOO/2.6
+#EXTVLCOPT:http-referrer=https://vavoo.to/
+https://td3wb1bchdvsahp.ngolpdkyoctjcddxshli469r.org/sunshine/J3fQfQ8TDWe0auETLqH_h1vcktaxmpjHql5ky15gEmk7FtHlUNgIkDbs20zEUUvZl-S7lbdFzPFosIViEWVzP0-jyKQVDrW2SmzVzh57f0cz1WwhuvjorTRnGkDTymDPO9d8TQJMTNUPEUXn2f62TOZNG1QcSz3nXlUuyM8YXPSF1zN2tcPVcPjWxmn5MgqMNi_6N6fYJ9hm6C9QK1onmhxiwhWuAH8j7pIwIhY_Scdv7aIkxJXlQm5M6VdnnHXDt0m-H-lpfpoG1G8Z9MM9MQ/hls/index.m3u8
+#EXTINF:-1 tvg-id="bein.box.office.3.s.tr" tvg-name="BEIN BOX OFFICE 3 .s" group-title="Spor",BEIN BOX OFFICE 3 .s
