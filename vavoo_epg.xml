@@ -231,6 +231,9 @@
   <channel id="4k.tr.s.sport.b.tr">
     <display-name>4K TR: S SPORT .b</display-name>
   </channel>
+  <channel id="4k.tr.s.sport.2.b.tr">
+    <display-name>4K TR: S SPORT 2 .b</display-name>
+  </channel>
   <channel id="4k.tr.show.tv.hd.b.tr">
     <display-name>4K TR: SHOW TV HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tv-tr.png"/>
@@ -241,15 +244,15 @@
   <channel id="4k.tr.spor.smart.b.tr">
     <display-name>4K TR: SPOR SMART .b</display-name>
   </channel>
-  <channel id="4k.tr.sports.tv.hd.b.tr">
-    <display-name>4K TR: SPORTS TV HD .b</display-name>
-  </channel>
   <channel id="4k.tr.star.tv.hd.b.tr">
     <display-name>4K TR: STAR TV HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png"/>
   </channel>
   <channel id="4k.tr.tele1.b.tr">
     <display-name>4K TR: TELE1 .b</display-name>
+  </channel>
+  <channel id="4k.tr.teve2.hd.b.tr">
+    <display-name>4K TR: TEVE2 HD .b</display-name>
   </channel>
   <channel id="4k.tr.tgrt.haber.hd.b.tr">
     <display-name>4K TR: TGRT HABER HD .b</display-name>
@@ -824,6 +827,10 @@
   </channel>
   <channel id="bein.sports.4k.feeduydu.b.tr">
     <display-name>BEIN SPORTS 4K FEED(UYDU) .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
+  </channel>
+  <channel id="bein.sports.5.c.tr">
+    <display-name>BEIN SPORTS 5 .c</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
   <channel id="bein.sports.5.match.time.s.tr">
@@ -2901,6 +2908,9 @@
   <channel id="ssport2.mac.saati.b.tr">
     <display-name>S-SPORT+2 MAC SAATI .b</display-name>
   </channel>
+  <channel id="ssports.1.sd.b.tr">
+    <display-name>S-SPORTS 1 SD .b</display-name>
+  </channel>
   <channel id="ssports.2.sd.b.tr">
     <display-name>S-SPORTS 2 SD .b</display-name>
   </channel>
@@ -3142,6 +3152,9 @@
   <channel id="spor.smart.2.c.tr">
     <display-name>SPOR SMART 2 .c</display-name>
   </channel>
+  <channel id="spor.smart.2.hd.b.tr">
+    <display-name>SPOR SMART 2 HD .b</display-name>
+  </channel>
   <channel id="spor.smart.fhd.b.tr">
     <display-name>SPOR SMART FHD .b</display-name>
   </channel>
@@ -3235,20 +3248,17 @@
   <channel id="tabii.spor.2.hd.b.tr">
     <display-name>TABII SPOR 2 HD .b</display-name>
   </channel>
-  <channel id="tabii.spor.2.uhd.b.tr">
-    <display-name>TABII SPOR 2 UHD .b</display-name>
-  </channel>
   <channel id="tabii.spor.3.c.tr">
     <display-name>TABII SPOR 3 .c</display-name>
   </channel>
   <channel id="tabii.spor.3.hd.b.tr">
     <display-name>TABII SPOR 3 HD .b</display-name>
   </channel>
-  <channel id="tabii.spor.3.uhd.b.tr">
-    <display-name>TABII SPOR 3 UHD .b</display-name>
-  </channel>
   <channel id="tabii.spor.4.c.tr">
     <display-name>TABII SPOR 4 .c</display-name>
+  </channel>
+  <channel id="tabii.spor.4.hd.b.tr">
+    <display-name>TABII SPOR 4 HD .b</display-name>
   </channel>
   <channel id="tabii.spor.4.uhd.b.tr">
     <display-name>TABII SPOR 4 UHD .b</display-name>
@@ -3258,6 +3268,9 @@
   </channel>
   <channel id="tabii.spor.5.hd.b.tr">
     <display-name>TABII SPOR 5 HD .b</display-name>
+  </channel>
+  <channel id="tabii.spor.5.uhd.b.tr">
+    <display-name>TABII SPOR 5 UHD .b</display-name>
   </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
@@ -3456,9 +3469,6 @@
   </channel>
   <channel id="trabzon.haber.61.tv.hd.b.tr">
     <display-name>TRABZON HABER 61 TV HD .b</display-name>
-  </channel>
-  <channel id="transformers.b.tr">
-    <display-name>TRANSFORMERS .b</display-name>
   </channel>
   <channel id="trol.avcilari.b.tr">
     <display-name>TROL AVCILARI .b</display-name>
@@ -3839,6 +3849,9 @@
   </channel>
   <channel id="ultra.turk.b.tr">
     <display-name>ULTRA TURK .b</display-name>
+  </channel>
+  <channel id="ulusal.kanal.b.tr">
+    <display-name>ULUSAL KANAL .b</display-name>
   </channel>
   <channel id="ulusal.kanal.c.tr">
     <display-name>ULUSAL KANAL .c</display-name>
