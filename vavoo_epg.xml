@@ -82,6 +82,10 @@
   <channel id="4k.tr.da.vinci.b.tr">
     <display-name>4K TR: DA VINCI .b</display-name>
   </channel>
+  <channel id="4k.tr.discovery.channel.hd.b.tr">
+    <display-name>4K TR: DISCOVERY CHANNEL HD .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/discovery-channel-tr.png"/>
+  </channel>
   <channel id="4k.tr.disney.junior.b.tr">
     <display-name>4K TR: DISNEY JUNIOR .b</display-name>
   </channel>
@@ -227,9 +231,6 @@
   <channel id="4k.tr.s.sport.b.tr">
     <display-name>4K TR: S SPORT .b</display-name>
   </channel>
-  <channel id="4k.tr.s.sport.2.b.tr">
-    <display-name>4K TR: S SPORT 2 .b</display-name>
-  </channel>
   <channel id="4k.tr.show.tv.hd.b.tr">
     <display-name>4K TR: SHOW TV HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/show-tv-tr.png"/>
@@ -249,9 +250,6 @@
   </channel>
   <channel id="4k.tr.tele1.b.tr">
     <display-name>4K TR: TELE1 .b</display-name>
-  </channel>
-  <channel id="4k.tr.teve2.hd.b.tr">
-    <display-name>4K TR: TEVE2 HD .b</display-name>
   </channel>
   <channel id="4k.tr.tgrt.haber.hd.b.tr">
     <display-name>4K TR: TGRT HABER HD .b</display-name>
@@ -516,6 +514,9 @@
   </channel>
   <channel id="apara.hd.b.tr">
     <display-name>APARA HD .b</display-name>
+  </channel>
+  <channel id="arti.tv.s.tr">
+    <display-name>ARTI TV .s</display-name>
   </channel>
   <channel id="as.tv.bursa.c.tr">
     <display-name>AS TV BURSA .c</display-name>
@@ -1208,6 +1209,9 @@
   </channel>
   <channel id="dinamik.dram.b.tr">
     <display-name>DINAMIK DRAM .b</display-name>
+  </channel>
+  <channel id="dinamik.hababam.sinifi.b.tr">
+    <display-name>DINAMIK HABABAM SINIFI .b</display-name>
   </channel>
   <channel id="dinamik.imbd.b.tr">
     <display-name>DINAMIK IMBD .b</display-name>
@@ -2897,9 +2901,6 @@
   <channel id="ssport2.mac.saati.b.tr">
     <display-name>S-SPORT+2 MAC SAATI .b</display-name>
   </channel>
-  <channel id="ssports.1.sd.b.tr">
-    <display-name>S-SPORTS 1 SD .b</display-name>
-  </channel>
   <channel id="ssports.2.sd.b.tr">
     <display-name>S-SPORTS 2 SD .b</display-name>
   </channel>
@@ -3141,9 +3142,6 @@
   <channel id="spor.smart.2.c.tr">
     <display-name>SPOR SMART 2 .c</display-name>
   </channel>
-  <channel id="spor.smart.2.hd.b.tr">
-    <display-name>SPOR SMART 2 HD .b</display-name>
-  </channel>
   <channel id="spor.smart.fhd.b.tr">
     <display-name>SPOR SMART FHD .b</display-name>
   </channel>
@@ -3251,9 +3249,6 @@
   </channel>
   <channel id="tabii.spor.4.c.tr">
     <display-name>TABII SPOR 4 .c</display-name>
-  </channel>
-  <channel id="tabii.spor.4.hd.b.tr">
-    <display-name>TABII SPOR 4 HD .b</display-name>
   </channel>
   <channel id="tabii.spor.4.uhd.b.tr">
     <display-name>TABII SPOR 4 UHD .b</display-name>
@@ -3844,9 +3839,6 @@
   </channel>
   <channel id="ultra.turk.b.tr">
     <display-name>ULTRA TURK .b</display-name>
-  </channel>
-  <channel id="ulusal.kanal.b.tr">
-    <display-name>ULUSAL KANAL .b</display-name>
   </channel>
   <channel id="ulusal.kanal.c.tr">
     <display-name>ULUSAL KANAL .c</display-name>
