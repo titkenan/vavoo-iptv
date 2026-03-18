@@ -134,9 +134,6 @@
   <channel id="4k.tr.halk.tv.b.tr">
     <display-name>4K TR: HALK TV .b</display-name>
   </channel>
-  <channel id="4k.tr.kanal.7.hd.b.tr">
-    <display-name>4K TR: KANAL 7 HD .b</display-name>
-  </channel>
   <channel id="4k.tr.kanal.d.hd.b.tr">
     <display-name>4K TR: KANAL D HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png"/>
@@ -200,9 +197,6 @@
   </channel>
   <channel id="4k.tr.s.nema.a.le.2.hd.b.tr">
     <display-name>4K TR: S NEMA A LE 2 HD .b</display-name>
-  </channel>
-  <channel id="4k.tr.s.nema.a.le.hd.b.tr">
-    <display-name>4K TR: S NEMA A LE HD .b</display-name>
   </channel>
   <channel id="4k.tr.s.nema.aks.yon.2.hd.b.tr">
     <display-name>4K TR: S NEMA AKS YON 2 HD .b</display-name>
@@ -404,14 +398,23 @@
   <channel id="a2.tv.sd.b.tr">
     <display-name>A2 TV SD .b</display-name>
   </channel>
+  <channel id="ada.tv.b.tr">
+    <display-name>ADA TV .b</display-name>
+  </channel>
   <channel id="ada.tv.c.tr">
     <display-name>ADA TV .c</display-name>
+  </channel>
+  <channel id="adana.tv.b.tr">
+    <display-name>ADANA TV .b</display-name>
   </channel>
   <channel id="adibesa.masallari.b.tr">
     <display-name>ADIBESA MASALLARI .b</display-name>
   </channel>
   <channel id="adiyaman.mercan.tv.b.tr">
     <display-name>ADIYAMAN MERCAN TV .b</display-name>
+  </channel>
+  <channel id="afyon.t.rk.tv.b.tr">
+    <display-name>AFYON T RK TV .b</display-name>
   </channel>
   <channel id="afyon.turk.s.tr">
     <display-name>AFYON TURK .s</display-name>
@@ -934,9 +937,6 @@
   </channel>
   <channel id="best.komedi.b.tr">
     <display-name>BEST KOMEDI .b</display-name>
-  </channel>
-  <channel id="best.korku.b.tr">
-    <display-name>BEST KORKU .b</display-name>
   </channel>
   <channel id="best.loca.1.b.tr">
     <display-name>BEST LOCA 1 .b</display-name>
@@ -2833,9 +2833,6 @@
   <channel id="redbull.tv.b.tr">
     <display-name>REDBULL TV .b</display-name>
   </channel>
-  <channel id="rehber.s.tr">
-    <display-name>REHBER .s</display-name>
-  </channel>
   <channel id="rehber.tv.b.tr">
     <display-name>REHBER TV .b</display-name>
   </channel>
@@ -2856,6 +2853,9 @@
   </channel>
   <channel id="s.per.fm.t.rk.e.pop.b.tr">
     <display-name>S PER FM T RK E POP .b</display-name>
+  </channel>
+  <channel id="s.sport.c.tr">
+    <display-name>S SPORT .c</display-name>
   </channel>
   <channel id="s.sport.s.tr">
     <display-name>S SPORT .s</display-name>
@@ -3143,9 +3143,6 @@
   <channel id="spor.smart.2.c.tr">
     <display-name>SPOR SMART 2 .c</display-name>
   </channel>
-  <channel id="spor.smart.2.hd.b.tr">
-    <display-name>SPOR SMART 2 HD .b</display-name>
-  </channel>
   <channel id="spor.smart.fhd.b.tr">
     <display-name>SPOR SMART FHD .b</display-name>
   </channel>
@@ -3254,9 +3251,6 @@
   <channel id="tabii.spor.4.hd.b.tr">
     <display-name>TABII SPOR 4 HD .b</display-name>
   </channel>
-  <channel id="tabii.spor.4.uhd.b.tr">
-    <display-name>TABII SPOR 4 UHD .b</display-name>
-  </channel>
   <channel id="tabii.spor.5.c.tr">
     <display-name>TABII SPOR 5 .c</display-name>
   </channel>
@@ -3265,9 +3259,6 @@
   </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
-  </channel>
-  <channel id="tabii.spor.6.hd.b.tr">
-    <display-name>TABII SPOR 6 HD .b</display-name>
   </channel>
   <channel id="tabii.spor.hd.b.tr">
     <display-name>TABII SPOR HD .b</display-name>
@@ -3773,6 +3764,9 @@
   <channel id="tv.net.c.tr">
     <display-name>TV NET .c</display-name>
   </channel>
+  <channel id="tv.net.c.tr">
+    <display-name>TV NET .c</display-name>
+  </channel>
   <channel id="tv5.b.tr">
     <display-name>TV5 .b</display-name>
   </channel>
@@ -3934,6 +3928,9 @@
   </channel>
   <channel id="yaban.tv.s.tr">
     <display-name>YABAN TV .s</display-name>
+  </channel>
+  <channel id="yaban.tv.hd.b.tr">
+    <display-name>YABAN TV HD .b</display-name>
   </channel>
   <channel id="yeni.kocaeli.tv.b.tr">
     <display-name>YENI KOCAELI TV .b</display-name>
