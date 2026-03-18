@@ -134,6 +134,9 @@
   <channel id="4k.tr.halk.tv.b.tr">
     <display-name>4K TR: HALK TV .b</display-name>
   </channel>
+  <channel id="4k.tr.kanal.7.hd.b.tr">
+    <display-name>4K TR: KANAL 7 HD .b</display-name>
+  </channel>
   <channel id="4k.tr.kanal.d.hd.b.tr">
     <display-name>4K TR: KANAL D HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/kanal-d-tr.png"/>
@@ -197,6 +200,9 @@
   </channel>
   <channel id="4k.tr.s.nema.a.le.2.hd.b.tr">
     <display-name>4K TR: S NEMA A LE 2 HD .b</display-name>
+  </channel>
+  <channel id="4k.tr.s.nema.a.le.hd.b.tr">
+    <display-name>4K TR: S NEMA A LE HD .b</display-name>
   </channel>
   <channel id="4k.tr.s.nema.aks.yon.2.hd.b.tr">
     <display-name>4K TR: S NEMA AKS YON 2 HD .b</display-name>
@@ -578,12 +584,6 @@
   <channel id="automoto.fr.s.tr">
     <display-name>AUTOMOTO (FR) .s</display-name>
   </channel>
-  <channel id="av.tv.b.tr">
-    <display-name>AV TV .b</display-name>
-  </channel>
-  <channel id="av.tv.s.tr">
-    <display-name>AV TV .s</display-name>
-  </channel>
   <channel id="baba.radyo.arabesk.b.tr">
     <display-name>BABA RADYO ARABESK .b</display-name>
   </channel>
@@ -592,9 +592,6 @@
   </channel>
   <channel id="baby.tv.s.tr">
     <display-name>BABY TV .s</display-name>
-  </channel>
-  <channel id="baby.tv.hd.b.tr">
-    <display-name>BABY TV HD .b</display-name>
   </channel>
   <channel id="barbaros.tv.b.tr">
     <display-name>BARBAROS TV .b</display-name>
@@ -826,10 +823,6 @@
     <display-name>BEIN SPORTS 4K FEED(UYDU) .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
-  <channel id="bein.sports.5.c.tr">
-    <display-name>BEIN SPORTS 5 .c</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
-  </channel>
   <channel id="bein.sports.5.match.time.s.tr">
     <display-name>BEIN SPORTS 5 (MATCH TIME) .s</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
@@ -938,6 +931,9 @@
   <channel id="best.komedi.b.tr">
     <display-name>BEST KOMEDI .b</display-name>
   </channel>
+  <channel id="best.korku.b.tr">
+    <display-name>BEST KORKU .b</display-name>
+  </channel>
   <channel id="best.loca.1.b.tr">
     <display-name>BEST LOCA 1 .b</display-name>
   </channel>
@@ -980,6 +976,10 @@
   </channel>
   <channel id="beyaz.tv.s.tr">
     <display-name>BEYAZ TV .s</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
+  </channel>
+  <channel id="beyaz.tv.fhd.b.tr">
+    <display-name>BEYAZ TV FHD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
   </channel>
   <channel id="beyaz.tv.fhd.b.tr">
@@ -3143,6 +3143,9 @@
   <channel id="spor.smart.2.c.tr">
     <display-name>SPOR SMART 2 .c</display-name>
   </channel>
+  <channel id="spor.smart.2.hd.b.tr">
+    <display-name>SPOR SMART 2 HD .b</display-name>
+  </channel>
   <channel id="spor.smart.fhd.b.tr">
     <display-name>SPOR SMART FHD .b</display-name>
   </channel>
@@ -3236,14 +3239,11 @@
   <channel id="tabii.spor.2.hd.b.tr">
     <display-name>TABII SPOR 2 HD .b</display-name>
   </channel>
+  <channel id="tabii.spor.2.uhd.b.tr">
+    <display-name>TABII SPOR 2 UHD .b</display-name>
+  </channel>
   <channel id="tabii.spor.3.c.tr">
     <display-name>TABII SPOR 3 .c</display-name>
-  </channel>
-  <channel id="tabii.spor.3.hd.b.tr">
-    <display-name>TABII SPOR 3 HD .b</display-name>
-  </channel>
-  <channel id="tabii.spor.3.uhd.b.tr">
-    <display-name>TABII SPOR 3 UHD .b</display-name>
   </channel>
   <channel id="tabii.spor.4.c.tr">
     <display-name>TABII SPOR 4 .c</display-name>
@@ -3259,6 +3259,9 @@
   </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
+  </channel>
+  <channel id="tabii.spor.6.uhd.b.tr">
+    <display-name>TABII SPOR 6 UHD .b</display-name>
   </channel>
   <channel id="tabii.spor.hd.b.tr">
     <display-name>TABII SPOR HD .b</display-name>
@@ -3454,9 +3457,6 @@
   </channel>
   <channel id="trabzon.haber.61.tv.hd.b.tr">
     <display-name>TRABZON HABER 61 TV HD .b</display-name>
-  </channel>
-  <channel id="transformers.b.tr">
-    <display-name>TRANSFORMERS .b</display-name>
   </channel>
   <channel id="trol.avcilari.b.tr">
     <display-name>TROL AVCILARI .b</display-name>
@@ -3760,9 +3760,6 @@
   </channel>
   <channel id="tv.kayseri.c.tr">
     <display-name>TV KAYSERI .c</display-name>
-  </channel>
-  <channel id="tv.net.c.tr">
-    <display-name>TV NET .c</display-name>
   </channel>
   <channel id="tv.net.c.tr">
     <display-name>TV NET .c</display-name>
