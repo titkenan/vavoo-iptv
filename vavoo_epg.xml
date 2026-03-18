@@ -584,6 +584,12 @@
   <channel id="automoto.fr.s.tr">
     <display-name>AUTOMOTO (FR) .s</display-name>
   </channel>
+  <channel id="av.tv.b.tr">
+    <display-name>AV TV .b</display-name>
+  </channel>
+  <channel id="av.tv.s.tr">
+    <display-name>AV TV .s</display-name>
+  </channel>
   <channel id="baba.radyo.arabesk.b.tr">
     <display-name>BABA RADYO ARABESK .b</display-name>
   </channel>
@@ -592,6 +598,9 @@
   </channel>
   <channel id="baby.tv.s.tr">
     <display-name>BABY TV .s</display-name>
+  </channel>
+  <channel id="baby.tv.hd.b.tr">
+    <display-name>BABY TV HD .b</display-name>
   </channel>
   <channel id="barbaros.tv.b.tr">
     <display-name>BARBAROS TV .b</display-name>
@@ -665,9 +674,6 @@
   <channel id="bein.movies.action.2.s.tr">
     <display-name>BEIN MOVIES ACTION 2 .s</display-name>
   </channel>
-  <channel id="bein.movies.family.c.tr">
-    <display-name>BEIN MOVIES FAMILY .c</display-name>
-  </channel>
   <channel id="bein.movies.family.s.tr">
     <display-name>BEIN MOVIES FAMILY .s</display-name>
   </channel>
@@ -718,10 +724,6 @@
   </channel>
   <channel id="bein.series.vice.s.tr">
     <display-name>BEIN SERIES VICE .s</display-name>
-  </channel>
-  <channel id="bein.sports.1.c.tr">
-    <display-name>BEIN SPORTS 1 .c</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
   <channel id="bein.sports.1.720p.b.tr">
     <display-name>BEIN SPORTS 1 (720P) .b</display-name>
@@ -821,6 +823,10 @@
   </channel>
   <channel id="bein.sports.4k.feeduydu.b.tr">
     <display-name>BEIN SPORTS 4K FEED(UYDU) .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
+  </channel>
+  <channel id="bein.sports.5.c.tr">
+    <display-name>BEIN SPORTS 5 .c</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
   <channel id="bein.sports.5.match.time.s.tr">
@@ -976,10 +982,6 @@
   </channel>
   <channel id="beyaz.tv.s.tr">
     <display-name>BEYAZ TV .s</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
-  </channel>
-  <channel id="beyaz.tv.fhd.b.tr">
-    <display-name>BEYAZ TV FHD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
   </channel>
   <channel id="beyaz.tv.fhd.b.tr">
@@ -1907,9 +1909,6 @@
   <channel id="gonca.tv.b.tr">
     <display-name>GONCA TV .b</display-name>
   </channel>
-  <channel id="gonca.tv.c.tr">
-    <display-name>GONCA TV .c</display-name>
-  </channel>
   <channel id="grt.tv.c.tr">
     <display-name>GRT TV .c</display-name>
   </channel>
@@ -1924,9 +1923,6 @@
   </channel>
   <channel id="guneydogu.tv.c.tr">
     <display-name>GUNEYDOGU TV .c</display-name>
-  </channel>
-  <channel id="gurbet24.tv.c.tr">
-    <display-name>GURBET24 TV .c</display-name>
   </channel>
   <channel id="haber.61.c.tr">
     <display-name>HABER 61 .c</display-name>
@@ -2833,6 +2829,12 @@
   <channel id="redbull.tv.b.tr">
     <display-name>REDBULL TV .b</display-name>
   </channel>
+  <channel id="rehber.s.tr">
+    <display-name>REHBER .s</display-name>
+  </channel>
+  <channel id="rehber.s.tr">
+    <display-name>REHBER .s</display-name>
+  </channel>
   <channel id="rehber.tv.b.tr">
     <display-name>REHBER TV .b</display-name>
   </channel>
@@ -3245,6 +3247,9 @@
   <channel id="tabii.spor.3.c.tr">
     <display-name>TABII SPOR 3 .c</display-name>
   </channel>
+  <channel id="tabii.spor.3.hd.b.tr">
+    <display-name>TABII SPOR 3 HD .b</display-name>
+  </channel>
   <channel id="tabii.spor.4.c.tr">
     <display-name>TABII SPOR 4 .c</display-name>
   </channel>
@@ -3259,9 +3264,6 @@
   </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
-  </channel>
-  <channel id="tabii.spor.6.uhd.b.tr">
-    <display-name>TABII SPOR 6 UHD .b</display-name>
   </channel>
   <channel id="tabii.spor.hd.b.tr">
     <display-name>TABII SPOR HD .b</display-name>
