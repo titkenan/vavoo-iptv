@@ -82,10 +82,6 @@
   <channel id="4k.tr.da.vinci.b.tr">
     <display-name>4K TR: DA VINCI .b</display-name>
   </channel>
-  <channel id="4k.tr.discovery.channel.hd.b.tr">
-    <display-name>4K TR: DISCOVERY CHANNEL HD .b</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/discovery-channel-tr.png"/>
-  </channel>
   <channel id="4k.tr.disney.junior.b.tr">
     <display-name>4K TR: DISNEY JUNIOR .b</display-name>
   </channel>
@@ -266,12 +262,6 @@
   <channel id="4k.tr.trt.1.hd.b.tr">
     <display-name>4K TR: TRT 1 HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png"/>
-  </channel>
-  <channel id="4k.tr.trt.2.hd.b.tr">
-    <display-name>4K TR: TRT 2 HD .b</display-name>
-  </channel>
-  <channel id="4k.tr.trt.3.b.tr">
-    <display-name>4K TR: TRT 3 .b</display-name>
   </channel>
   <channel id="4k.tr.trt.avaz.b.tr">
     <display-name>4K TR: TRT AVAZ .b</display-name>
@@ -584,6 +574,9 @@
   <channel id="automoto.fr.s.tr">
     <display-name>AUTOMOTO (FR) .s</display-name>
   </channel>
+  <channel id="av.tv.b.tr">
+    <display-name>AV TV .b</display-name>
+  </channel>
   <channel id="av.tv.s.tr">
     <display-name>AV TV .s</display-name>
   </channel>
@@ -658,6 +651,9 @@
   </channel>
   <channel id="bein.iz.tv.s.tr">
     <display-name>BEIN IZ TV .s</display-name>
+  </channel>
+  <channel id="bein.movies.action.c.tr">
+    <display-name>BEIN MOVIES ACTION .c</display-name>
   </channel>
   <channel id="bein.movies.action.s.tr">
     <display-name>BEIN MOVIES ACTION .s</display-name>
@@ -950,6 +946,9 @@
   <channel id="best.loca.3.b.tr">
     <display-name>BEST LOCA 3 .b</display-name>
   </channel>
+  <channel id="best.netflix.b.tr">
+    <display-name>BEST NETFLIX .b</display-name>
+  </channel>
   <channel id="best.salon.1.b.tr">
     <display-name>BEST SALON 1 .b</display-name>
   </channel>
@@ -976,10 +975,6 @@
   </channel>
   <channel id="beyaz.tv.c.tr">
     <display-name>BEYAZ TV .c</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
-  </channel>
-  <channel id="beyaz.tv.s.tr">
-    <display-name>BEYAZ TV .s</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
   </channel>
   <channel id="beyaz.tv.s.tr">
@@ -1910,6 +1905,9 @@
   </channel>
   <channel id="gonca.tv.b.tr">
     <display-name>GONCA TV .b</display-name>
+  </channel>
+  <channel id="gonca.tv.c.tr">
+    <display-name>GONCA TV .c</display-name>
   </channel>
   <channel id="grt.tv.c.tr">
     <display-name>GRT TV .c</display-name>
@@ -3267,8 +3265,14 @@
   <channel id="tabii.spor.5.hd.b.tr">
     <display-name>TABII SPOR 5 HD .b</display-name>
   </channel>
+  <channel id="tabii.spor.5.uhd.b.tr">
+    <display-name>TABII SPOR 5 UHD .b</display-name>
+  </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
+  </channel>
+  <channel id="tabii.spor.6.uhd.b.tr">
+    <display-name>TABII SPOR 6 UHD .b</display-name>
   </channel>
   <channel id="tabii.spor.hd.b.tr">
     <display-name>TABII SPOR HD .b</display-name>
