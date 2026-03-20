@@ -267,6 +267,9 @@
     <display-name>4K TR: TRT 1 HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png"/>
   </channel>
+  <channel id="4k.tr.trt.2.hd.b.tr">
+    <display-name>4K TR: TRT 2 HD .b</display-name>
+  </channel>
   <channel id="4k.tr.trt.3.b.tr">
     <display-name>4K TR: TRT 3 .b</display-name>
   </channel>
@@ -745,6 +748,10 @@
     <display-name>BEIN SPORTS 1 + .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
+  <channel id="bein.sports.1.50.fps.b.tr">
+    <display-name>BEIN SPORTS 1 50 FPS .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
+  </channel>
   <channel id="bein.sports.1.feed.c.tr">
     <display-name>BEIN SPORTS 1 FEED .c</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
@@ -815,6 +822,10 @@
   </channel>
   <channel id="bein.sports.4.uhd.b.tr">
     <display-name>BEIN SPORTS 4 UHD .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
+  </channel>
+  <channel id="bein.sports.4k.feedkutu.b.tr">
+    <display-name>BEIN SPORTS 4K FEED(KUTU) .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
   <channel id="bein.sports.4k.feeduydu.b.tr">
@@ -978,6 +989,10 @@
   </channel>
   <channel id="beyaz.tv.s.tr">
     <display-name>BEYAZ TV .s</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
+  </channel>
+  <channel id="beyaz.tv.fhd.b.tr">
+    <display-name>BEYAZ TV FHD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
   </channel>
   <channel id="beyaz.tv.hd.b.tr">
@@ -1555,11 +1570,17 @@
   <channel id="eno.vizyon.1.s.tr">
     <display-name>ENO VIZYON 1 .s</display-name>
   </channel>
+  <channel id="eno.vizyon.10.s.tr">
+    <display-name>ENO VIZYON 10 .s</display-name>
+  </channel>
   <channel id="eno.vizyon.11.s.tr">
     <display-name>ENO VIZYON 11 .s</display-name>
   </channel>
   <channel id="eno.vizyon.12.s.tr">
     <display-name>ENO VIZYON 12 .s</display-name>
+  </channel>
+  <channel id="eno.vizyon.14.s.tr">
+    <display-name>ENO VIZYON 14 .s</display-name>
   </channel>
   <channel id="eno.vizyon.15.s.tr">
     <display-name>ENO VIZYON 15 .s</display-name>
@@ -3257,6 +3278,9 @@
   <channel id="tabii.spor.5.hd.b.tr">
     <display-name>TABII SPOR 5 HD .b</display-name>
   </channel>
+  <channel id="tabii.spor.5.uhd.b.tr">
+    <display-name>TABII SPOR 5 UHD .b</display-name>
+  </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
   </channel>
@@ -3455,9 +3479,6 @@
   <channel id="trabzon.haber.61.tv.hd.b.tr">
     <display-name>TRABZON HABER 61 TV HD .b</display-name>
   </channel>
-  <channel id="transformers.b.tr">
-    <display-name>TRANSFORMERS .b</display-name>
-  </channel>
   <channel id="trol.avcilari.b.tr">
     <display-name>TROL AVCILARI .b</display-name>
   </channel>
@@ -3501,9 +3522,6 @@
   </channel>
   <channel id="trt.2.uhd.b.tr">
     <display-name>TRT 2 UHD .b</display-name>
-  </channel>
-  <channel id="trt.4k.c.tr">
-    <display-name>TRT 4K .c</display-name>
   </channel>
   <channel id="trt.avaz.b.tr">
     <display-name>TRT AVAZ .b</display-name>
@@ -3751,15 +3769,6 @@
   </channel>
   <channel id="tv.85.s.tr">
     <display-name>TV 85 .s</display-name>
-  </channel>
-  <channel id="tv.den.c.tr">
-    <display-name>TV DEN .c</display-name>
-  </channel>
-  <channel id="tv.em.s.tr">
-    <display-name>TV EM .s</display-name>
-  </channel>
-  <channel id="tv.kayseri.c.tr">
-    <display-name>TV KAYSERI .c</display-name>
   </channel>
   <channel id="tv.den.c.tr">
     <display-name>TV DEN .c</display-name>
