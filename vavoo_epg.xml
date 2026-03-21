@@ -267,9 +267,6 @@
     <display-name>4K TR: TRT 1 HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png"/>
   </channel>
-  <channel id="4k.tr.trt.2.hd.b.tr">
-    <display-name>4K TR: TRT 2 HD .b</display-name>
-  </channel>
   <channel id="4k.tr.trt.3.b.tr">
     <display-name>4K TR: TRT 3 .b</display-name>
   </channel>
@@ -656,6 +653,9 @@
   <channel id="bein.gurme.hd.b.tr">
     <display-name>BEIN GURME HD .b</display-name>
   </channel>
+  <channel id="bein.iz.c.tr">
+    <display-name>BEIN IZ .c</display-name>
+  </channel>
   <channel id="bein.iz.tv.s.tr">
     <display-name>BEIN IZ TV .s</display-name>
   </channel>
@@ -976,9 +976,6 @@
   </channel>
   <channel id="best.yesilcam.b.tr">
     <display-name>BEST YESILCAM .b</display-name>
-  </channel>
-  <channel id="beyaz.hd.sd.b.tr">
-    <display-name>BEYAZ HD+ SD .b</display-name>
   </channel>
   <channel id="beyaz.hd.sd.b.tr">
     <display-name>BEYAZ HD+ SD .b</display-name>
@@ -2386,9 +2383,6 @@
   <channel id="lider.haber.c.tr">
     <display-name>LIDER HABER .c</display-name>
   </channel>
-  <channel id="life.tv.c.tr">
-    <display-name>LIFE TV .c</display-name>
-  </channel>
   <channel id="limon.zeytin.b.tr">
     <display-name>LIMON ZEYTIN .b</display-name>
   </channel>
@@ -2560,6 +2554,9 @@
   <channel id="movie.smart.turk.s.tr">
     <display-name>MOVIE SMART TURK .s</display-name>
   </channel>
+  <channel id="moviemax.turk.s.tr">
+    <display-name>MOVIEMAX TURK .s</display-name>
+  </channel>
   <channel id="moviesmart.classic.c.tr">
     <display-name>MOVIESMART CLASSIC .c</display-name>
   </channel>
@@ -2659,10 +2656,6 @@
   </channel>
   <channel id="ntv.c.tr">
     <display-name>NTV .c</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png"/>
-  </channel>
-  <channel id="ntv.s.tr">
-    <display-name>NTV .s</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/ntv-tr.png"/>
   </channel>
   <channel id="ntv.haber.s.tr">
@@ -3086,6 +3079,9 @@
   <channel id="sinevizyon.turk.1.s.tr">
     <display-name>SINEVIZYON TURK 1 .s</display-name>
   </channel>
+  <channel id="sinevizyon.turk.10.s.tr">
+    <display-name>SINEVIZYON TURK 10 .s</display-name>
+  </channel>
   <channel id="sinevizyon.turk.2.s.tr">
     <display-name>SINEVIZYON TURK 2 .s</display-name>
   </channel>
@@ -3254,6 +3250,9 @@
   <channel id="tabii.spor.3.hd.b.tr">
     <display-name>TABII SPOR 3 HD .b</display-name>
   </channel>
+  <channel id="tabii.spor.3.uhd.b.tr">
+    <display-name>TABII SPOR 3 UHD .b</display-name>
+  </channel>
   <channel id="tabii.spor.4.c.tr">
     <display-name>TABII SPOR 4 .c</display-name>
   </channel>
@@ -3266,14 +3265,11 @@
   <channel id="tabii.spor.5.c.tr">
     <display-name>TABII SPOR 5 .c</display-name>
   </channel>
-  <channel id="tabii.spor.5.hd.b.tr">
-    <display-name>TABII SPOR 5 HD .b</display-name>
-  </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
   </channel>
-  <channel id="tabii.spor.6.uhd.b.tr">
-    <display-name>TABII SPOR 6 UHD .b</display-name>
+  <channel id="tabii.spor.6.hd.b.tr">
+    <display-name>TABII SPOR 6 HD .b</display-name>
   </channel>
   <channel id="tabii.spor.hd.b.tr">
     <display-name>TABII SPOR HD .b</display-name>
@@ -3403,9 +3399,6 @@
   </channel>
   <channel id="tivibu.spor.3.s.tr">
     <display-name>TIVIBU SPOR 3 .s</display-name>
-  </channel>
-  <channel id="tivibu.spor.4.hd.b.tr">
-    <display-name>TIVIBU SPOR 4 HD .b</display-name>
   </channel>
   <channel id="tivibu.spor.5.hd.b.tr">
     <display-name>TIVIBU SPOR 5 HD .b</display-name>
