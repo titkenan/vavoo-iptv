@@ -101,9 +101,6 @@
   <channel id="4k.tr.ekol.tv.b.tr">
     <display-name>4K TR: EKOL TV .b</display-name>
   </channel>
-  <channel id="4k.tr.english.club.tv.b.tr">
-    <display-name>4K TR: ENGLISH CLUB TV .b</display-name>
-  </channel>
   <channel id="4k.tr.epic.drama.b.tr">
     <display-name>4K TR: EPIC DRAMA .b</display-name>
   </channel>
@@ -1913,6 +1910,9 @@
   <channel id="global.haber.hd.b.tr">
     <display-name>GLOBAL HABER HD .b</display-name>
   </channel>
+  <channel id="global.haber.hd.b.tr">
+    <display-name>GLOBAL HABER HD .b</display-name>
+  </channel>
   <channel id="gonca.tv.b.tr">
     <display-name>GONCA TV .b</display-name>
   </channel>
@@ -2833,9 +2833,6 @@
   <channel id="rafadan.tayfa.b.tr">
     <display-name>RAFADAN TAYFA .b</display-name>
   </channel>
-  <channel id="redbox.arabesk.tv.b.tr">
-    <display-name>REDBOX ARABESK TV .b</display-name>
-  </channel>
   <channel id="redbox.turkce.pop.b.tr">
     <display-name>REDBOX TURKCE POP .b</display-name>
   </channel>
@@ -2877,6 +2874,9 @@
   </channel>
   <channel id="s.sport.2.s.tr">
     <display-name>S SPORT 2 .s</display-name>
+  </channel>
+  <channel id="s.sport3.mac.saati.b.tr">
+    <display-name>S SPORT+3 MAC SAATI .b</display-name>
   </channel>
   <channel id="s.sport4.mac.saati.b.tr">
     <display-name>S SPORT+4 MAC SAATI .b</display-name>
@@ -2946,6 +2946,9 @@
   </channel>
   <channel id="satranç.tv.c.tr">
     <display-name>SATRANÇ TV .c</display-name>
+  </channel>
+  <channel id="science..vice.s.tr">
+    <display-name>SCIENCE & VICE .s</display-name>
   </channel>
   <channel id="sef.rokka.tv.b.tr">
     <display-name>SEF ROKKA TV .b</display-name>
@@ -3082,6 +3085,9 @@
   </channel>
   <channel id="sinevizyon.turk.1.s.tr">
     <display-name>SINEVIZYON TURK 1 .s</display-name>
+  </channel>
+  <channel id="sinevizyon.turk.10.s.tr">
+    <display-name>SINEVIZYON TURK 10 .s</display-name>
   </channel>
   <channel id="sinevizyon.turk.2.s.tr">
     <display-name>SINEVIZYON TURK 2 .s</display-name>
@@ -3265,9 +3271,6 @@
   </channel>
   <channel id="tabii.spor.5.c.tr">
     <display-name>TABII SPOR 5 .c</display-name>
-  </channel>
-  <channel id="tabii.spor.5.hd.b.tr">
-    <display-name>TABII SPOR 5 HD .b</display-name>
   </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
@@ -3469,6 +3472,9 @@
   </channel>
   <channel id="trabzon.haber.61.tv.hd.b.tr">
     <display-name>TRABZON HABER 61 TV HD .b</display-name>
+  </channel>
+  <channel id="transformers.b.tr">
+    <display-name>TRANSFORMERS .b</display-name>
   </channel>
   <channel id="trol.avcilari.b.tr">
     <display-name>TROL AVCILARI .b</display-name>
@@ -3760,9 +3766,6 @@
   </channel>
   <channel id="tv.85.hd.b.tr">
     <display-name>TV 8.5 HD .b</display-name>
-  </channel>
-  <channel id="tv.85.s.tr">
-    <display-name>TV 85 .s</display-name>
   </channel>
   <channel id="tv.85.s.tr">
     <display-name>TV 85 .s</display-name>
