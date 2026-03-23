@@ -97,6 +97,9 @@
   <channel id="4k.tr.ekol.tv.b.tr">
     <display-name>4K TR: EKOL TV .b</display-name>
   </channel>
+  <channel id="4k.tr.english.club.tv.b.tr">
+    <display-name>4K TR: ENGLISH CLUB TV .b</display-name>
+  </channel>
   <channel id="4k.tr.epic.drama.b.tr">
     <display-name>4K TR: EPIC DRAMA .b</display-name>
   </channel>
@@ -111,9 +114,6 @@
   </channel>
   <channel id="4k.tr.fb.tv.b.tr">
     <display-name>4K TR: FB TV .b</display-name>
-  </channel>
-  <channel id="4k.tr.flash.tv.b.tr">
-    <display-name>4K TR: FLASH TV .b</display-name>
   </channel>
   <channel id="4k.tr.fx.hd.b.tr">
     <display-name>4K TR: FX HD .b</display-name>
@@ -182,6 +182,9 @@
   <channel id="4k.tr.number1.tv.hd.b.tr">
     <display-name>4K TR: NUMBER1 TV HD .b</display-name>
   </channel>
+  <channel id="4k.tr.power.turk.hd.b.tr">
+    <display-name>4K TR: POWER TURK HD .b</display-name>
+  </channel>
   <channel id="4k.tr.s.nema.1002.hd.b.tr">
     <display-name>4K TR: S NEMA 1002 HD .b</display-name>
   </channel>
@@ -228,12 +231,6 @@
   <channel id="4k.tr.sozcu.tv.b.tr">
     <display-name>4K TR: SOZCU TV .b</display-name>
   </channel>
-  <channel id="4k.tr.spor.smart.b.tr">
-    <display-name>4K TR: SPOR SMART .b</display-name>
-  </channel>
-  <channel id="4k.tr.sports.tv.hd.b.tr">
-    <display-name>4K TR: SPORTS TV HD .b</display-name>
-  </channel>
   <channel id="4k.tr.star.tv.hd.b.tr">
     <display-name>4K TR: STAR TV HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png"/>
@@ -253,9 +250,6 @@
   <channel id="4k.tr.trt.1.hd.b.tr">
     <display-name>4K TR: TRT 1 HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png"/>
-  </channel>
-  <channel id="4k.tr.trt.2.hd.b.tr">
-    <display-name>4K TR: TRT 2 HD .b</display-name>
   </channel>
   <channel id="4k.tr.trt.3.b.tr">
     <display-name>4K TR: TRT 3 .b</display-name>
@@ -405,6 +399,9 @@
   </channel>
   <channel id="adiyaman.mercan.tv.b.tr">
     <display-name>ADIYAMAN MERCAN TV .b</display-name>
+  </channel>
+  <channel id="afyon.t.rk.tv.b.tr">
+    <display-name>AFYON T RK TV .b</display-name>
   </channel>
   <channel id="afyon.turk.s.tr">
     <display-name>AFYON TURK .s</display-name>
@@ -568,8 +565,14 @@
   <channel id="automoto.fr.s.tr">
     <display-name>AUTOMOTO (FR) .s</display-name>
   </channel>
+  <channel id="av.tv.b.tr">
+    <display-name>AV TV .b</display-name>
+  </channel>
   <channel id="av.tv.s.tr">
     <display-name>AV TV .s</display-name>
+  </channel>
+  <channel id="baba.radyo.arabesk.b.tr">
+    <display-name>BABA RADYO ARABESK .b</display-name>
   </channel>
   <channel id="baby.tv.c.tr">
     <display-name>BABY TV .c</display-name>
@@ -619,6 +622,9 @@
   <channel id="bein.box.office.2.s.tr">
     <display-name>BEIN BOX OFFICE 2 .s</display-name>
   </channel>
+  <channel id="bein.box.office.3.c.tr">
+    <display-name>BEIN BOX OFFICE 3 .c</display-name>
+  </channel>
   <channel id="bein.box.office.3.s.tr">
     <display-name>BEIN BOX OFFICE 3 .s</display-name>
   </channel>
@@ -648,9 +654,6 @@
   </channel>
   <channel id="bein.movies.action.2.s.tr">
     <display-name>BEIN MOVIES ACTION 2 .s</display-name>
-  </channel>
-  <channel id="bein.movies.family.c.tr">
-    <display-name>BEIN MOVIES FAMILY .c</display-name>
   </channel>
   <channel id="bein.movies.family.s.tr">
     <display-name>BEIN MOVIES FAMILY .s</display-name>
@@ -890,15 +893,6 @@
   <channel id="best.aksiyon.b.tr">
     <display-name>BEST AKSIYON .b</display-name>
   </channel>
-  <channel id="best.animasyon.b.tr">
-    <display-name>BEST ANIMASYON .b</display-name>
-  </channel>
-  <channel id="best.bilimkurgu.b.tr">
-    <display-name>BEST BILIMKURGU .b</display-name>
-  </channel>
-  <channel id="best.dram.b.tr">
-    <display-name>BEST DRAM .b</display-name>
-  </channel>
   <channel id="best.fm.t.rk.e.pop.b.tr">
     <display-name>BEST FM T RK E POP .b</display-name>
   </channel>
@@ -907,6 +901,9 @@
   </channel>
   <channel id="best.imbd.b.tr">
     <display-name>BEST IMBD .b</display-name>
+  </channel>
+  <channel id="best.komedi.b.tr">
+    <display-name>BEST KOMEDI .b</display-name>
   </channel>
   <channel id="best.korku.b.tr">
     <display-name>BEST KORKU .b</display-name>
@@ -923,6 +920,9 @@
   <channel id="best.netflix.b.tr">
     <display-name>BEST NETFLIX .b</display-name>
   </channel>
+  <channel id="best.salon.1.b.tr">
+    <display-name>BEST SALON 1 .b</display-name>
+  </channel>
   <channel id="best.salon.2.b.tr">
     <display-name>BEST SALON 2 .b</display-name>
   </channel>
@@ -932,8 +932,11 @@
   <channel id="best.savas.b.tr">
     <display-name>BEST SAVAS .b</display-name>
   </channel>
-  <channel id="best.western.b.tr">
-    <display-name>BEST WESTERN .b</display-name>
+  <channel id="best.turk.b.tr">
+    <display-name>BEST TURK .b</display-name>
+  </channel>
+  <channel id="best.yesilcam.b.tr">
+    <display-name>BEST YESILCAM .b</display-name>
   </channel>
   <channel id="beyaz.hd.sd.b.tr">
     <display-name>BEYAZ HD+ SD .b</display-name>
@@ -980,8 +983,8 @@
   <channel id="bloomberg.ht.hd.sd.b.tr">
     <display-name>BLOOMBERG HT HD+ SD .b</display-name>
   </channel>
-  <channel id="bloomberght.hd.b.tr">
-    <display-name>BLOOMBERGHT HD .b</display-name>
+  <channel id="bloomberg.ht.hd.sd.b.tr">
+    <display-name>BLOOMBERG HT HD+ SD .b</display-name>
   </channel>
   <channel id="bloomberght.hd.b.tr">
     <display-name>BLOOMBERGHT HD .b</display-name>
@@ -1178,11 +1181,11 @@
   <channel id="dinamik.dram.b.tr">
     <display-name>DINAMIK DRAM .b</display-name>
   </channel>
+  <channel id="dinamik.hababam.sinifi.b.tr">
+    <display-name>DINAMIK HABABAM SINIFI .b</display-name>
+  </channel>
   <channel id="dinamik.imbd.b.tr">
     <display-name>DINAMIK IMBD .b</display-name>
-  </channel>
-  <channel id="dinamik.kemal.sunal.b.tr">
-    <display-name>DINAMIK KEMAL SUNAL .b</display-name>
   </channel>
   <channel id="dinamik.komedi.b.tr">
     <display-name>DINAMIK KOMEDI .b</display-name>
@@ -1190,14 +1193,17 @@
   <channel id="dinamik.korku.b.tr">
     <display-name>DINAMIK KORKU .b</display-name>
   </channel>
+  <channel id="dinamik.loca1.b.tr">
+    <display-name>DINAMIK LOCA-1 .b</display-name>
+  </channel>
   <channel id="dinamik.loca2.b.tr">
     <display-name>DINAMIK LOCA-2 .b</display-name>
   </channel>
   <channel id="dinamik.loca3.b.tr">
     <display-name>DINAMIK LOCA-3 .b</display-name>
   </channel>
-  <channel id="dinamik.marvel.b.tr">
-    <display-name>DINAMIK MARVEL .b</display-name>
+  <channel id="dinamik.salon.1.b.tr">
+    <display-name>DINAMIK SALON 1 .b</display-name>
   </channel>
   <channel id="dinamik.salon.10.b.tr">
     <display-name>DINAMIK SALON 10 .b</display-name>
@@ -1210,9 +1216,6 @@
   </channel>
   <channel id="dinamik.salon.4.b.tr">
     <display-name>DINAMIK SALON 4 .b</display-name>
-  </channel>
-  <channel id="dinamik.salon.5.b.tr">
-    <display-name>DINAMIK SALON 5 .b</display-name>
   </channel>
   <channel id="dinamik.salon.6.b.tr">
     <display-name>DINAMIK SALON 6 .b</display-name>
@@ -1360,6 +1363,9 @@
   <channel id="dream.animasyon.b.tr">
     <display-name>DREAM ANIMASYON .b</display-name>
   </channel>
+  <channel id="dream.bein.office.1.b.tr">
+    <display-name>DREAM BEIN OFFICE 1 .b</display-name>
+  </channel>
   <channel id="dream.bein.office.10.b.tr">
     <display-name>DREAM BEIN OFFICE 10 .b</display-name>
   </channel>
@@ -1410,6 +1416,9 @@
   </channel>
   <channel id="dream.loca.3.b.tr">
     <display-name>DREAM LOCA 3 .b</display-name>
+  </channel>
+  <channel id="dream.netflix.b.tr">
+    <display-name>DREAM NETFLIX .b</display-name>
   </channel>
   <channel id="dream.savas.b.tr">
     <display-name>DREAM SAVAS .b</display-name>
@@ -1509,9 +1518,6 @@
   </channel>
   <channel id="eno.animasyon.s.tr">
     <display-name>ENO ANIMASYON .s</display-name>
-  </channel>
-  <channel id="eno.vizyon.1.s.tr">
-    <display-name>ENO VIZYON 1 .s</display-name>
   </channel>
   <channel id="eno.vizyon.10.s.tr">
     <display-name>ENO VIZYON 10 .s</display-name>
@@ -1654,9 +1660,6 @@
   <channel id="exxen.tv.spor.1.b.tr">
     <display-name>EXXEN TV SPOR 1 .b</display-name>
   </channel>
-  <channel id="exxen.tv.spor.1.720p.b.tr">
-    <display-name>EXXEN TV SPOR 1 720P .b</display-name>
-  </channel>
   <channel id="exxen.tv.spor.1.feed.b.tr">
     <display-name>EXXEN TV SPOR 1 FEED .b</display-name>
   </channel>
@@ -1665,9 +1668,6 @@
   </channel>
   <channel id="exxen.tv.spor.1.uhd.b.tr">
     <display-name>EXXEN TV SPOR 1 UHD .b</display-name>
-  </channel>
-  <channel id="exxen.tv.spor.2.hd.b.tr">
-    <display-name>EXXEN TV SPOR 2 HD .b</display-name>
   </channel>
   <channel id="exxen.tv.spor.2.uhd.b.tr">
     <display-name>EXXEN TV SPOR 2 UHD .b</display-name>
@@ -1704,6 +1704,9 @@
   </channel>
   <channel id="fb.tv.s.tr">
     <display-name>FB TV .s</display-name>
+  </channel>
+  <channel id="filbox.spor.1.maczamani.b.tr">
+    <display-name>FILBOX SPOR 1 MACZAMANI .b</display-name>
   </channel>
   <channel id="filbox.spor.2.maczamani.b.tr">
     <display-name>FILBOX SPOR 2 MACZAMANI .b</display-name>
@@ -1988,9 +1991,6 @@
     <display-name>INVESTIGATION DISCOVERY .c</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/discovery-channel-tr.png"/>
   </channel>
-  <channel id="isvi.re.vizyon.tv.b.tr">
-    <display-name>ISVI RE VIZYON TV .b</display-name>
-  </channel>
   <channel id="itfayeci.sam.b.tr">
     <display-name>ITFAYECI SAM .b</display-name>
   </channel>
@@ -2269,9 +2269,6 @@
   <channel id="kral.tv.c.tr">
     <display-name>KRAL TV .c</display-name>
   </channel>
-  <channel id="kral.tv.s.tr">
-    <display-name>KRAL TV .s</display-name>
-  </channel>
   <channel id="kral.tv.hd.b.tr">
     <display-name>KRAL TV HD .b</display-name>
   </channel>
@@ -2383,9 +2380,6 @@
   <channel id="max.animasyon.1.c.tr">
     <display-name>MAX ANIMASYON 1 .c</display-name>
   </channel>
-  <channel id="max.animasyon.2.c.tr">
-    <display-name>MAX ANIMASYON 2 .c</display-name>
-  </channel>
   <channel id="max.gold.c.tr">
     <display-name>MAX GOLD .c</display-name>
   </channel>
@@ -2481,9 +2475,6 @@
   </channel>
   <channel id="movie.smart.classic.s.tr">
     <display-name>MOVIE SMART CLASSIC .s</display-name>
-  </channel>
-  <channel id="movie.smart.platin.2.s.tr">
-    <display-name>MOVIE SMART PLATIN 2 .s</display-name>
   </channel>
   <channel id="movie.smart.premium.s.tr">
     <display-name>MOVIE SMART PREMIUM .s</display-name>
@@ -3011,9 +3002,6 @@
   <channel id="sinevizyon.1.s.tr">
     <display-name>SINEVIZYON 1 .s</display-name>
   </channel>
-  <channel id="sinevizyon.15.s.tr">
-    <display-name>SINEVIZYON 15 .s</display-name>
-  </channel>
   <channel id="sinevizyon.5.s.tr">
     <display-name>SINEVIZYON 5 .s</display-name>
   </channel>
@@ -3110,9 +3098,6 @@
   <channel id="sportstv.hd.b.tr">
     <display-name>SPORTSTV HD .b</display-name>
   </channel>
-  <channel id="stanbul.fm.t.rk.e.pop.b.tr">
-    <display-name>STANBUL FM T RK E POP .b</display-name>
-  </channel>
   <channel id="star.hd.h265.b.tr">
     <display-name>STAR HD (H265) .b</display-name>
   </channel>
@@ -3194,6 +3179,9 @@
   <channel id="tabii.spor.3.hd.b.tr">
     <display-name>TABII SPOR 3 HD .b</display-name>
   </channel>
+  <channel id="tabii.spor.3.uhd.b.tr">
+    <display-name>TABII SPOR 3 UHD .b</display-name>
+  </channel>
   <channel id="tabii.spor.4.c.tr">
     <display-name>TABII SPOR 4 .c</display-name>
   </channel>
@@ -3212,14 +3200,17 @@
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
   </channel>
-  <channel id="tabii.spor.6.hd.b.tr">
-    <display-name>TABII SPOR 6 HD .b</display-name>
+  <channel id="tabii.spor.6.uhd.b.tr">
+    <display-name>TABII SPOR 6 UHD .b</display-name>
   </channel>
   <channel id="tabii.spor.hd.b.tr">
     <display-name>TABII SPOR HD .b</display-name>
   </channel>
   <channel id="tabii.spor.sd.b.tr">
     <display-name>TABII SPOR SD .b</display-name>
+  </channel>
+  <channel id="tarih.tv.c.tr">
+    <display-name>TARIH TV .c</display-name>
   </channel>
   <channel id="tarim.tv.s.tr">
     <display-name>TARIM TV .s</display-name>
@@ -3250,6 +3241,9 @@
   </channel>
   <channel id="tele.1.c.tr">
     <display-name>TELE 1 .c</display-name>
+  </channel>
+  <channel id="tele.1.s.tr">
+    <display-name>TELE 1 .s</display-name>
   </channel>
   <channel id="tele.1.sd.b.tr">
     <display-name>TELE 1 SD .b</display-name>
@@ -3599,9 +3593,6 @@
   <channel id="trt.world.hevc.b.tr">
     <display-name>TRT WORLD HEVC .b</display-name>
   </channel>
-  <channel id="trt.world.raw.b.tr">
-    <display-name>TRT WORLD RAW .b</display-name>
-  </channel>
   <channel id="trt2.raw.b.tr">
     <display-name>TRT2 RAW .b</display-name>
   </channel>
@@ -3610,6 +3601,9 @@
   </channel>
   <channel id="turkasat.kemal.sunal.c.tr">
     <display-name>TURKASAT KEMAL SUNAL .c</display-name>
+  </channel>
+  <channel id="türkhaber.tv.c.tr">
+    <display-name>TÜRKHABER TV .c</display-name>
   </channel>
   <channel id="turkmenli.tv.c.tr">
     <display-name>TURKMENLI TV .c</display-name>
@@ -3763,26 +3757,14 @@
   <channel id="ultra.aksiyon.b.tr">
     <display-name>ULTRA AKSIYON .b</display-name>
   </channel>
-  <channel id="ultra.animasyon.b.tr">
-    <display-name>ULTRA ANIMASYON .b</display-name>
-  </channel>
-  <channel id="ultra.imbd.b.tr">
-    <display-name>ULTRA IMBD .b</display-name>
+  <channel id="ultra.bilimkurgu.b.tr">
+    <display-name>ULTRA BILIMKURGU .b</display-name>
   </channel>
   <channel id="ultra.kemal.sunal.b.tr">
     <display-name>ULTRA KEMAL SUNAL .b</display-name>
   </channel>
   <channel id="ultra.komedi.b.tr">
     <display-name>ULTRA KOMEDI .b</display-name>
-  </channel>
-  <channel id="ultra.korku.b.tr">
-    <display-name>ULTRA KORKU .b</display-name>
-  </channel>
-  <channel id="ultra.turk.b.tr">
-    <display-name>ULTRA TURK .b</display-name>
-  </channel>
-  <channel id="ulusal.kanal.b.tr">
-    <display-name>ULUSAL KANAL .b</display-name>
   </channel>
   <channel id="ulusal.kanal.c.tr">
     <display-name>ULUSAL KANAL .c</display-name>
@@ -3836,9 +3818,6 @@
   <channel id="viyana.tv.c.tr">
     <display-name>VIYANA TV .c</display-name>
   </channel>
-  <channel id="vizyon.58.b.tr">
-    <display-name>VIZYON 58 .b</display-name>
-  </channel>
   <channel id="vizyon.58.c.tr">
     <display-name>VIZYON 58 .c</display-name>
   </channel>
@@ -3856,9 +3835,6 @@
   </channel>
   <channel id="wakfu.b.tr">
     <display-name>WAKFU .b</display-name>
-  </channel>
-  <channel id="wm.tv.woman.kadin.b.tr">
-    <display-name>WM TV WOMAN KADIN .b</display-name>
   </channel>
   <channel id="x.nostalji.t.rk.e.klasik.b.tr">
     <display-name>X NOSTALJI T RK E KLASIK .b</display-name>
@@ -3889,9 +3865,6 @@
   </channel>
   <channel id="yildiz.en.tv.b.tr">
     <display-name>YILDIZ EN TV .b</display-name>
-  </channel>
-  <channel id="yildiz.kiz.b.tr">
-    <display-name>YILDIZ KIZ .b</display-name>
   </channel>
   <channel id="yildiz.tv.en.c.tr">
     <display-name>YILDIZ TV EN .c</display-name>
