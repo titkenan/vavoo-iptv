@@ -82,6 +82,10 @@
   <channel id="4k.tr.da.vinci.b.tr">
     <display-name>4K TR: DA VINCI .b</display-name>
   </channel>
+  <channel id="4k.tr.discovery.channel.hd.b.tr">
+    <display-name>4K TR: DISCOVERY CHANNEL HD .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/discovery-channel-tr.png"/>
+  </channel>
   <channel id="4k.tr.disney.junior.b.tr">
     <display-name>4K TR: DISNEY JUNIOR .b</display-name>
   </channel>
@@ -262,9 +266,6 @@
   <channel id="4k.tr.trt.1.hd.b.tr">
     <display-name>4K TR: TRT 1 HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png"/>
-  </channel>
-  <channel id="4k.tr.trt.2.hd.b.tr">
-    <display-name>4K TR: TRT 2 HD .b</display-name>
   </channel>
   <channel id="4k.tr.trt.3.b.tr">
     <display-name>4K TR: TRT 3 .b</display-name>
@@ -652,6 +653,9 @@
   <channel id="bein.gurme.hd.b.tr">
     <display-name>BEIN GURME HD .b</display-name>
   </channel>
+  <channel id="bein.iz.c.tr">
+    <display-name>BEIN IZ .c</display-name>
+  </channel>
   <channel id="bein.iz.tv.s.tr">
     <display-name>BEIN IZ TV .s</display-name>
   </channel>
@@ -759,6 +763,10 @@
   </channel>
   <channel id="bein.sports.1.hd.turkey.b.tr">
     <display-name>BEIN SPORTS 1 HD (TURKEY) .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
+  </channel>
+  <channel id="bein.sports.2.c.tr">
+    <display-name>BEIN SPORTS 2 .c</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
   <channel id="bein.sports.2.s.tr">
@@ -1559,6 +1567,9 @@
   <channel id="eno.vizyon.1.s.tr">
     <display-name>ENO VIZYON 1 .s</display-name>
   </channel>
+  <channel id="eno.vizyon.10.s.tr">
+    <display-name>ENO VIZYON 10 .s</display-name>
+  </channel>
   <channel id="eno.vizyon.11.s.tr">
     <display-name>ENO VIZYON 11 .s</display-name>
   </channel>
@@ -1904,9 +1915,6 @@
   </channel>
   <channel id="gonca.tv.c.tr">
     <display-name>GONCA TV .c</display-name>
-  </channel>
-  <channel id="grt.tv.c.tr">
-    <display-name>GRT TV .c</display-name>
   </channel>
   <channel id="grt.tv.c.tr">
     <display-name>GRT TV .c</display-name>
@@ -2309,9 +2317,6 @@
   <channel id="kral.pop.s.tr">
     <display-name>KRAL POP .s</display-name>
   </channel>
-  <channel id="kral.pop.hd.b.tr">
-    <display-name>KRAL POP HD+ .b</display-name>
-  </channel>
   <channel id="kral.pop.radyo.t.rk.e.pop.b.tr">
     <display-name>KRAL POP RADYO T RK E POP .b</display-name>
   </channel>
@@ -2320,6 +2325,9 @@
   </channel>
   <channel id="kral.sakir.tv.b.tr">
     <display-name>KRAL SAKIR TV .b</display-name>
+  </channel>
+  <channel id="kral.tv.c.tr">
+    <display-name>KRAL TV .c</display-name>
   </channel>
   <channel id="kral.tv.s.tr">
     <display-name>KRAL TV .s</display-name>
@@ -2831,6 +2839,12 @@
   <channel id="rehber.s.tr">
     <display-name>REHBER .s</display-name>
   </channel>
+  <channel id="rehber.tv.b.tr">
+    <display-name>REHBER TV .b</display-name>
+  </channel>
+  <channel id="rehber.tv.c.tr">
+    <display-name>REHBER TV .c</display-name>
+  </channel>
   <channel id="retro.t.rk.t.rk.e.klasik.b.tr">
     <display-name>RETRO T RK T RK E KLASIK .b</display-name>
   </channel>
@@ -3246,9 +3260,6 @@
   <channel id="tabii.spor.4.hd.b.tr">
     <display-name>TABII SPOR 4 HD .b</display-name>
   </channel>
-  <channel id="tabii.spor.4.uhd.b.tr">
-    <display-name>TABII SPOR 4 UHD .b</display-name>
-  </channel>
   <channel id="tabii.spor.5.c.tr">
     <display-name>TABII SPOR 5 .c</display-name>
   </channel>
@@ -3257,9 +3268,6 @@
   </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
-  </channel>
-  <channel id="tabii.spor.6.hd.b.tr">
-    <display-name>TABII SPOR 6 HD .b</display-name>
   </channel>
   <channel id="tabii.spor.6.uhd.b.tr">
     <display-name>TABII SPOR 6 UHD .b</display-name>
@@ -3521,9 +3529,6 @@
   <channel id="trt.belgesel.s.tr">
     <display-name>TRT BELGESEL .s</display-name>
   </channel>
-  <channel id="trt.belgesel.hd.b.tr">
-    <display-name>TRT BELGESEL HD+ .b</display-name>
-  </channel>
   <channel id="trt.belgesel.hevc.b.tr">
     <display-name>TRT BELGESEL HEVC .b</display-name>
   </channel>
@@ -3761,6 +3766,9 @@
   </channel>
   <channel id="tv.kayseri.c.tr">
     <display-name>TV KAYSERI .c</display-name>
+  </channel>
+  <channel id="tv.net.c.tr">
+    <display-name>TV NET .c</display-name>
   </channel>
   <channel id="tv5.b.tr">
     <display-name>TV5 .b</display-name>
