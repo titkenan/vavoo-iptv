@@ -765,10 +765,6 @@
     <display-name>BEIN SPORTS 1 HD (TURKEY) .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
-  <channel id="bein.sports.2.c.tr">
-    <display-name>BEIN SPORTS 2 .c</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
-  </channel>
   <channel id="bein.sports.2.s.tr">
     <display-name>BEIN SPORTS 2 .s</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
@@ -920,14 +916,8 @@
   <channel id="best.aksiyon.b.tr">
     <display-name>BEST AKSIYON .b</display-name>
   </channel>
-  <channel id="best.animasyon.b.tr">
-    <display-name>BEST ANIMASYON .b</display-name>
-  </channel>
   <channel id="best.bilimkurgu.b.tr">
     <display-name>BEST BILIMKURGU .b</display-name>
-  </channel>
-  <channel id="best.dram.b.tr">
-    <display-name>BEST DRAM .b</display-name>
   </channel>
   <channel id="best.fm.t.rk.e.pop.b.tr">
     <display-name>BEST FM T RK E POP .b</display-name>
@@ -941,12 +931,6 @@
   <channel id="best.komedi.b.tr">
     <display-name>BEST KOMEDI .b</display-name>
   </channel>
-  <channel id="best.korku.b.tr">
-    <display-name>BEST KORKU .b</display-name>
-  </channel>
-  <channel id="best.loca.1.b.tr">
-    <display-name>BEST LOCA 1 .b</display-name>
-  </channel>
   <channel id="best.loca.2.b.tr">
     <display-name>BEST LOCA 2 .b</display-name>
   </channel>
@@ -955,9 +939,6 @@
   </channel>
   <channel id="best.netflix.b.tr">
     <display-name>BEST NETFLIX .b</display-name>
-  </channel>
-  <channel id="best.salon.1.b.tr">
-    <display-name>BEST SALON 1 .b</display-name>
   </channel>
   <channel id="best.salon.2.b.tr">
     <display-name>BEST SALON 2 .b</display-name>
@@ -970,9 +951,6 @@
   </channel>
   <channel id="best.turk.b.tr">
     <display-name>BEST TURK .b</display-name>
-  </channel>
-  <channel id="best.western.b.tr">
-    <display-name>BEST WESTERN .b</display-name>
   </channel>
   <channel id="best.yesilcam.b.tr">
     <display-name>BEST YESILCAM .b</display-name>
@@ -2311,9 +2289,6 @@
   <channel id="kral.fm.b.tr">
     <display-name>KRAL FM .b</display-name>
   </channel>
-  <channel id="kral.fm.arabesk.b.tr">
-    <display-name>KRAL FM ARABESK .b</display-name>
-  </channel>
   <channel id="kral.pop.s.tr">
     <display-name>KRAL POP .s</display-name>
   </channel>
@@ -2469,9 +2444,6 @@
   </channel>
   <channel id="maymunlar.krali.kong.b.tr">
     <display-name>MAYMUNLAR KRALI KONG .b</display-name>
-  </channel>
-  <channel id="mbat.fm.arabesk.b.tr">
-    <display-name>MBAT FM ARABESK .b</display-name>
   </channel>
   <channel id="mc.eu.c.tr">
     <display-name>MC EU .c</display-name>
@@ -3245,14 +3217,14 @@
   <channel id="tabii.spor.2.hd.b.tr">
     <display-name>TABII SPOR 2 HD .b</display-name>
   </channel>
+  <channel id="tabii.spor.2.uhd.b.tr">
+    <display-name>TABII SPOR 2 UHD .b</display-name>
+  </channel>
   <channel id="tabii.spor.3.c.tr">
     <display-name>TABII SPOR 3 .c</display-name>
   </channel>
   <channel id="tabii.spor.3.hd.b.tr">
     <display-name>TABII SPOR 3 HD .b</display-name>
-  </channel>
-  <channel id="tabii.spor.3.uhd.b.tr">
-    <display-name>TABII SPOR 3 UHD .b</display-name>
   </channel>
   <channel id="tabii.spor.4.c.tr">
     <display-name>TABII SPOR 4 .c</display-name>
@@ -3260,17 +3232,23 @@
   <channel id="tabii.spor.4.hd.b.tr">
     <display-name>TABII SPOR 4 HD .b</display-name>
   </channel>
+  <channel id="tabii.spor.4.uhd.b.tr">
+    <display-name>TABII SPOR 4 UHD .b</display-name>
+  </channel>
   <channel id="tabii.spor.5.c.tr">
     <display-name>TABII SPOR 5 .c</display-name>
   </channel>
   <channel id="tabii.spor.5.hd.b.tr">
     <display-name>TABII SPOR 5 HD .b</display-name>
   </channel>
+  <channel id="tabii.spor.5.uhd.b.tr">
+    <display-name>TABII SPOR 5 UHD .b</display-name>
+  </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
   </channel>
-  <channel id="tabii.spor.6.uhd.b.tr">
-    <display-name>TABII SPOR 6 UHD .b</display-name>
+  <channel id="tabii.spor.6.hd.b.tr">
+    <display-name>TABII SPOR 6 HD .b</display-name>
   </channel>
   <channel id="tabii.spor.hd.b.tr">
     <display-name>TABII SPOR HD .b</display-name>
@@ -3428,9 +3406,6 @@
   <channel id="tivibuspor.3.fhd.b.tr">
     <display-name>TIVIBUSPOR 3 FHD .b</display-name>
   </channel>
-  <channel id="tivibuspor.3.hd.b.tr">
-    <display-name>TIVIBUSPOR 3 HD .b</display-name>
-  </channel>
   <channel id="tivibuspor.spor.hd.b.tr">
     <display-name>TIVIBUSPOR SPOR HD .b</display-name>
   </channel>
@@ -3466,6 +3441,9 @@
   </channel>
   <channel id="trabzon.haber.61.tv.hd.b.tr">
     <display-name>TRABZON HABER 61 TV HD .b</display-name>
+  </channel>
+  <channel id="transformers.b.tr">
+    <display-name>TRANSFORMERS .b</display-name>
   </channel>
   <channel id="trol.avcilari.b.tr">
     <display-name>TROL AVCILARI .b</display-name>
@@ -3528,6 +3506,9 @@
   </channel>
   <channel id="trt.belgesel.s.tr">
     <display-name>TRT BELGESEL .s</display-name>
+  </channel>
+  <channel id="trt.belgesel.hd.b.tr">
+    <display-name>TRT BELGESEL HD+ .b</display-name>
   </channel>
   <channel id="trt.belgesel.hevc.b.tr">
     <display-name>TRT BELGESEL HEVC .b</display-name>
