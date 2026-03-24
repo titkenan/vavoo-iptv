@@ -244,9 +244,6 @@
   <channel id="4k.tr.spor.smart.b.tr">
     <display-name>4K TR: SPOR SMART .b</display-name>
   </channel>
-  <channel id="4k.tr.sports.tv.hd.b.tr">
-    <display-name>4K TR: SPORTS TV HD .b</display-name>
-  </channel>
   <channel id="4k.tr.star.tv.hd.b.tr">
     <display-name>4K TR: STAR TV HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/star-tv-tr.png"/>
@@ -269,6 +266,9 @@
   </channel>
   <channel id="4k.tr.trt.2.hd.b.tr">
     <display-name>4K TR: TRT 2 HD .b</display-name>
+  </channel>
+  <channel id="4k.tr.trt.3.b.tr">
+    <display-name>4K TR: TRT 3 .b</display-name>
   </channel>
   <channel id="4k.tr.trt.avaz.b.tr">
     <display-name>4K TR: TRT AVAZ .b</display-name>
@@ -389,9 +389,6 @@
   <channel id="a2.s.tr">
     <display-name>A2 .s</display-name>
   </channel>
-  <channel id="a2.hd.b.tr">
-    <display-name>A2 HD .b</display-name>
-  </channel>
   <channel id="a2.hevc.b.tr">
     <display-name>A2 HEVC .b</display-name>
   </channel>
@@ -493,9 +490,6 @@
   </channel>
   <channel id="animal.planet.s.tr">
     <display-name>ANIMAL PLANET .s</display-name>
-  </channel>
-  <channel id="animal.planet.hd.b.tr">
-    <display-name>ANIMAL PLANET HD .b</display-name>
   </channel>
   <channel id="animation.1.hd.b.tr">
     <display-name>ANIMATION 1 HD .b</display-name>
@@ -769,12 +763,12 @@
     <display-name>BEIN SPORTS 2 .s</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
-  <channel id="bein.sports.2.hd.b.tr">
-    <display-name>BEIN SPORTS 2 HD .b</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
-  </channel>
   <channel id="bein.sports.2.sd.b.tr">
     <display-name>BEIN SPORTS 2 SD .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
+  </channel>
+  <channel id="bein.sports.2.uhd.b.tr">
+    <display-name>BEIN SPORTS 2 UHD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
   <channel id="bein.sports.3.c.tr">
@@ -785,12 +779,20 @@
     <display-name>BEIN SPORTS 3 .s</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
+  <channel id="bein.sports.3.hd.b.tr">
+    <display-name>BEIN SPORTS 3 HD .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
+  </channel>
   <channel id="bein.sports.3.sd.b.tr">
     <display-name>BEIN SPORTS 3 SD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
-  <channel id="bein.sports.3.uhd.b.tr">
-    <display-name>BEIN SPORTS 3 UHD .b</display-name>
+  <channel id="bein.sports.4.c.tr">
+    <display-name>BEIN SPORTS 4 .c</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
+  </channel>
+  <channel id="bein.sports.4.s.tr">
+    <display-name>BEIN SPORTS 4 .s</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
   <channel id="bein.sports.4.hd.b.tr">
@@ -857,6 +859,10 @@
     <display-name>BEIN SPORTS MAX 1 .c</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
+  <channel id="bein.sports.max.1.s.tr">
+    <display-name>BEIN SPORTS MAX 1 .s</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
+  </channel>
   <channel id="bein.sports.max.1.fhd.b.tr">
     <display-name>BEIN SPORTS MAX 1 FHD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
@@ -871,6 +877,10 @@
   </channel>
   <channel id="bein.sports.max.2.s.tr">
     <display-name>BEIN SPORTS MAX 2 .s</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
+  </channel>
+  <channel id="bein.sports.max.2.fhd.b.tr">
+    <display-name>BEIN SPORTS MAX 2 FHD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
   <channel id="bein.sports.max.2.hd.b.tr">
@@ -966,6 +976,10 @@
   </channel>
   <channel id="beyaz.tv.hd.b.tr">
     <display-name>BEYAZ TV HD .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
+  </channel>
+  <channel id="beyaz.tv.hevc.b.tr">
+    <display-name>BEYAZ TV HEVC .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/beyaz-tv-tr.png"/>
   </channel>
   <channel id="beyaz.tv.hevc.b.tr">
@@ -1188,9 +1202,6 @@
   </channel>
   <channel id="dinamik.dram.b.tr">
     <display-name>DINAMIK DRAM .b</display-name>
-  </channel>
-  <channel id="dinamik.hababam.sinifi.b.tr">
-    <display-name>DINAMIK HABABAM SINIFI .b</display-name>
   </channel>
   <channel id="dinamik.imbd.b.tr">
     <display-name>DINAMIK IMBD .b</display-name>
@@ -1896,9 +1907,6 @@
   </channel>
   <channel id="gstv.hd.b.tr">
     <display-name>GSTV HD .b</display-name>
-  </channel>
-  <channel id="guneydogu.s.tr">
-    <display-name>GUNEYDOGU .s</display-name>
   </channel>
   <channel id="guneydogu.tv.c.tr">
     <display-name>GUNEYDOGU TV .c</display-name>
@@ -2877,6 +2885,9 @@
   <channel id="ssport2.mac.saati.b.tr">
     <display-name>S-SPORT+2 MAC SAATI .b</display-name>
   </channel>
+  <channel id="ssports.1.sd.b.tr">
+    <display-name>S-SPORTS 1 SD .b</display-name>
+  </channel>
   <channel id="ssports.2.sd.b.tr">
     <display-name>S-SPORTS 2 SD .b</display-name>
   </channel>
@@ -3118,6 +3129,9 @@
   <channel id="spor.smart.2.c.tr">
     <display-name>SPOR SMART 2 .c</display-name>
   </channel>
+  <channel id="spor.smart.2.hd.b.tr">
+    <display-name>SPOR SMART 2 HD .b</display-name>
+  </channel>
   <channel id="spor.smart.fhd.b.tr">
     <display-name>SPOR SMART FHD .b</display-name>
   </channel>
@@ -3211,9 +3225,6 @@
   <channel id="tabii.spor.2.hd.b.tr">
     <display-name>TABII SPOR 2 HD .b</display-name>
   </channel>
-  <channel id="tabii.spor.2.uhd.b.tr">
-    <display-name>TABII SPOR 2 UHD .b</display-name>
-  </channel>
   <channel id="tabii.spor.3.c.tr">
     <display-name>TABII SPOR 3 .c</display-name>
   </channel>
@@ -3231,6 +3242,9 @@
   </channel>
   <channel id="tabii.spor.4.uhd.b.tr">
     <display-name>TABII SPOR 4 UHD .b</display-name>
+  </channel>
+  <channel id="tabii.spor.5.c.tr">
+    <display-name>TABII SPOR 5 .c</display-name>
   </channel>
   <channel id="tabii.spor.5.hd.b.tr">
     <display-name>TABII SPOR 5 HD .b</display-name>
@@ -3754,10 +3768,6 @@
   </channel>
   <channel id="tv8.fhd.b.tr">
     <display-name>TV8 FHD .b</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-tr.png"/>
-  </channel>
-  <channel id="tv8.hd.b.tr">
-    <display-name>TV8 HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/tv8-tr.png"/>
   </channel>
   <channel id="tv8.hd.b.tr">
