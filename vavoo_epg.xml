@@ -95,6 +95,9 @@
   <channel id="4k.tr.dream.t.rk.b.tr">
     <display-name>4K TR: DREAM T RK .b</display-name>
   </channel>
+  <channel id="4k.tr.duck.tv.hd.b.tr">
+    <display-name>4K TR: DUCK TV HD .b</display-name>
+  </channel>
   <channel id="4k.tr.ekol.tv.b.tr">
     <display-name>4K TR: EKOL TV .b</display-name>
   </channel>
@@ -494,9 +497,6 @@
   <channel id="animal.planet.s.tr">
     <display-name>ANIMAL PLANET .s</display-name>
   </channel>
-  <channel id="animal.planet.hd.b.tr">
-    <display-name>ANIMAL PLANET HD .b</display-name>
-  </channel>
   <channel id="animation.1.hd.b.tr">
     <display-name>ANIMATION 1 HD .b</display-name>
   </channel>
@@ -536,10 +536,6 @@
   </channel>
   <channel id="atv.s.tr">
     <display-name>ATV .s</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png"/>
-  </channel>
-  <channel id="atv.alanya.c.tr">
-    <display-name>ATV ALANYA .c</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/atv-tr.png"/>
   </channel>
   <channel id="atv.avrupa.c.tr">
@@ -765,10 +761,6 @@
     <display-name>BEIN SPORTS 1 HD (TURKEY) .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
-  <channel id="bein.sports.2.c.tr">
-    <display-name>BEIN SPORTS 2 .c</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
-  </channel>
   <channel id="bein.sports.2.s.tr">
     <display-name>BEIN SPORTS 2 .s</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
@@ -803,10 +795,6 @@
   </channel>
   <channel id="bein.sports.3.uhd.b.tr">
     <display-name>BEIN SPORTS 3 UHD .b</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
-  </channel>
-  <channel id="bein.sports.4.c.tr">
-    <display-name>BEIN SPORTS 4 .c</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
   <channel id="bein.sports.4.s.tr">
@@ -923,6 +911,9 @@
   <channel id="best.animasyon.b.tr">
     <display-name>BEST ANIMASYON .b</display-name>
   </channel>
+  <channel id="best.bilimkurgu.b.tr">
+    <display-name>BEST BILIMKURGU .b</display-name>
+  </channel>
   <channel id="best.dram.b.tr">
     <display-name>BEST DRAM .b</display-name>
   </channel>
@@ -956,6 +947,9 @@
   <channel id="best.salon.1.b.tr">
     <display-name>BEST SALON 1 .b</display-name>
   </channel>
+  <channel id="best.salon.2.b.tr">
+    <display-name>BEST SALON 2 .b</display-name>
+  </channel>
   <channel id="best.salon.3.b.tr">
     <display-name>BEST SALON 3 .b</display-name>
   </channel>
@@ -967,6 +961,9 @@
   </channel>
   <channel id="best.western.b.tr">
     <display-name>BEST WESTERN .b</display-name>
+  </channel>
+  <channel id="best.yesilcam.b.tr">
+    <display-name>BEST YESILCAM .b</display-name>
   </channel>
   <channel id="beyaz.hd.sd.b.tr">
     <display-name>BEYAZ HD+ SD .b</display-name>
@@ -1190,6 +1187,9 @@
   <channel id="digi.max.s.tr">
     <display-name>DIGI MAX .s</display-name>
   </channel>
+  <channel id="digi.max.2.s.tr">
+    <display-name>DIGI MAX 2 .s</display-name>
+  </channel>
   <channel id="dim.tv.c.tr">
     <display-name>DIM TV .c</display-name>
   </channel>
@@ -1205,8 +1205,14 @@
   <channel id="dinamik.dram.b.tr">
     <display-name>DINAMIK DRAM .b</display-name>
   </channel>
+  <channel id="dinamik.hababam.sinifi.b.tr">
+    <display-name>DINAMIK HABABAM SINIFI .b</display-name>
+  </channel>
   <channel id="dinamik.imbd.b.tr">
     <display-name>DINAMIK IMBD .b</display-name>
+  </channel>
+  <channel id="dinamik.kemal.sunal.b.tr">
+    <display-name>DINAMIK KEMAL SUNAL .b</display-name>
   </channel>
   <channel id="dinamik.komedi.b.tr">
     <display-name>DINAMIK KOMEDI .b</display-name>
@@ -1222,9 +1228,6 @@
   </channel>
   <channel id="dinamik.loca3.b.tr">
     <display-name>DINAMIK LOCA-3 .b</display-name>
-  </channel>
-  <channel id="dinamik.marvel.b.tr">
-    <display-name>DINAMIK MARVEL .b</display-name>
   </channel>
   <channel id="dinamik.salon.1.b.tr">
     <display-name>DINAMIK SALON 1 .b</display-name>
@@ -1900,6 +1903,9 @@
   </channel>
   <channel id="gs.tv.s.tr">
     <display-name>GS TV .s</display-name>
+  </channel>
+  <channel id="gstv.hd.b.tr">
+    <display-name>GSTV HD .b</display-name>
   </channel>
   <channel id="gstv.hd.b.tr">
     <display-name>GSTV HD .b</display-name>
@@ -2833,6 +2839,9 @@
   <channel id="rumeli.tv.s.tr">
     <display-name>RUMELI TV .s</display-name>
   </channel>
+  <channel id="ruya.treni.b.tr">
+    <display-name>RUYA TRENI .b</display-name>
+  </channel>
   <channel id="s.per.fm.t.rk.e.pop.b.tr">
     <display-name>S PER FM T RK E POP .b</display-name>
   </channel>
@@ -3230,6 +3239,9 @@
   <channel id="tabii.spor.3.hd.b.tr">
     <display-name>TABII SPOR 3 HD .b</display-name>
   </channel>
+  <channel id="tabii.spor.3.uhd.b.tr">
+    <display-name>TABII SPOR 3 UHD .b</display-name>
+  </channel>
   <channel id="tabii.spor.4.c.tr">
     <display-name>TABII SPOR 4 .c</display-name>
   </channel>
@@ -3245,14 +3257,11 @@
   <channel id="tabii.spor.5.hd.b.tr">
     <display-name>TABII SPOR 5 HD .b</display-name>
   </channel>
-  <channel id="tabii.spor.5.uhd.b.tr">
-    <display-name>TABII SPOR 5 UHD .b</display-name>
-  </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
   </channel>
-  <channel id="tabii.spor.6.hd.b.tr">
-    <display-name>TABII SPOR 6 HD .b</display-name>
+  <channel id="tabii.spor.6.uhd.b.tr">
+    <display-name>TABII SPOR 6 UHD .b</display-name>
   </channel>
   <channel id="tabii.spor.hd.b.tr">
     <display-name>TABII SPOR HD .b</display-name>
@@ -3448,9 +3457,6 @@
   </channel>
   <channel id="trabzon.haber.61.tv.hd.b.tr">
     <display-name>TRABZON HABER 61 TV HD .b</display-name>
-  </channel>
-  <channel id="transformers.b.tr">
-    <display-name>TRANSFORMERS .b</display-name>
   </channel>
   <channel id="trol.avcilari.b.tr">
     <display-name>TROL AVCILARI .b</display-name>
