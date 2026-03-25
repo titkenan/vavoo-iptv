@@ -1,71 +1,392 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Vavoo IPTV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vavoo IPTV - Multi Country</title>
     <style>
-        body { font-family: monospace; padding: 20px; background: #1a1a1a; color: #fff; }
-        a { color: #4CAF50; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        code { background: #333; padding: 10px; display: block; margin: 10px 0; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .search-box {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .search-box input {
+            width: 100%;
+            max-width: 500px;
+            padding: 15px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 50px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            outline: none;
+        }
+
+        .playlists {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .playlist-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .playlist-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+        }
+
+        .playlist-card h3 {
+            color: #667eea;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .playlist-card p {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .playlist-card .url {
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 0.85em;
+            word-break: break-all;
+            color: #333;
+            font-family: 'Courier New', monospace;
+            margin-bottom: 15px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+        }
+
+        .btn-copy {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .btn-copy:hover {
+            background: #45a049;
+        }
+
+        .btn-open {
+            background: #2196F3;
+            color: white;
+        }
+
+        .btn-open:hover {
+            background: #0b7dda;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #ff9800;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #323232;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 1000;
+            animation: slideIn 0.3s;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+            padding: 20px;
+            opacity: 0.8;
+        }
     </style>
 </head>
 <body>
-    <h1>🎬 Vavoo IPTV</h1>
-    <p>✅ GitHub Pages Active</p>
-    <p>📺 Total Channels: <span id="total">Loading...</span></p>
-    <p>🔄 Last Update: <span id="updated">Loading...</span></p>
-    
-    <hr>
-    
-    <h2>📋 M3U Playlists</h2>
-    <ul>
-        <li><a href="vavoo_turkiye.m3u" download>vavoo_turkiye.m3u</a> (GitHub Actions - Her 4 saatte güncellenir)</li>
-        <li><a href="vavoo_turkiye_proxy.m3u" download>vavoo_turkiye_proxy.m3u</a> (Cloudflare Proxy)</li>
-    </ul>
-    
-    <h2>📡 EPG Guide</h2>
-    <ul>
-        <li><a href="vavoo_epg.xml" download>vavoo_epg.xml</a></li>
-    </ul>
-    
-    <hr>
-    
-    <h2>🔗 Vavoo İçin Linkler</h2>
-    
-    <h3>Seçenek 1: Proxy'li (Tavsiye)</h3>
-    <code>https://titkenan.github.io/vavoo-iptv/vavoo_turkiye_proxy.m3u</code>
-    
-    <h3>Seçenek 2: Direkt</h3>
-    <code>https://titkenan.github.io/vavoo-iptv/vavoo_turkiye.m3u</code>
-    
-    <hr>
-    
-    <p><small>Auto-generated by GitHub Actions</small></p>
-    
+    <div class="container">
+        <header>
+            <h1>🌍 Vavoo IPTV</h1>
+            <p class="subtitle">Multi-Country IPTV Playlists</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="🔍 Ülke ara... (Turkey, USA, Germany...)" onkeyup="filterPlaylists()">
+        </div>
+
+        <div class="playlists" id="playlistsContainer"></div>
+
+        <footer>
+            <p>⚠️ Bu listeler Vavoo.to tarafından sağlanmaktadır.</p>
+            <p>🔒 İllegal yayınlar için sorumluluk kullanıcıya aittir.</p>
+            <p style="margin-top: 20px;">Made with ❤️ by <a href="https://github.com/titkenan/vavoo-iptv" style="color: #4ade80;">titkenan</a></p>
+        </footer>
+    </div>
+
     <script>
-        // M3U dosyasından bilgi çek
-        fetch('vavoo_turkiye.m3u')
-            .then(r => r.text())
-            .then(data => {
-                const lines = data.split('\n');
-                const totalLine = lines.find(l => l.includes('Total:'));
-                const updateLine = lines.find(l => l.includes('Updated:'));
-                
-                if (totalLine) {
-                    const match = totalLine.match(/Total:\s*(\d+)/);
-                    if (match) document.getElementById('total').textContent = match[1];
-                }
-                
-                if (updateLine) {
-                    const match = updateLine.match(/Updated:\s*(.+)/);
-                    if (match) document.getElementById('updated').textContent = match[1].trim();
-                }
-            })
-            .catch(() => {
-                document.getElementById('total').textContent = 'N/A';
-                document.getElementById('updated').textContent = 'N/A';
+        const playlists = [
+            {
+                "name": "🇹🇷 Turkey",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Turkey.m3u8",
+                "description": "Türkiye kanalları - Ulusal, Spor, Belgesel, Haber"
+            },
+            {
+                "name": "⚽ Taraftarium24",
+                "url": "https://raw.githubusercontent.com/GeceKod/listeler/refs/heads/main/kanallar4.m3u8",
+                "description": "Spor kanalları (Taraftarium24)"
+            },
+            {
+                "name": "📺 Tvjustin",
+                "url": "https://raw.githubusercontent.com/GeceKod/listeler/refs/heads/main/kanallar5.m3u8",
+                "description": "Spor kanalları (Tvjustin)"
+            },
+            {
+                "name": "🌎 Vavoo Full",
+                "url": "https://raw.githubusercontent.com/GeceKod/vivii/refs/heads/main/vavoo_full.m3u",
+                "description": "Dünya geneli tüm kanallar"
+            },
+            {
+                "name": "🇦🇫 Afghanistan",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Afghanistan.m3u8",
+                "description": "Afganistan kanalları"
+            },
+            {
+                "name": "🇦🇱 Albania",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Albania.m3u8",
+                "description": "Arnavutluk kanalları"
+            },
+            {
+                "name": "🇩🇿 Algeria",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Algeria.m3u8",
+                "description": "Cezayir kanalları"
+            },
+            {
+                "name": "🇸🇦 Arabia",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Arabia.m3u8",
+                "description": "Arap kanalları"
+            },
+            {
+                "name": "🇦🇷 Argentina",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Argentina.m3u8",
+                "description": "Arjantin kanalları"
+            },
+            {
+                "name": "🇦🇺 Australia",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Australia.m3u8",
+                "description": "Avustralya kanalları"
+            },
+            {
+                "name": "🇦🇹 Austria",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Austria.m3u8",
+                "description": "Avusturya kanalları"
+            },
+            {
+                "name": "🇧🇭 Bahrain",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Bahrain.m3u8",
+                "description": "Bahreyn kanalları"
+            },
+            {
+                "name": "🌍 Balkans",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Balkans.m3u8",
+                "description": "Balkan kanalları"
+            },
+            {
+                "name": "🇧🇩 Bangladesh",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Bangladesh.m3u8",
+                "description": "Bangladeş kanalları"
+            },
+            {
+                "name": "🇧🇪 Belgium",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Belgium.m3u8",
+                "description": "Belçika kanalları"
+            },
+            {
+                "name": "🇧🇴 Bolivia",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Bolivia.m3u8",
+                "description": "Bolivya kanalları"
+            },
+            {
+                "name": "🇧🇦 Bosnia",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Bosnia_and_Herzegovina.m3u8",
+                "description": "Bosna-Hersek kanalları"
+            },
+            {
+                "name": "🇧🇷 Brazil",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Brazil.m3u8",
+                "description": "Brezilya kanalları"
+            },
+            {
+                "name": "🇧🇬 Bulgaria",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Bulgaria.m3u8",
+                "description": "Bulgaristan kanalları"
+            },
+            {
+                "name": "🇧🇫 Burkina Faso",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Burkina_Faso.m3u8",
+                "description": "Burkina Faso kanalları"
+            },
+            {
+                "name": "🇨🇦 Canada",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Canada.m3u8",
+                "description": "Kanada kanalları"
+            },
+            {
+                "name": "🇨🇱 Chile",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Chile.m3u8",
+                "description": "Şili kanalları"
+            },
+            {
+                "name": "🇨🇳 China",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_China.m3u8",
+                "description": "Çin kanalları"
+            },
+            {
+                "name": "🇨🇴 Colombia",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Colombia.m3u8",
+                "description": "Kolombiya kanalları"
+            },
+            {
+                "name": "🇨🇷 Costa Rica",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Costa_Rica.m3u8",
+                "description": "Kosta Rika kanalları"
+            },
+            {
+                "name": "🇭🇷 Croatia",
+                "url": "https://gecekod.github.io/vivii/playlists/vavoo_Croatia.m3u8",
+                "description": "Hırvatistan kanalları"
+            }
+        ];
+
+        function renderPlaylists(filteredPlaylists = playlists) {
+            const container = document.getElementById('playlistsContainer');
+            container.innerHTML = '';
+
+            filteredPlaylists.forEach((playlist, index) => {
+                const card = document.createElement('div');
+                card.className = 'playlist-card';
+                card.innerHTML = `
+                    <span class="badge">M3U8</span>
+                    <h3>${playlist.name}</h3>
+                    <p>${playlist.description}</p>
+                    <div class="url">${playlist.url}</div>
+                    <div class="buttons">
+                        <button class="btn btn-copy" onclick="copyUrl('${playlist.url}')">📋 Kopyala</button>
+                        <a href="${playlist.url}" target="_blank" class="btn btn-open">🔗 Aç</a>
+                    </div>
+                `;
+                container.appendChild(card);
             });
+        }
+
+        function filterPlaylists() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const filtered = playlists.filter(p => 
+                p.name.toLowerCase().includes(searchTerm) || 
+                p.description.toLowerCase().includes(searchTerm)
+            );
+            renderPlaylists(filtered);
+        }
+
+        function copyUrl(url) {
+            navigator.clipboard.writeText(url).then(() => {
+                showToast('✅ Link kopyalandı!');
+            });
+        }
+
+        function showToast(message) {
+            const toast = document.createElement('div');
+            toast.className = 'toast';
+            toast.textContent = message;
+            document.body.appendChild(toast);
+
+            setTimeout(() => {
+                toast.remove();
+            }, 3000);
+        }
+
+        // İlk yükleme
+        renderPlaylists();
     </script>
 </body>
 </html>
