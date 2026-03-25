@@ -2,7 +2,8 @@ name: Update M3U Playlist
 
 on:
   schedule:schedule:
-  - cron: '*/30 * * * *'  # Her 30 dakikada
+ schedule:
+  - cron: '0 */2 * * *'  # Her 2 saatte bir (günde 12 kez)
   workflow_dispatch:
 
 permissions:
