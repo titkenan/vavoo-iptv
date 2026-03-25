@@ -1,9 +1,15 @@
 services:
   - type: web
-    name: vavoo-iptv
+    name: vavoo-iptv-api
     env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python server.py
+    buildCommand: |
+      pip install -r requirements.txt
+      python -c "import utils.common; utils.common.check()"
+    startCommand: python api.py
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
+    disk:
+      name: vavoo-db
+      mountPath: /opt/render/project/src/cache
+      sizeGB: 1
