@@ -79,9 +79,6 @@
   <channel id="4k.tr.cnn.t.rk.hd.b.tr">
     <display-name>4K TR: CNN T RK HD .b</display-name>
   </channel>
-  <channel id="4k.tr.da.vinci.b.tr">
-    <display-name>4K TR: DA VINCI .b</display-name>
-  </channel>
   <channel id="4k.tr.discovery.channel.hd.b.tr">
     <display-name>4K TR: DISCOVERY CHANNEL HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/discovery-channel-tr.png"/>
@@ -186,9 +183,6 @@
   <channel id="4k.tr.number1.tv.hd.b.tr">
     <display-name>4K TR: NUMBER1 TV HD .b</display-name>
   </channel>
-  <channel id="4k.tr.power.turk.hd.b.tr">
-    <display-name>4K TR: POWER TURK HD .b</display-name>
-  </channel>
   <channel id="4k.tr.power.tv.hd.b.tr">
     <display-name>4K TR: POWER TV HD .b</display-name>
   </channel>
@@ -263,12 +257,6 @@
   <channel id="4k.tr.trt.1.hd.b.tr">
     <display-name>4K TR: TRT 1 HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/trt-1-tr.png"/>
-  </channel>
-  <channel id="4k.tr.trt.2.hd.b.tr">
-    <display-name>4K TR: TRT 2 HD .b</display-name>
-  </channel>
-  <channel id="4k.tr.trt.3.b.tr">
-    <display-name>4K TR: TRT 3 .b</display-name>
   </channel>
   <channel id="4k.tr.trt.avaz.b.tr">
     <display-name>4K TR: TRT AVAZ .b</display-name>
@@ -452,6 +440,12 @@
   <channel id="alanya.posta.tv.c.tr">
     <display-name>ALANYA POSTA TV .c</display-name>
   </channel>
+  <channel id="alem.fm.radyoland.b.tr">
+    <display-name>ALEM FM RADYOLAND .b</display-name>
+  </channel>
+  <channel id="alem.radyo.b.tr">
+    <display-name>ALEM RADYO .b</display-name>
+  </channel>
   <channel id="altas.tv.c.tr">
     <display-name>ALTAS TV .c</display-name>
   </channel>
@@ -508,9 +502,6 @@
   </channel>
   <channel id="apara.hd.b.tr">
     <display-name>APARA HD .b</display-name>
-  </channel>
-  <channel id="arti.tv.s.tr">
-    <display-name>ARTI TV .s</display-name>
   </channel>
   <channel id="as.tv.bursa.c.tr">
     <display-name>AS TV BURSA .c</display-name>
@@ -577,9 +568,6 @@
   </channel>
   <channel id="av.tv.s.tr">
     <display-name>AV TV .s</display-name>
-  </channel>
-  <channel id="baba.radyo.arabesk.b.tr">
-    <display-name>BABA RADYO ARABESK .b</display-name>
   </channel>
   <channel id="baby.tv.c.tr">
     <display-name>BABY TV .c</display-name>
@@ -764,10 +752,6 @@
     <display-name>BEIN SPORTS 2 .s</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
-  <channel id="bein.sports.2.hd.b.tr">
-    <display-name>BEIN SPORTS 2 HD .b</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
-  </channel>
   <channel id="bein.sports.2.sd.b.tr">
     <display-name>BEIN SPORTS 2 SD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
@@ -782,10 +766,6 @@
   </channel>
   <channel id="bein.sports.3.s.tr">
     <display-name>BEIN SPORTS 3 .s</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
-  </channel>
-  <channel id="bein.sports.3.hd.b.tr">
-    <display-name>BEIN SPORTS 3 HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
   <channel id="bein.sports.3.sd.b.tr">
@@ -884,6 +864,10 @@
     <display-name>BEIN SPORTS MAX 2 .s</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
   </channel>
+  <channel id="bein.sports.max.2.fhd.b.tr">
+    <display-name>BEIN SPORTS MAX 2 FHD .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
+  </channel>
   <channel id="bein.sports.max.2.hd.b.tr">
     <display-name>BEIN SPORTS MAX 2 HD .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/bein-sports-1-tr.png"/>
@@ -899,6 +883,9 @@
   </channel>
   <channel id="benguturk.s.tr">
     <display-name>BENGUTURK .s</display-name>
+  </channel>
+  <channel id="best.aksiyon.b.tr">
+    <display-name>BEST AKSIYON .b</display-name>
   </channel>
   <channel id="best.animasyon.b.tr">
     <display-name>BEST ANIMASYON .b</display-name>
@@ -921,8 +908,8 @@
   <channel id="best.komedi.b.tr">
     <display-name>BEST KOMEDI .b</display-name>
   </channel>
-  <channel id="best.korku.b.tr">
-    <display-name>BEST KORKU .b</display-name>
+  <channel id="best.loca.1.b.tr">
+    <display-name>BEST LOCA 1 .b</display-name>
   </channel>
   <channel id="best.loca.2.b.tr">
     <display-name>BEST LOCA 2 .b</display-name>
@@ -995,9 +982,6 @@
   </channel>
   <channel id="bloomberg.ht.hd.b.tr">
     <display-name>BLOOMBERG HT HD .b</display-name>
-  </channel>
-  <channel id="bloomberg.ht.hd.sd.b.tr">
-    <display-name>BLOOMBERG HT HD+ SD .b</display-name>
   </channel>
   <channel id="bloomberght.hd.b.tr">
     <display-name>BLOOMBERGHT HD .b</display-name>
@@ -1200,6 +1184,9 @@
   <channel id="dinamik.imbd.b.tr">
     <display-name>DINAMIK IMBD .b</display-name>
   </channel>
+  <channel id="dinamik.kemal.sunal.b.tr">
+    <display-name>DINAMIK KEMAL SUNAL .b</display-name>
+  </channel>
   <channel id="dinamik.komedi.b.tr">
     <display-name>DINAMIK KOMEDI .b</display-name>
   </channel>
@@ -1214,9 +1201,6 @@
   </channel>
   <channel id="dinamik.loca3.b.tr">
     <display-name>DINAMIK LOCA-3 .b</display-name>
-  </channel>
-  <channel id="dinamik.marvel.b.tr">
-    <display-name>DINAMIK MARVEL .b</display-name>
   </channel>
   <channel id="dinamik.salon.1.b.tr">
     <display-name>DINAMIK SALON 1 .b</display-name>
@@ -1417,6 +1401,9 @@
   </channel>
   <channel id="dream.dram.b.tr">
     <display-name>DREAM DRAM .b</display-name>
+  </channel>
+  <channel id="dream.kemal.sunal.b.tr">
+    <display-name>DREAM KEMAL SUNAL .b</display-name>
   </channel>
   <channel id="dream.komedi.b.tr">
     <display-name>DREAM KOMEDI .b</display-name>
@@ -1818,10 +1805,6 @@
     <display-name>FOX TV HD (H265) .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-tr.png"/>
   </channel>
-  <channel id="fox.tv.hevc.b.tr">
-    <display-name>FOX TV HEVC .b</display-name>
-    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-tr.png"/>
-  </channel>
   <channel id="fox.tv.raw.b.tr">
     <display-name>FOX TV RAW .b</display-name>
     <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/fox-tr.png"/>
@@ -1901,9 +1884,6 @@
   </channel>
   <channel id="guneydogu.tv.c.tr">
     <display-name>GUNEYDOGU TV .c</display-name>
-  </channel>
-  <channel id="gurbet24.tv.c.tr">
-    <display-name>GURBET24 TV .c</display-name>
   </channel>
   <channel id="haber.61.c.tr">
     <display-name>HABER 61 .c</display-name>
@@ -2279,6 +2259,12 @@
   <channel id="koza.tv.c.tr">
     <display-name>KOZA TV .c</display-name>
   </channel>
+  <channel id="kral.fm.b.tr">
+    <display-name>KRAL FM .b</display-name>
+  </channel>
+  <channel id="kral.fm.arabesk.b.tr">
+    <display-name>KRAL FM ARABESK .b</display-name>
+  </channel>
   <channel id="kral.pop.s.tr">
     <display-name>KRAL POP .s</display-name>
   </channel>
@@ -2540,6 +2526,9 @@
   <channel id="nasreddin.hoca.b.tr">
     <display-name>NASREDDIN HOCA .b</display-name>
   </channel>
+  <channel id="nat.geo.c.tr">
+    <display-name>NAT GEO .c</display-name>
+  </channel>
   <channel id="nat.geo.s.tr">
     <display-name>NAT GEO .s</display-name>
   </channel>
@@ -2554,6 +2543,10 @@
   </channel>
   <channel id="nat.geo.wild.hd.b.tr">
     <display-name>NAT GEO WILD HD+ .b</display-name>
+  </channel>
+  <channel id="national.geographic.hd.b.tr">
+    <display-name>NATIONAL GEOGRAPHIC HD+ .b</display-name>
+    <icon src="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/turkey/national-geographic-tr.png"/>
   </channel>
   <channel id="nba.tv.c.tr">
     <display-name>NBA TV .c</display-name>
@@ -3083,6 +3076,9 @@
   <channel id="slow.karadeniz.b.tr">
     <display-name>SLOW KARADENIZ .b</display-name>
   </channel>
+  <channel id="smart.cocuk.s.tr">
+    <display-name>SMART COCUK .s</display-name>
+  </channel>
   <channel id="smart.cocuk.hd.b.tr">
     <display-name>SMART COCUK HD .b</display-name>
   </channel>
@@ -3224,9 +3220,6 @@
   <channel id="tabii.spor.5.c.tr">
     <display-name>TABII SPOR 5 .c</display-name>
   </channel>
-  <channel id="tabii.spor.5.uhd.b.tr">
-    <display-name>TABII SPOR 5 UHD .b</display-name>
-  </channel>
   <channel id="tabii.spor.6.c.tr">
     <display-name>TABII SPOR 6 .c</display-name>
   </channel>
@@ -3358,6 +3351,12 @@
   </channel>
   <channel id="tivibu.spor.3.s.tr">
     <display-name>TIVIBU SPOR 3 .s</display-name>
+  </channel>
+  <channel id="tivibu.spor.4.c.tr">
+    <display-name>TIVIBU SPOR 4 .c</display-name>
+  </channel>
+  <channel id="tivibu.spor.4.hd.b.tr">
+    <display-name>TIVIBU SPOR 4 HD .b</display-name>
   </channel>
   <channel id="tivibu.spor.5.hd.b.tr">
     <display-name>TIVIBU SPOR 5 HD .b</display-name>
@@ -3766,6 +3765,9 @@
   <channel id="ucankus.s.tr">
     <display-name>UCANKUS .s</display-name>
   </channel>
+  <channel id="ucankus.s.tr">
+    <display-name>UCANKUS .s</display-name>
+  </channel>
   <channel id="ülke.tv.c.tr">
     <display-name>ÜLKE TV .c</display-name>
   </channel>
@@ -3778,14 +3780,14 @@
   <channel id="ulketv.hd.b.tr">
     <display-name>ULKETV HD .b</display-name>
   </channel>
+  <channel id="ultra.aksiyon.b.tr">
+    <display-name>ULTRA AKSIYON .b</display-name>
+  </channel>
   <channel id="ultra.animasyon.b.tr">
     <display-name>ULTRA ANIMASYON .b</display-name>
   </channel>
   <channel id="ultra.bilimkurgu.b.tr">
     <display-name>ULTRA BILIMKURGU .b</display-name>
-  </channel>
-  <channel id="ultra.imbd.b.tr">
-    <display-name>ULTRA IMBD .b</display-name>
   </channel>
   <channel id="ultra.kemal.sunal.b.tr">
     <display-name>ULTRA KEMAL SUNAL .b</display-name>
