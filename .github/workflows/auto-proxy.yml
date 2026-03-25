@@ -1,0 +1,32 @@
+name: Auto Add Proxy
+
+on:
+  push:
+    paths:
+      - 'vavoo_turkiye.m3u'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'  # Her 6 saatte bir kontrol et
+
+jobs:
+  add-proxy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Run proxy script
+        run: python3 add_proxy.py
+      
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add vavoo_turkiye_proxy.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto proxy update $(date +'%Y-%m-%d %H:%M')" && git push)
