@@ -6,15 +6,20 @@ on:
       - 'vavoo_turkiye.m3u'
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'  # Her 6 saatte bir kontrol et
+    - cron: '0 */6 * * *'
 
 jobs:
   add-proxy:
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: write  # ← Bu satırı ekledik
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # ← Bu satırı ekledik
       
       - name: Setup Python
         uses: actions/setup-python@v4
