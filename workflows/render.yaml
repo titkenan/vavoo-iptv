@@ -1,3 +1,9 @@
-git add server.py requirements.txt render.yaml
-git commit -m "Add Render.com proxy server"
-git push
+services:
+  - type: web
+    name: vavoo-iptv
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
