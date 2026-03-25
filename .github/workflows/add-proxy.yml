@@ -1,0 +1,26 @@
+name: Add Cloudflare Proxy
+
+on:
+  push:
+    paths:
+      - 'vavoo_turkiye.m3u'
+  workflow_dispatch:
+
+jobs:
+  add-proxy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Add Cloudflare Proxy
+        run: |
+          WORKER="https://vavoo-iptv.efda302cd88170229cb0d3156b1406e7.workers.dev"
+          sed -E "s|^(https?://.*)|${WORKER}/?url=\1|g" vavoo_turkiye.m3u > vavoo_turkiye_proxy.m3u
+      
+      - name: Commit
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add vavoo_turkiye_proxy.m3u
+          git diff --quiet && git diff --staged --quiet || git commit -m "🚀 Auto proxy update"
+          git push
