@@ -1,45 +1,43 @@
 name: Update M3U Playlist
 
 on:
-  schedule:schedule:
- schedule:
-  - cron: '0 */2 * * *'  # Her 2 saatte bir (günde 12 kez)
-  workflow_dispatch:
-
-permissions:
-  contents: write  # ← BU EKLENDİ! Write permission gerekli
+  schedule:
+    - cron: '0 0,6,12,18 * * *'  # Günde 4 kez
+  workflow_dispatch:  # Manuel çalıştırma butonu
+  push:
+    branches:
+      - main
+    paths:
+      - 'vavoo_resolver.py'
 
 jobs:
-  build:
+  update-playlist:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    permissions:
+      contents: write
     
     steps:
-    - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}  # ← BU EKLENDİ!
-    
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-    
-    - name: Install dependencies
-      run: pip install requests
-    
-    - name: Generate M3U
-      run: python generate_m3u.py
-    
-    - name: Commit and push
-      run: |
-        git config user.name 'GitHub Action'
-        git config user.email 'action@github.com'
-        git add -f vavoo_turkiye.m3u vavoo_epg.xml
-        
-        # Dosyalar var mı kontrol et
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Auto-update M3U - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-        fi
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Update M3U
+        run: python vavoo_resolver.py
+      
+      - name: Add Proxy
+        run: python add_proxy.py
+      
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add vavoo_turkiye.m3u vavoo_epg.xml vavoo_turkiye_proxy.m3u
+          git diff --quiet || git commit -m "🤖 Auto-update $(date -u +'%Y-%m-%d %H:%M')"
+          git push
